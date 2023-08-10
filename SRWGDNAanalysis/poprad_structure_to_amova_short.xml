@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Steve.Larson/Documents/WinArl35/WinArl35/ArlequinStyleSheet.xsl"?>
+<!--Arlequin results file-->
+
+<Arlequin>
+
+<data>
+
+
+</data>
+
+<header>
+Arlequin results
+</header>
+<data>
+
+</data>
+
+ <A NAME="26_01_23at14_45_59"></A> 
+<data>
+
+</data> <run time="26/01/23 at 14:45:59">
+
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (26/01/23 at 14:45:59)
+////////////////////////////////////////////////////////////////////
+
+</run> <data>
+</data>
+
+ <A NAME="26_01_23at14_45_59_run_information"></A> 
+<data>
+
+
+Warning: The locus separator has been removed
+-------
+
+
+Project information:
+--------------------
+	NbSamples      =  6
+	DataType       =  RFLP
+	GenotypicData  =  1
+	GameticPhase   =  0
+	RecessiveData  =  0
+
+</data> <title time="26/01/23 at 14:45:59">
+
+==============================
+Settings used for Calculations
+==============================
+
+</title> <data>
+
+ General settings:
+ -----------------
+        Deletion Weight                = 1
+        Transition Weight Weight       = 1
+        Tranversion Weight Weight      = 1
+        Epsilon Value                  = 1e-007
+        Significant digits for output  = 5
+        Use original haplotype definition
+        Alllowed level of missing data = 0.05
+
+ Active Tasks:
+ -------------
+
+    Analysis of Molecular Variance:
+    -------------------------------
+        No. of Permutations = 1000
+
+    Population pairwise Fst values:
+    -------------------------------
+        Compute pairwise differences
+        No. of permutations for significance = 1000
+        No. of permutations for Mantel test  = 1000
+
+       Distance matrix:
+            Compute distance matrix
+            Molecular distance : Pairwise difference
+            Gamma a value      = 0
+
+    Exact test of population differentiation:
+    -----------------------------------------
+        No. of steps in Markov chain      = 100000
+        No. of Dememorisation Steps       = 10000
+        Required precision on Probability = 0
+        Print Histogram and table : No
+        Significance level        = 0.05
+
+ #[WARNING # 1] : invalid structure: only one population per group
+  An AMOVA analysis was selected and no Genetic structure
+  is defined, AMOVA task is skipped.
+</data>
+
+ <A NAME="26_01_23at14_45_59_gr_gen_struct"></A> 
+<data>
+
+===============================================================================
+== GENETIC STRUCTURE ANALYSIS
+===============================================================================
+
+
+Number of usable loci for distance computation : 11223
+Allowed level of missing data                  : 0.05
+
+List of usable loci :
+---------------------
+   1     2     3     4     5     6     7     8     9    10    11    12    13    14    15  
+... 
+11221  11222  11223  
+
+List of loci with too much missing data :
+-----------------------------------------
+
+NONE
+
+</data>
+
+ <A NAME="26_01_23at14_45_59_gr_amova"></A> 
+<data>
+
+</data>
+
+ <A NAME="26_01_23at14_45_59_gr_pairw_diff"></A> 
+<data>
+
+
+======================================================================================
+== Comparisons of pairs of population samples
+======================================================================================
+
+List of labels for population samples used below:
+-------------------------------------------------
+</data> <pairDistPopLabels time="26/01/23 at 14:45:59">
+
+Label  	Population name
+-----  	---------------
+  1:	Group1
+  2:	Group2
+  3:	Group3
+  4:	Group4
+  5:	Group5
+  6:	Group6
+</pairDistPopLabels> <data>
+
+
+------------------------
+Population pairwise FSTs
+------------------------
+
+</data> <PairFstMat time="26/01/23 at 14:45:59">
+
+
+Distance method: Pairwise difference
+                     1         2         3         4         5         6
+           1   0.00000
+           2   0.08634   0.00000
+           3   0.13830   0.13138   0.00000
+           4   0.07120   0.11705   0.15968   0.00000
+           5   0.08836   0.04758   0.11197   0.11131   0.00000
+           6   0.07882   0.04400   0.10456   0.09727   0.00778   0.00000
+</PairFstMat> <data>
+
+
+
+------------
+FST P values
+------------
+
+Number of permutations : 1023
+
+</data> <PairFstPvalMat time="26/01/23 at 14:45:59">
+
+                       1                 2                 3                 4                 5                 6
+           1           *
+           2   0.00000+-0.0000           *
+           3   0.00000+-0.0000   0.00000+-0.0000           *
+           4   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000           *
+           5   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000           *
+           6   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000           *
+</PairFstPvalMat> <data>
+
+
+
+------------
+Matrix of significant Fst P values
+Significance Level=0.0500
+------------
+
+Number of permutations : 1023
+
+                     1         2         3         4         5         6
+           1                   +         +         +         +         +
+           2         +                   +         +         +         +
+           3         +         +                   +         +         +
+           4         +         +         +                   +         +
+           5         +         +         +         +                   +
+           6         +         +         +         +         +          
+
+
+---------------------------------------
+Population average pairwise differences
+----------------------------------------
+
+Above diagonal    : Average number of pairwise differences between populations (PiXY)
+Diagonal elements : Average number of pairwise differences within population (PiX)
+Below diagonal    : Corrected average pairwise difference (PiXY-(PiX+PiY)/2)
+
+Distance method: Pairwise difference
+</data> <pairwiseDifferenceMatrix time="26/01/23 at 14:45:59">
+
+                       1          2          3          4          5          6
+            1 2384.57082 2736.82576 2869.76136 2666.04261 2836.60606 2808.67140
+            2  236.92909 2615.22252 2978.87934 2934.56771 2835.03646 2825.91753
+            3  397.56372  391.35585 2559.82447 3050.50347 3009.41406 2986.08854
+            4  190.27803  343.47728  487.11207 2566.95833 3011.18750 2965.94444
+            5  251.78031  134.88486  336.96149  335.16800 2785.08067 2808.35503
+            6  222.43120  124.35149  312.22152  288.51049   21.85991 2787.90957
+</pairwiseDifferenceMatrix> <data>
+
+
+
+-----------
+PXY P value
+-----------
+
+                         1           2           3           4           5
+
+             2     0.00000
+             3     0.00000     0.00000
+             4     0.00000     0.00000     0.00000
+             5     0.00000     0.00000     0.00000     0.00000
+             6     0.00000     0.00000     0.00000     0.00000     0.00000
+
+
+---------------------
+Corrected PXY P value
+---------------------
+
+                           1            2            3            4            5
+
+              2      0.00000
+              3      0.00000      0.00000
+              4      0.00000      0.00000      0.00000
+              5      0.00000      0.00000      0.00000      0.00000
+              6      0.00000      0.00000      0.00000      0.00000      0.00000
+
+</data>
+
+ <A NAME="26_01_23at14_45_59_gr_exct_tests"></A> 
+<data>
+
+
+================================================================================
+== Exact Test of Sample Differentiation Based on Genotype Frequencies
+================================================================================
+</data>
+<Reference>Raymond M. and F. Rousset. 1995 .</Reference>
+<Reference>Goudet, J., M. Raymond, T. de Mee�s and F. Rousset, 1996.</Reference>
+<data>
+
+List of labels for population samples used below:
+-------------------------------------------------
+</data> <exactTestPopLabels time="26/01/23 at 14:45:59">
+
+Label  	Population name
+-----  	---------------
+  1	Group1
+  2	Group2
+  3	Group3
+  4	Group4
+  5	Group5
+  6	Group6
+
+</exactTestPopLabels> <data>
+
+
+--------------------------------------------------------------------------
+Global test of differentiation among sample:
+--------------------------------------------
+
+ Non-differentiation: Exact P value = 1.00000 +- 0.00000  (30000 Markov steps done)
+
+--------------------------------------------------------------------------
+Differentiation test between all pairs of samples:
+--------------------------------------------------
+
+Markov chain length : 100000 steps)
+
+Non-differentiation exact P values :
+
+                1                 2                 3                 4                 5
+
+           2   1.00000+-0.0000
+           3   1.00000+-0.0000   1.00000+-0.0000
+           4   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000
+           5   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000
+           6   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000
+</data>
+
+ <A NAME="26_01_23at14_45_59_pop_gen_struct"></A> 
+<data>
+
+===============================================================================
+== GENETIC STRUCTURE ANALYSIS
+===============================================================================
+
+
+Number of usable loci for distance computation : 11223
+Allowed level of missing data                  : 0.0500
+
+List of usable loci :
+---------------------
+   1     2     3     4     5     6     7     8     9    10    11    12    13    14    15  
+ .... 
+11221  11222  11223  
+
+List of loci with too much missing data :
+-----------------------------------------
+
+NONE
+
+</data>
+
+ <A NAME="26_01_23at14_45_59_pop_amova"></A> 
+<data>
+
+ #[WARNING # 2] : invalid structure: only one population per group
+ #[WARNING # 3] : project contains invalid data after check
+
+=================================================================
+  AMOVA ANALYSIS
+=================================================================
+
+
+---------------------------
+Genetic structure to test :
+---------------------------
+
+No. of Groups = 6
+
+
+	[[Structure]]
+
+		StructureName = "New Edited Structure"
+		NbGroups = 6
+	#Group1
+		Group={
+		"pop_DI"
+		}
+
+	#Group2
+		Group={
+		"pop_DL"
+		}
+
+	#Group3
+		Group={
+		"pop_E68X"
+		}
+
+	#Group4
+		Group={
+		"pop_E72"
+		}
+
+	#Group5
+		Group={
+		"pop_SR"
+		}
+
+	#Group6
+		Group={
+		"pop_SR78"
+		}
+
+---------------------------
+
+
+Distance method: Pairwise difference
+ #[ERROR # 1] : ill-defined genetic structure
+</data>
+
+ <A NAME="26_01_23at14_45_59_pop_pairw_diff"></A> 
+<data>
+
+
+======================================================================================
+== Comparisons of pairs of population samples
+======================================================================================
+
+List of labels for population samples used below:
+-------------------------------------------------
+</data> <pairDistPopLabels time="26/01/23 at 14:45:59">
+
+Label  	Population name
+-----  	---------------
+  1:	pop_DI
+  2:	pop_DL
+  3:	pop_E68X
+  4:	pop_E72
+  5:	pop_SR
+  6:	pop_SR78
+</pairDistPopLabels> <data>
+
+
+------------------------
+Population pairwise FSTs
+------------------------
+
+</data> <PairFstMat time="26/01/23 at 14:45:59">
+
+
+Distance method: Pairwise difference
+                     1         2         3         4         5         6
+           1   0.00000
+           2   0.08634   0.00000
+           3   0.13830   0.13138   0.00000
+           4   0.07120   0.11705   0.15968   0.00000
+           5   0.08836   0.04758   0.11197   0.11131   0.00000
+           6   0.07882   0.04400   0.10456   0.09727   0.00778   0.00000
+</PairFstMat> <data>
+
+
+
+------------
+FST P values
+------------
+
+Number of permutations : 1023
+
+</data> <PairFstPvalMat time="26/01/23 at 14:45:59">
+
+                       1                 2                 3                 4                 5                 6
+           1           *
+           2   0.00000+-0.0000           *
+           3   0.00000+-0.0000   0.00000+-0.0000           *
+           4   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000           *
+           5   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000           *
+           6   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000   0.00000+-0.0000           *
+</PairFstPvalMat> <data>
+
+
+
+------------
+Matrix of significant Fst P values
+Significance Level=0.0500
+------------
+
+Number of permutations : 1023
+
+                     1         2         3         4         5         6
+           1                   +         +         +         +         +
+           2         +                   +         +         +         +
+           3         +         +                   +         +         +
+           4         +         +         +                   +         +
+           5         +         +         +         +                   +
+           6         +         +         +         +         +          
+
+
+---------------------------------------
+Population average pairwise differences
+----------------------------------------
+
+Above diagonal    : Average number of pairwise differences between populations (PiXY)
+Diagonal elements : Average number of pairwise differences within population (PiX)
+Below diagonal    : Corrected average pairwise difference (PiXY-(PiX+PiY)/2)
+
+Distance method: Pairwise difference
+</data> <pairwiseDifferenceMatrix time="26/01/23 at 14:45:59">
+
+                       1          2          3          4          5          6
+            1 2384.57082 2736.82576 2869.76136 2666.04261 2836.60606 2808.67140
+            2  236.92909 2615.22252 2978.87934 2934.56771 2835.03646 2825.91753
+            3  397.56372  391.35585 2559.82447 3050.50347 3009.41406 2986.08854
+            4  190.27803  343.47728  487.11207 2566.95833 3011.18750 2965.94444
+            5  251.78031  134.88486  336.96149  335.16800 2785.08067 2808.35503
+            6  222.43120  124.35149  312.22152  288.51049   21.85991 2787.90957
+</pairwiseDifferenceMatrix> <data>
+
+
+
+-----------
+PXY P value
+-----------
+
+                         1           2           3           4           5
+
+             2     0.00000
+             3     0.00000     0.00000
+             4     0.00000     0.00000     0.00000
+             5     0.00000     0.00000     0.00000     0.00000
+             6     0.00000     0.00000     0.00000     0.00000     0.00000
+
+
+---------------------
+Corrected PXY P value
+---------------------
+
+                           1            2            3            4            5
+
+              2      0.00000
+              3      0.00000      0.00000
+              4      0.00000      0.00000      0.00000
+              5      0.00000      0.00000      0.00000      0.00000
+              6      0.00000      0.00000      0.00000      0.00000      0.00000
+
+</data>
+
+ <A NAME="26_01_23at14_45_59_pop_exct_tests"></A> 
+<data>
+
+
+================================================================================
+== Exact Test of Sample Differentiation Based on Genotype Frequencies
+================================================================================
+</data>
+<Reference>Raymond M. and F. Rousset. 1995 .</Reference>
+<Reference>Goudet, J., M. Raymond, T. de Mee�s and F. Rousset, 1996.</Reference>
+<data>
+
+List of labels for population samples used below:
+-------------------------------------------------
+</data> <exactTestPopLabels time="26/01/23 at 14:45:59">
+
+Label  	Population name
+-----  	---------------
+  1	pop_DI
+  2	pop_DL
+  3	pop_E68X
+  4	pop_E72
+  5	pop_SR
+  6	pop_SR78
+
+</exactTestPopLabels> <data>
+
+
+--------------------------------------------------------------------------
+Global test of differentiation among sample:
+--------------------------------------------
+
+ Non-differentiation: Exact P value = 1.00000 +- 0.00000  (30000 Markov steps done)
+
+--------------------------------------------------------------------------
+Differentiation test between all pairs of samples:
+--------------------------------------------------
+
+Markov chain length : 100000 steps)
+
+Non-differentiation exact P values :
+
+                1                 2                 3                 4                 5
+
+           2   1.00000+-0.0000
+           3   1.00000+-0.0000   1.00000+-0.0000
+           4   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000
+           5   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000
+           6   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000   1.00000+-0.0000
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (26/01/23 at 14:46:05))
+Total computing time for this run : 0h 0m 6s 291 ms
+////////////////////////////////////////////////////////////////////
+
+
+</data>
+
+</Arlequin>
+
