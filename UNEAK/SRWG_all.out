@@ -1,0 +1,3000 @@
+/usr/local/tassel3-standalone/lib/batik-ext.jar:/usr/local/tassel3-standalone/lib/commons-math-2.2.jar:/usr/local/tassel3-standalone/lib/batik-gvt.jar:/usr/local/tassel3-standalone/lib/junit-4.1.jar:/usr/local/tassel3-standalone/lib/commons-dbcp-1.2.1.jar:/usr/local/tassel3-standalone/lib/biojava3-core-3.0.jar:/usr/local/tassel3-standalone/lib/commons-lang-2.1.jar:/usr/local/tassel3-standalone/lib/xml.jar:/usr/local/tassel3-standalone/lib/mail-1.4.jar:/usr/local/tassel3-standalone/lib/axiom-api-1.2.4.jar:/usr/local/tassel3-standalone/lib/forester.jar:/usr/local/tassel3-standalone/lib/wsdl4j-1.6.2.jar:/usr/local/tassel3-standalone/lib/xercesImpl.jar:/usr/local/tassel3-standalone/lib/XmlSchema-1.3.1.jar:/usr/local/tassel3-standalone/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/usr/local/tassel3-standalone/lib/commons-httpclient-3.0.1.jar:/usr/local/tassel3-standalone/lib/batik-awt-util.jar:/usr/local/tassel3-standalone/lib/biojava3-alignment-3.0.jar:/usr/local/tassel3-standalone/lib/poi-3.0.1-FINAL-20070705.jar:/usr/local/tassel3-standalone/lib/jung-1.7.5.jar:/usr/local/tassel3-standalone/lib/batik-svg-dom.jar:/usr/local/tassel3-standalone/lib/biojava3-phylo-3.0.jar:/usr/local/tassel3-standalone/lib/commons-configuration-1.2.jar:/usr/local/tassel3-standalone/lib/batik-util.jar:/usr/local/tassel3-standalone/lib/batik-css.jar:/usr/local/tassel3-standalone/lib/batik-gui-util.jar:/usr/local/tassel3-standalone/lib/xmlParserAPIs.jar:/usr/local/tassel3-standalone/lib/ejml-0.13.jar:/usr/local/tassel3-standalone/lib/log4j-1.2.13.jar:/usr/local/tassel3-standalone/lib/ssj.jar:/usr/local/tassel3-standalone/lib/mysql-connector-java-3.1.13-bin.jar:/usr/local/tassel3-standalone/lib/commons-logging-1.1.jar:/usr/local/tassel3-standalone/lib/jgrapht-0.5.3.jar:/usr/local/tassel3-standalone/lib/LiuExt.jar:/usr/local/tassel3-standalone/lib/commons-collections-3.1.jar:/usr/local/tassel3-standalone/lib/jfreechart-1.0.3.jar:/usr/local/tassel3-standalone/lib/axis2-kernel-1.2.jar:/usr/local/tassel3-standalone/lib/batik-svggen.jar:/usr/local/tassel3-standalone/lib/axiom-impl-1.2.4.jar:/usr/local/tassel3-standalone/lib/gdpc.jar:/usr/local/tassel3-standalone/lib/colt.jar:/usr/local/tassel3-standalone/lib/batik-parser.jar:/usr/local/tassel3-standalone/lib/batik-xml.jar:/usr/local/tassel3-standalone/lib/geronimo-spec-activation-1.0.2-rc4.jar:/usr/local/tassel3-standalone/lib/crimson-parser.jar:/usr/local/tassel3-standalone/lib/batik-dom.jar:/usr/local/tassel3-standalone/lib/commons-pool-1.3.jar:/usr/local/tassel3-standalone/lib/commons-codec-1.3.jar:/usr/local/tassel3-standalone/lib/lzma-4.63-jio-0.93.jar:/usr/local/tassel3-standalone/lib/jcommon-1.0.6.jar:/usr/local/tassel3-standalone/lib/commons-discovery.jar:/usr/local/tassel3-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx1536m
+Tassel Pipeline Arguments: -fork1 -UCreatWorkingDirPlugin -w ../UNEAK -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+net.maizegenetics.gbs.pipeline.UCreatWorkingDirPlugin
+/usr/local/tassel3-standalone/lib/batik-ext.jar:/usr/local/tassel3-standalone/lib/commons-math-2.2.jar:/usr/local/tassel3-standalone/lib/batik-gvt.jar:/usr/local/tassel3-standalone/lib/junit-4.1.jar:/usr/local/tassel3-standalone/lib/commons-dbcp-1.2.1.jar:/usr/local/tassel3-standalone/lib/biojava3-core-3.0.jar:/usr/local/tassel3-standalone/lib/commons-lang-2.1.jar:/usr/local/tassel3-standalone/lib/xml.jar:/usr/local/tassel3-standalone/lib/mail-1.4.jar:/usr/local/tassel3-standalone/lib/axiom-api-1.2.4.jar:/usr/local/tassel3-standalone/lib/forester.jar:/usr/local/tassel3-standalone/lib/wsdl4j-1.6.2.jar:/usr/local/tassel3-standalone/lib/xercesImpl.jar:/usr/local/tassel3-standalone/lib/XmlSchema-1.3.1.jar:/usr/local/tassel3-standalone/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/usr/local/tassel3-standalone/lib/commons-httpclient-3.0.1.jar:/usr/local/tassel3-standalone/lib/batik-awt-util.jar:/usr/local/tassel3-standalone/lib/biojava3-alignment-3.0.jar:/usr/local/tassel3-standalone/lib/poi-3.0.1-FINAL-20070705.jar:/usr/local/tassel3-standalone/lib/jung-1.7.5.jar:/usr/local/tassel3-standalone/lib/batik-svg-dom.jar:/usr/local/tassel3-standalone/lib/biojava3-phylo-3.0.jar:/usr/local/tassel3-standalone/lib/commons-configuration-1.2.jar:/usr/local/tassel3-standalone/lib/batik-util.jar:/usr/local/tassel3-standalone/lib/batik-css.jar:/usr/local/tassel3-standalone/lib/batik-gui-util.jar:/usr/local/tassel3-standalone/lib/xmlParserAPIs.jar:/usr/local/tassel3-standalone/lib/ejml-0.13.jar:/usr/local/tassel3-standalone/lib/log4j-1.2.13.jar:/usr/local/tassel3-standalone/lib/ssj.jar:/usr/local/tassel3-standalone/lib/mysql-connector-java-3.1.13-bin.jar:/usr/local/tassel3-standalone/lib/commons-logging-1.1.jar:/usr/local/tassel3-standalone/lib/jgrapht-0.5.3.jar:/usr/local/tassel3-standalone/lib/LiuExt.jar:/usr/local/tassel3-standalone/lib/commons-collections-3.1.jar:/usr/local/tassel3-standalone/lib/jfreechart-1.0.3.jar:/usr/local/tassel3-standalone/lib/axis2-kernel-1.2.jar:/usr/local/tassel3-standalone/lib/batik-svggen.jar:/usr/local/tassel3-standalone/lib/axiom-impl-1.2.4.jar:/usr/local/tassel3-standalone/lib/gdpc.jar:/usr/local/tassel3-standalone/lib/colt.jar:/usr/local/tassel3-standalone/lib/batik-parser.jar:/usr/local/tassel3-standalone/lib/batik-xml.jar:/usr/local/tassel3-standalone/lib/geronimo-spec-activation-1.0.2-rc4.jar:/usr/local/tassel3-standalone/lib/crimson-parser.jar:/usr/local/tassel3-standalone/lib/batik-dom.jar:/usr/local/tassel3-standalone/lib/commons-pool-1.3.jar:/usr/local/tassel3-standalone/lib/commons-codec-1.3.jar:/usr/local/tassel3-standalone/lib/lzma-4.63-jio-0.93.jar:/usr/local/tassel3-standalone/lib/jcommon-1.0.6.jar:/usr/local/tassel3-standalone/lib/commons-discovery.jar:/usr/local/tassel3-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx100g
+Tassel Pipeline Arguments: -fork1 -UFastqToTagCountPlugin -w ../UNEAK -e PstI-MspI -s 1000000000 -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/key/SRWG_GBS068.txt
+net.maizegenetics.gbs.pipeline.UFastqToTagCountPlugin
+Using the following FASTQ files:
+/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/Illumina/HFM2LBGXN_0_fastq.txt.gz
+Reading FASTQ file: /media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/Illumina/HFM2LBGXN_0_fastq.txt.gz
+Enzyme: PstI-MspI
+TGACGCCA E72-01:HFM2LBGXN:0:DNA230105P01:A01
+CAGATA E72-02:HFM2LBGXN:0:DNA230105P01:B01
+GAAGTG E72-03:HFM2LBGXN:0:DNA230105P01:C01
+TAGCGGAT E72-04:HFM2LBGXN:0:DNA230105P01:D01
+TATTCGCAT E72-05:HFM2LBGXN:0:DNA230105P01:E01
+ATAGAT E72-06:HFM2LBGXN:0:DNA230105P01:F01
+CCGAACA E72-07:HFM2LBGXN:0:DNA230105P01:G01
+GGAAGACAT Blank:HFM2LBGXN:0:DNA230105P01:H01
+GGCTTA SR78-01:HFM2LBGXN:0:DNA230105P01:A02
+AACGCACATT SR78-02:HFM2LBGXN:0:DNA230105P01:B02
+GAGCGACAT SR78-03:HFM2LBGXN:0:DNA230105P01:C02
+CCTTGCCATT SR78-04:HFM2LBGXN:0:DNA230105P01:D02
+GGTATA SR78-05:HFM2LBGXN:0:DNA230105P01:E02
+TCTTGG E68X-01:HFM2LBGXN:0:DNA230105P01:F02
+GGTGT E68X-02:HFM2LBGXN:0:DNA230105P01:G02
+GGATA E68X-03:HFM2LBGXN:0:DNA230105P01:H02
+CTAAGCA E68X-04:HFM2LBGXN:0:DNA230105P01:A03
+ATTAT SR-01:HFM2LBGXN:0:DNA230105P01:B03
+GCGCTCA SR-02:HFM2LBGXN:0:DNA230105P01:C03
+ACTGCGAT SR-03:HFM2LBGXN:0:DNA230105P01:D03
+TTCGTT SR-04:HFM2LBGXN:0:DNA230105P01:E03
+ATATAA SR-05:HFM2LBGXN:0:DNA230105P01:F03
+TGGCAACAGA SR-06:HFM2LBGXN:0:DNA230105P01:G03
+CTCGTCG DI-01:HFM2LBGXN:0:DNA230105P01:H03
+GCCTACCT DI-02:HFM2LBGXN:0:DNA230105P01:A04
+CACCA DI-03:HFM2LBGXN:0:DNA230105P01:B04
+AATTAG DL-01:HFM2LBGXN:0:DNA230105P01:C04
+GGAACGA DL-02:HFM2LBGXN:0:DNA230105P01:D04
+ACAACT DL-03:HFM2LBGXN:0:DNA230105P01:E04
+ACTGCT DL-04:HFM2LBGXN:0:DNA230105P01:F04
+CGTGGACAGT DL-05:HFM2LBGXN:0:DNA230105P01:G04
+TGGCACAGA DL-06:HFM2LBGXN:0:DNA230105P01:H04
+TGCTT DL-07:HFM2LBGXN:0:DNA230105P01:A05
+GCAAGCCAT DL-08:HFM2LBGXN:0:DNA230105P01:B05
+CGCACCAATT DL-09:HFM2LBGXN:0:DNA230105P01:C05
+CTCGCGG DL-10:HFM2LBGXN:0:DNA230105P01:D05
+AACTGG DL-11:HFM2LBGXN:0:DNA230105P01:E05
+ATGAGCAA DI-04:HFM2LBGXN:0:DNA230105P01:F05
+CTTGA DI-05:HFM2LBGXN:0:DNA230105P01:G05
+GCGTCCT DI-06:HFM2LBGXN:0:DNA230105P01:H05
+ACCAGGA DI-07:HFM2LBGXN:0:DNA230105P01:A06
+CCACTCA DI-08:HFM2LBGXN:0:DNA230105P01:B06
+TCACGGAAG SR-07:HFM2LBGXN:0:DNA230105P01:C06
+TATCA SR-08:HFM2LBGXN:0:DNA230105P01:D06
+TAGCCAA SR-09:HFM2LBGXN:0:DNA230105P01:E06
+ATATCGCCA SR-10:HFM2LBGXN:0:DNA230105P01:F06
+CTCTA SR-11:HFM2LBGXN:0:DNA230105P01:G06
+GGTGCACATT SR-12:HFM2LBGXN:0:DNA230105P01:H06
+CTCTCGCAT E68X-05:HFM2LBGXN:0:DNA230105P01:A07
+CAGAGGT E68X-06:HFM2LBGXN:0:DNA230105P01:B07
+GCGTACAAT E68X-07:HFM2LBGXN:0:DNA230105P01:C07
+ACGCGCG E68X-08:HFM2LBGXN:0:DNA230105P01:D07
+GTCGCCT E68X-09:HFM2LBGXN:0:DNA230105P01:E07
+AATAACCAA SR78-06:HFM2LBGXN:0:DNA230105P01:F07
+AATGAACGA SR78-07:HFM2LBGXN:0:DNA230105P01:G07
+CGTCGCCACT SR78-08:HFM2LBGXN:0:DNA230105P01:H07
+ATGGCAA SR78-09:HFM2LBGXN:0:DNA230105P01:A08
+GAAGCA SR78-10:HFM2LBGXN:0:DNA230105P01:B08
+AACGTGCCT E72-08:HFM2LBGXN:0:DNA230105P01:C08
+CCTCG E72-09:HFM2LBGXN:0:DNA230105P01:D08
+CTCAT E72-10:HFM2LBGXN:0:DNA230105P01:E08
+ACGGTACT E72-11:HFM2LBGXN:0:DNA230105P01:F08
+GCGCCG E72-12:HFM2LBGXN:0:DNA230105P01:G08
+CAAGT E68X-10:HFM2LBGXN:0:DNA230105P01:H08
+TCCGAG E68X-11:HFM2LBGXN:0:DNA230105P01:A09
+TAGATGA E68X-12:HFM2LBGXN:0:DNA230105P01:B09
+TGGCCAG E68X-13:HFM2LBGXN:0:DNA230105P01:C09
+GCACGAT E68X-14:HFM2LBGXN:0:DNA230105P01:D09
+TTGCTG E68X-15:HFM2LBGXN:0:DNA230105P01:E09
+CGCAACCAGT SR78-11:HFM2LBGXN:0:DNA230105P01:F09
+TCACTG SR78-12:HFM2LBGXN:0:DNA230105P01:G09
+ACAGT SR78-13:HFM2LBGXN:0:DNA230105P01:H09
+GGAGTCAAG SR78-14:HFM2LBGXN:0:DNA230105P01:A10
+TGAAT SR78-15:HFM2LBGXN:0:DNA230105P01:B10
+CATAT E72-13:HFM2LBGXN:0:DNA230105P01:C10
+GTGACACAT E72-14:HFM2LBGXN:0:DNA230105P01:D10
+TATGT E72-15:HFM2LBGXN:0:DNA230105P01:E10
+CAGTGCCATT E72-16:HFM2LBGXN:0:DNA230105P01:F10
+ACAACCAACT E72-17:HFM2LBGXN:0:DNA230105P01:G10
+TGCAGA E72-18:HFM2LBGXN:0:DNA230105P01:H10
+CATCTGCCG E72-19:HFM2LBGXN:0:DNA230105P01:A11
+GGACAG DL-12:HFM2LBGXN:0:DNA230105P01:B11
+ATCTGT DL-13:HFM2LBGXN:0:DNA230105P01:C11
+AAGACGCT DL-14:HFM2LBGXN:0:DNA230105P01:D11
+GAATGCAATA DL-15:HFM2LBGXN:0:DNA230105P01:E11
+TAGCAG DL-16:HFM2LBGXN:0:DNA230105P01:F11
+ATCCG DI-09:HFM2LBGXN:0:DNA230105P01:G11
+CTTAG DI-10:HFM2LBGXN:0:DNA230105P01:H11
+TTATTACAT DI-11:HFM2LBGXN:0:DNA230105P01:A12
+GCCAACAAGA DI-12:HFM2LBGXN:0:DNA230105P01:B12
+TGCCGCAT SR-13:HFM2LBGXN:0:DNA230105P01:C12
+CGTGTCA SR-14:HFM2LBGXN:0:DNA230105P01:D12
+CAACCACACA SR-15:HFM2LBGXN:0:DNA230105P01:E12
+GCTCCGA SR-16:HFM2LBGXN:0:DNA230105P01:F12
+TCAGAGAT SR-17:HFM2LBGXN:0:DNA230105P01:G12
+CGTTCA SR-18:HFM2LBGXN:0:DNA230105P01:H12
+CATCACAAG SR-19:HFM2LBGXN:0:DNA230105P02:A01
+TCCAG E72-20:HFM2LBGXN:0:DNA230105P02:B01
+AACTGAAG E72-21:HFM2LBGXN:0:DNA230105P02:C01
+GATTCA E72-22:HFM2LBGXN:0:DNA230105P02:D01
+CAAGCCAATT E72-23:HFM2LBGXN:0:DNA230105P02:E01
+CAATCAT E72-24:HFM2LBGXN:0:DNA230105P02:F01
+ACATCACCG SR-20:HFM2LBGXN:0:DNA230105P02:G01
+TTGCGCT SR-21:HFM2LBGXN:0:DNA230105P02:H01
+CGCAGACACT SR-22:HFM2LBGXN:0:DNA230105P02:A02
+TGTGGA SR-23:HFM2LBGXN:0:DNA230105P02:B02
+TGGATA SR-24:HFM2LBGXN:0:DNA230105P02:C02
+ATAGCGT E68X-16:HFM2LBGXN:0:DNA230105P02:D02
+CCATAGA E68X-17:HFM2LBGXN:0:DNA230105P02:E02
+GGCACGCAT E68X-18:HFM2LBGXN:0:DNA230105P02:F02
+GTGTT E68X-19:HFM2LBGXN:0:DNA230105P02:G02
+ATTAACAATT E68X-20:HFM2LBGXN:0:DNA230105P02:H02
+CAATA E68X-21:HFM2LBGXN:0:DNA230105P02:A03
+TAGTCCAT DI-13:HFM2LBGXN:0:DNA230105P02:B03
+CGTGACCT DI-14:HFM2LBGXN:0:DNA230105P02:C03
+CTTCAGA DI-15:HFM2LBGXN:0:DNA230105P02:D03
+ATCTGCAACA DI-16:HFM2LBGXN:0:DNA230105P02:E03
+AAGGA DI-17:HFM2LBGXN:0:DNA230105P02:F03
+TTACT SR78-16:HFM2LBGXN:0:DNA230105P02:G03
+CCTTCG SR78-17:HFM2LBGXN:0:DNA230105P02:H03
+TTATCCAT SR78-18:HFM2LBGXN:0:DNA230105P02:A04
+GGATTG SR78-19:HFM2LBGXN:0:DNA230105P02:B04
+GACGTGA SR78-20:HFM2LBGXN:0:DNA230105P02:C04
+GACGGCA SR78-21:HFM2LBGXN:0:DNA230105P02:D04
+CGTCTG DL-17:HFM2LBGXN:0:DNA230105P02:E04
+TCTGA DL-18:HFM2LBGXN:0:DNA230105P02:F04
+ATCTTA DL-19:HFM2LBGXN:0:DNA230105P02:G04
+TGTATACAG DL-20:HFM2LBGXN:0:DNA230105P02:H04
+AACTT DL-21:HFM2LBGXN:0:DNA230105P02:A05
+GAGTCACAAT DL-22:HFM2LBGXN:0:DNA230105P02:B05
+CGGTTGCAT DL-23:HFM2LBGXN:0:DNA230105P02:C05
+TGTGACAAGA DL-24:HFM2LBGXN:0:DNA230105P02:D05
+GTCCTGCCA E68X-22:HFM2LBGXN:0:DNA230105P02:E05
+GTTACA E68X-23:HFM2LBGXN:0:DNA230105P02:F05
+GCGGA E68X-24:HFM2LBGXN:0:DNA230105P02:G05
+ATGATACG SR78-22:HFM2LBGXN:0:DNA230105P02:H05
+CTGTTG SR78-23:HFM2LBGXN:0:DNA230105P02:A06
+TCAGTAAT SR78-24:HFM2LBGXN:0:DNA230105P02:B06
+TCACA DI-18:HFM2LBGXN:0:DNA230105P02:C06
+GTCGT DI-19:HFM2LBGXN:0:DNA230105P02:D06
+ACGCTAA DI-20:HFM2LBGXN:0:DNA230105P02:E06
+ATAGG DI-21:HFM2LBGXN:0:DNA230105P02:F06
+CCTGCCA DI-22:HFM2LBGXN:0:DNA230105P02:G06
+GGTATGAAT DI-23:HFM2LBGXN:0:DNA230105P02:H06
+TAAGACA DI-24:HFM2LBGXN:0:DNA230105P02:A07
+TGAGA Blank:HFM2LBGXN:0:DNA230105P02:B07
+Total barcodes found in lane:146
+Total barcodes found in lane:146
+Total Reads:1000000 Reads with barcode and cut site overhang:948784
+Total Reads:2000000 Reads with barcode and cut site overhang:1896190
+Total Reads:3000000 Reads with barcode and cut site overhang:2843220
+Total Reads:4000000 Reads with barcode and cut site overhang:3791366
+Total Reads:5000000 Reads with barcode and cut site overhang:4739490
+Total Reads:6000000 Reads with barcode and cut site overhang:5689556
+Total Reads:7000000 Reads with barcode and cut site overhang:6640245
+Total Reads:8000000 Reads with barcode and cut site overhang:7589268
+Total Reads:9000000 Reads with barcode and cut site overhang:8539686
+Total Reads:10000000 Reads with barcode and cut site overhang:9489142
+Total Reads:11000000 Reads with barcode and cut site overhang:10440985
+Total Reads:12000000 Reads with barcode and cut site overhang:11392939
+Total Reads:13000000 Reads with barcode and cut site overhang:12343661
+Total Reads:14000000 Reads with barcode and cut site overhang:13292662
+Total Reads:15000000 Reads with barcode and cut site overhang:14242511
+Total Reads:16000000 Reads with barcode and cut site overhang:15194131
+Total Reads:17000000 Reads with barcode and cut site overhang:16144642
+Total Reads:18000000 Reads with barcode and cut site overhang:17097144
+Total Reads:19000000 Reads with barcode and cut site overhang:18050547
+Total Reads:20000000 Reads with barcode and cut site overhang:19001483
+Total Reads:21000000 Reads with barcode and cut site overhang:19952039
+Total Reads:22000000 Reads with barcode and cut site overhang:20902909
+Total Reads:23000000 Reads with barcode and cut site overhang:21852049
+Total Reads:24000000 Reads with barcode and cut site overhang:22801401
+Total Reads:25000000 Reads with barcode and cut site overhang:23751149
+Total Reads:26000000 Reads with barcode and cut site overhang:24701340
+Total Reads:27000000 Reads with barcode and cut site overhang:25653497
+Total Reads:28000000 Reads with barcode and cut site overhang:26605187
+Total Reads:29000000 Reads with barcode and cut site overhang:27556293
+Total Reads:30000000 Reads with barcode and cut site overhang:28506213
+Total Reads:31000000 Reads with barcode and cut site overhang:29457171
+Total Reads:32000000 Reads with barcode and cut site overhang:30409362
+Total Reads:33000000 Reads with barcode and cut site overhang:31360349
+Total Reads:34000000 Reads with barcode and cut site overhang:32309308
+Total Reads:35000000 Reads with barcode and cut site overhang:33260504
+Total Reads:36000000 Reads with barcode and cut site overhang:34211527
+Total Reads:37000000 Reads with barcode and cut site overhang:35162739
+Total Reads:38000000 Reads with barcode and cut site overhang:36113388
+Total Reads:39000000 Reads with barcode and cut site overhang:37065083
+Total Reads:40000000 Reads with barcode and cut site overhang:38013070
+Total Reads:41000000 Reads with barcode and cut site overhang:38962037
+Total Reads:42000000 Reads with barcode and cut site overhang:39910678
+Total Reads:43000000 Reads with barcode and cut site overhang:40859814
+Total Reads:44000000 Reads with barcode and cut site overhang:41810086
+Total Reads:45000000 Reads with barcode and cut site overhang:42760430
+Total Reads:46000000 Reads with barcode and cut site overhang:43709805
+Total Reads:47000000 Reads with barcode and cut site overhang:44661270
+Total Reads:48000000 Reads with barcode and cut site overhang:45612925
+Total Reads:49000000 Reads with barcode and cut site overhang:46562959
+Total Reads:50000000 Reads with barcode and cut site overhang:47514314
+Total Reads:51000000 Reads with barcode and cut site overhang:48466109
+Total Reads:52000000 Reads with barcode and cut site overhang:49415870
+Total Reads:53000000 Reads with barcode and cut site overhang:50365509
+Total Reads:54000000 Reads with barcode and cut site overhang:51317330
+Total Reads:55000000 Reads with barcode and cut site overhang:52269935
+Total Reads:56000000 Reads with barcode and cut site overhang:53221054
+Total Reads:57000000 Reads with barcode and cut site overhang:54172450
+Total Reads:58000000 Reads with barcode and cut site overhang:55123851
+Total Reads:59000000 Reads with barcode and cut site overhang:56073901
+Total Reads:60000000 Reads with barcode and cut site overhang:57023195
+Total Reads:61000000 Reads with barcode and cut site overhang:57972042
+Total Reads:62000000 Reads with barcode and cut site overhang:58919990
+Total Reads:63000000 Reads with barcode and cut site overhang:59868403
+Total Reads:64000000 Reads with barcode and cut site overhang:60818068
+Total Reads:65000000 Reads with barcode and cut site overhang:61770468
+Total Reads:66000000 Reads with barcode and cut site overhang:62719745
+Total Reads:67000000 Reads with barcode and cut site overhang:63669375
+Total Reads:68000000 Reads with barcode and cut site overhang:64619771
+Total Reads:69000000 Reads with barcode and cut site overhang:65570737
+Total Reads:70000000 Reads with barcode and cut site overhang:66523410
+Total Reads:71000000 Reads with barcode and cut site overhang:67474162
+Total Reads:72000000 Reads with barcode and cut site overhang:68423509
+Total Reads:73000000 Reads with barcode and cut site overhang:69372815
+Total Reads:74000000 Reads with barcode and cut site overhang:70323391
+Total Reads:75000000 Reads with barcode and cut site overhang:71274256
+Total Reads:76000000 Reads with barcode and cut site overhang:72226338
+Total Reads:77000000 Reads with barcode and cut site overhang:73177180
+Total Reads:78000000 Reads with barcode and cut site overhang:74121260
+Total Reads:79000000 Reads with barcode and cut site overhang:75074062
+Total Reads:80000000 Reads with barcode and cut site overhang:76024316
+Total Reads:81000000 Reads with barcode and cut site overhang:76974256
+Total Reads:82000000 Reads with barcode and cut site overhang:77924577
+Total Reads:83000000 Reads with barcode and cut site overhang:78876743
+Total Reads:84000000 Reads with barcode and cut site overhang:79828678
+Total Reads:85000000 Reads with barcode and cut site overhang:80779401
+Total Reads:86000000 Reads with barcode and cut site overhang:81730841
+Total Reads:87000000 Reads with barcode and cut site overhang:82681810
+Total Reads:88000000 Reads with barcode and cut site overhang:83634160
+Total Reads:89000000 Reads with barcode and cut site overhang:84585571
+Total Reads:90000000 Reads with barcode and cut site overhang:85536521
+Total Reads:91000000 Reads with barcode and cut site overhang:86487481
+Total Reads:92000000 Reads with barcode and cut site overhang:87438150
+Total Reads:93000000 Reads with barcode and cut site overhang:88388690
+Total Reads:94000000 Reads with barcode and cut site overhang:89339571
+Total Reads:95000000 Reads with barcode and cut site overhang:90291630
+Total Reads:96000000 Reads with barcode and cut site overhang:91243364
+Total Reads:97000000 Reads with barcode and cut site overhang:92193772
+Total Reads:98000000 Reads with barcode and cut site overhang:93062097
+Total Reads:99000000 Reads with barcode and cut site overhang:94015499
+Total Reads:100000000 Reads with barcode and cut site overhang:94966248
+Total Reads:101000000 Reads with barcode and cut site overhang:95916619
+Total Reads:102000000 Reads with barcode and cut site overhang:96867327
+Total Reads:103000000 Reads with barcode and cut site overhang:97817819
+Total Reads:104000000 Reads with barcode and cut site overhang:98769577
+Total Reads:105000000 Reads with barcode and cut site overhang:99720131
+Total Reads:106000000 Reads with barcode and cut site overhang:100671476
+Total Reads:107000000 Reads with barcode and cut site overhang:101621715
+Total Reads:108000000 Reads with barcode and cut site overhang:102573685
+Total Reads:109000000 Reads with barcode and cut site overhang:103524297
+Total Reads:110000000 Reads with barcode and cut site overhang:104477235
+Total Reads:111000000 Reads with barcode and cut site overhang:105427998
+Total Reads:112000000 Reads with barcode and cut site overhang:106377096
+Total Reads:113000000 Reads with barcode and cut site overhang:107327140
+Total Reads:114000000 Reads with barcode and cut site overhang:108278065
+Total Reads:115000000 Reads with barcode and cut site overhang:109229833
+Total Reads:116000000 Reads with barcode and cut site overhang:110181263
+Total Reads:117000000 Reads with barcode and cut site overhang:111133876
+Total Reads:118000000 Reads with barcode and cut site overhang:112084866
+Total Reads:119000000 Reads with barcode and cut site overhang:113035267
+Total Reads:120000000 Reads with barcode and cut site overhang:113984994
+Total Reads:121000000 Reads with barcode and cut site overhang:114934362
+Total Reads:122000000 Reads with barcode and cut site overhang:115884248
+Total Reads:123000000 Reads with barcode and cut site overhang:116833847
+Total Reads:124000000 Reads with barcode and cut site overhang:117783405
+Total Reads:125000000 Reads with barcode and cut site overhang:118732851
+Total Reads:126000000 Reads with barcode and cut site overhang:119684072
+Total Reads:127000000 Reads with barcode and cut site overhang:120635329
+Total Reads:128000000 Reads with barcode and cut site overhang:121585559
+Total Reads:129000000 Reads with barcode and cut site overhang:122535025
+Total Reads:130000000 Reads with barcode and cut site overhang:123484355
+Total Reads:131000000 Reads with barcode and cut site overhang:124430659
+Total Reads:132000000 Reads with barcode and cut site overhang:125377977
+Total Reads:133000000 Reads with barcode and cut site overhang:126325766
+Total Reads:134000000 Reads with barcode and cut site overhang:127273828
+Total Reads:135000000 Reads with barcode and cut site overhang:128222859
+Total Reads:136000000 Reads with barcode and cut site overhang:129171785
+Total Reads:137000000 Reads with barcode and cut site overhang:130125063
+Total Reads:138000000 Reads with barcode and cut site overhang:131078696
+Total Reads:139000000 Reads with barcode and cut site overhang:132030676
+Total Reads:140000000 Reads with barcode and cut site overhang:132982774
+Total Reads:141000000 Reads with barcode and cut site overhang:133933908
+Total Reads:142000000 Reads with barcode and cut site overhang:134885611
+Total Reads:143000000 Reads with barcode and cut site overhang:135837619
+Total Reads:144000000 Reads with barcode and cut site overhang:136789675
+Total Reads:145000000 Reads with barcode and cut site overhang:137740984
+Total Reads:146000000 Reads with barcode and cut site overhang:138694117
+Total Reads:147000000 Reads with barcode and cut site overhang:139644735
+Total Reads:148000000 Reads with barcode and cut site overhang:140596263
+Total Reads:149000000 Reads with barcode and cut site overhang:141546138
+Total Reads:150000000 Reads with barcode and cut site overhang:142495090
+Total Reads:151000000 Reads with barcode and cut site overhang:143444446
+Total Reads:152000000 Reads with barcode and cut site overhang:144392959
+Total Reads:153000000 Reads with barcode and cut site overhang:145341699
+Total Reads:154000000 Reads with barcode and cut site overhang:146290102
+Total Reads:155000000 Reads with barcode and cut site overhang:147237440
+Total Reads:156000000 Reads with barcode and cut site overhang:148190436
+Total Reads:157000000 Reads with barcode and cut site overhang:149142599
+Total Reads:158000000 Reads with barcode and cut site overhang:150096385
+Total Reads:159000000 Reads with barcode and cut site overhang:151047211
+Total Reads:160000000 Reads with barcode and cut site overhang:151999150
+Total Reads:161000000 Reads with barcode and cut site overhang:152950254
+Total Reads:162000000 Reads with barcode and cut site overhang:153901913
+Total Reads:163000000 Reads with barcode and cut site overhang:154853395
+Total Reads:164000000 Reads with barcode and cut site overhang:155804042
+Total Reads:165000000 Reads with barcode and cut site overhang:156754974
+Total Reads:166000000 Reads with barcode and cut site overhang:157706950
+Total Reads:167000000 Reads with barcode and cut site overhang:158657015
+Total Reads:168000000 Reads with barcode and cut site overhang:159606776
+Total Reads:169000000 Reads with barcode and cut site overhang:160555762
+Total Reads:170000000 Reads with barcode and cut site overhang:161503973
+Total Reads:171000000 Reads with barcode and cut site overhang:162453829
+Total Reads:172000000 Reads with barcode and cut site overhang:163402776
+Total Reads:173000000 Reads with barcode and cut site overhang:164350556
+Total Reads:174000000 Reads with barcode and cut site overhang:165299949
+Total Reads:175000000 Reads with barcode and cut site overhang:166250668
+Total Reads:176000000 Reads with barcode and cut site overhang:167200850
+Total Reads:177000000 Reads with barcode and cut site overhang:168152267
+Total Reads:178000000 Reads with barcode and cut site overhang:169101641
+Total Reads:179000000 Reads with barcode and cut site overhang:170052170
+Total Reads:180000000 Reads with barcode and cut site overhang:171001939
+Total Reads:181000000 Reads with barcode and cut site overhang:171951400
+Total Reads:182000000 Reads with barcode and cut site overhang:172902323
+Total Reads:183000000 Reads with barcode and cut site overhang:173852560
+Total Reads:184000000 Reads with barcode and cut site overhang:174801987
+Total Reads:185000000 Reads with barcode and cut site overhang:175752633
+Total Reads:186000000 Reads with barcode and cut site overhang:176702988
+Total Reads:187000000 Reads with barcode and cut site overhang:177651784
+Total Reads:188000000 Reads with barcode and cut site overhang:178600386
+Total Reads:189000000 Reads with barcode and cut site overhang:179548404
+Total Reads:190000000 Reads with barcode and cut site overhang:180497063
+Total Reads:191000000 Reads with barcode and cut site overhang:181446975
+Total Reads:192000000 Reads with barcode and cut site overhang:182396913
+Total Reads:193000000 Reads with barcode and cut site overhang:183348780
+Total Reads:194000000 Reads with barcode and cut site overhang:184302268
+Total Reads:195000000 Reads with barcode and cut site overhang:185254883
+Total Reads:196000000 Reads with barcode and cut site overhang:186206623
+Total Reads:197000000 Reads with barcode and cut site overhang:187157788
+Total Reads:198000000 Reads with barcode and cut site overhang:188108789
+Total Reads:199000000 Reads with barcode and cut site overhang:189059565
+Total Reads:200000000 Reads with barcode and cut site overhang:190010443
+Total Reads:201000000 Reads with barcode and cut site overhang:190961747
+Total Reads:202000000 Reads with barcode and cut site overhang:191908883
+Total Reads:203000000 Reads with barcode and cut site overhang:192859354
+Total Reads:204000000 Reads with barcode and cut site overhang:193809095
+Total Reads:205000000 Reads with barcode and cut site overhang:194758734
+Total Reads:206000000 Reads with barcode and cut site overhang:195708758
+Total Reads:207000000 Reads with barcode and cut site overhang:196659124
+Total Reads:208000000 Reads with barcode and cut site overhang:197608362
+Total Reads:209000000 Reads with barcode and cut site overhang:198559860
+Total Reads:210000000 Reads with barcode and cut site overhang:199510547
+Total Reads:211000000 Reads with barcode and cut site overhang:200460836
+Total Reads:212000000 Reads with barcode and cut site overhang:201412237
+Total Reads:213000000 Reads with barcode and cut site overhang:202283577
+Total Reads:214000000 Reads with barcode and cut site overhang:203236559
+Total Reads:215000000 Reads with barcode and cut site overhang:204076478
+Total Reads:216000000 Reads with barcode and cut site overhang:205012854
+Total Reads:217000000 Reads with barcode and cut site overhang:205963809
+Total Reads:218000000 Reads with barcode and cut site overhang:206916172
+Total Reads:219000000 Reads with barcode and cut site overhang:207862620
+Total Reads:220000000 Reads with barcode and cut site overhang:208813220
+Total Reads:221000000 Reads with barcode and cut site overhang:209747493
+Total Reads:222000000 Reads with barcode and cut site overhang:210646763
+Total Reads:223000000 Reads with barcode and cut site overhang:211596554
+Total Reads:224000000 Reads with barcode and cut site overhang:212547966
+Total Reads:225000000 Reads with barcode and cut site overhang:213491414
+Total Reads:226000000 Reads with barcode and cut site overhang:214436708
+Total Reads:227000000 Reads with barcode and cut site overhang:215387883
+Total Reads:228000000 Reads with barcode and cut site overhang:216337639
+Total Reads:229000000 Reads with barcode and cut site overhang:217287755
+Total Reads:230000000 Reads with barcode and cut site overhang:218237857
+Total Reads:231000000 Reads with barcode and cut site overhang:219187646
+Total Reads:232000000 Reads with barcode and cut site overhang:220138710
+Total Reads:233000000 Reads with barcode and cut site overhang:221090154
+Total Reads:234000000 Reads with barcode and cut site overhang:222041736
+Total Reads:235000000 Reads with barcode and cut site overhang:222995868
+Total Reads:236000000 Reads with barcode and cut site overhang:223948216
+Total Reads:237000000 Reads with barcode and cut site overhang:224900438
+Total Reads:238000000 Reads with barcode and cut site overhang:225853133
+Total Reads:239000000 Reads with barcode and cut site overhang:226800723
+Total Reads:240000000 Reads with barcode and cut site overhang:227751049
+Total Reads:241000000 Reads with barcode and cut site overhang:228701361
+Total Reads:242000000 Reads with barcode and cut site overhang:229652552
+Total Reads:243000000 Reads with barcode and cut site overhang:230604910
+Total Reads:244000000 Reads with barcode and cut site overhang:231556729
+Total Reads:245000000 Reads with barcode and cut site overhang:232505293
+Total Reads:246000000 Reads with barcode and cut site overhang:233453838
+Total Reads:247000000 Reads with barcode and cut site overhang:234401164
+Total Reads:248000000 Reads with barcode and cut site overhang:235350444
+Total Reads:249000000 Reads with barcode and cut site overhang:236300168
+Total Reads:250000000 Reads with barcode and cut site overhang:237247883
+Total Reads:251000000 Reads with barcode and cut site overhang:238197623
+Total Reads:252000000 Reads with barcode and cut site overhang:239149879
+Total Reads:253000000 Reads with barcode and cut site overhang:240101485
+Total Reads:254000000 Reads with barcode and cut site overhang:241054574
+Total Reads:255000000 Reads with barcode and cut site overhang:242007717
+Total Reads:256000000 Reads with barcode and cut site overhang:242960072
+Total Reads:257000000 Reads with barcode and cut site overhang:243912454
+Total Reads:258000000 Reads with barcode and cut site overhang:244863713
+Total Reads:259000000 Reads with barcode and cut site overhang:245814588
+Total Reads:260000000 Reads with barcode and cut site overhang:246766506
+Total Reads:261000000 Reads with barcode and cut site overhang:247717438
+Total Reads:262000000 Reads with barcode and cut site overhang:248667332
+Total Reads:263000000 Reads with barcode and cut site overhang:249617174
+Total Reads:264000000 Reads with barcode and cut site overhang:250568266
+Total Reads:265000000 Reads with barcode and cut site overhang:251518712
+Total Reads:266000000 Reads with barcode and cut site overhang:252469105
+Total Reads:267000000 Reads with barcode and cut site overhang:253417626
+Total Reads:268000000 Reads with barcode and cut site overhang:254368032
+Total Reads:269000000 Reads with barcode and cut site overhang:255319059
+Total Reads:270000000 Reads with barcode and cut site overhang:256268967
+Total Reads:271000000 Reads with barcode and cut site overhang:257219982
+Total Reads:272000000 Reads with barcode and cut site overhang:258172116
+Total Reads:273000000 Reads with barcode and cut site overhang:259123966
+Total Reads:274000000 Reads with barcode and cut site overhang:260076279
+Total Reads:275000000 Reads with barcode and cut site overhang:261027871
+Total Reads:276000000 Reads with barcode and cut site overhang:261979147
+Total Reads:277000000 Reads with barcode and cut site overhang:262931219
+Total Reads:278000000 Reads with barcode and cut site overhang:263883262
+Total Reads:279000000 Reads with barcode and cut site overhang:264835245
+Total Reads:280000000 Reads with barcode and cut site overhang:265786389
+Total Reads:281000000 Reads with barcode and cut site overhang:266736627
+Total Reads:282000000 Reads with barcode and cut site overhang:267687517
+Total Reads:283000000 Reads with barcode and cut site overhang:268639611
+Total Reads:284000000 Reads with barcode and cut site overhang:269590501
+Total Reads:285000000 Reads with barcode and cut site overhang:270543493
+Total Reads:286000000 Reads with barcode and cut site overhang:271494998
+Total Reads:287000000 Reads with barcode and cut site overhang:272445862
+Total Reads:288000000 Reads with barcode and cut site overhang:273395115
+Total Reads:289000000 Reads with barcode and cut site overhang:274344864
+Total Reads:290000000 Reads with barcode and cut site overhang:275296463
+Total Reads:291000000 Reads with barcode and cut site overhang:276248601
+Total Reads:292000000 Reads with barcode and cut site overhang:277199953
+Total Reads:293000000 Reads with barcode and cut site overhang:278151012
+Total Reads:294000000 Reads with barcode and cut site overhang:279102302
+Total Reads:295000000 Reads with barcode and cut site overhang:280054311
+Total Reads:296000000 Reads with barcode and cut site overhang:281008116
+Total Reads:297000000 Reads with barcode and cut site overhang:281961609
+Total Reads:298000000 Reads with barcode and cut site overhang:282911290
+Total Reads:299000000 Reads with barcode and cut site overhang:283861918
+Total Reads:300000000 Reads with barcode and cut site overhang:284812608
+Total Reads:301000000 Reads with barcode and cut site overhang:285764188
+Total Reads:302000000 Reads with barcode and cut site overhang:286715514
+Total Reads:303000000 Reads with barcode and cut site overhang:287668161
+Total Reads:304000000 Reads with barcode and cut site overhang:288620203
+Total Reads:305000000 Reads with barcode and cut site overhang:289570489
+Total Reads:306000000 Reads with barcode and cut site overhang:290519541
+Total Reads:307000000 Reads with barcode and cut site overhang:291467700
+Total Reads:308000000 Reads with barcode and cut site overhang:292417317
+Total Reads:309000000 Reads with barcode and cut site overhang:293367214
+Total Reads:310000000 Reads with barcode and cut site overhang:294317543
+Total Reads:311000000 Reads with barcode and cut site overhang:295269901
+Total Reads:312000000 Reads with barcode and cut site overhang:296221505
+Total Reads:313000000 Reads with barcode and cut site overhang:297173343
+Total Reads:314000000 Reads with barcode and cut site overhang:298125592
+Total Reads:315000000 Reads with barcode and cut site overhang:299077176
+Total Reads:316000000 Reads with barcode and cut site overhang:300030272
+Total Reads:317000000 Reads with barcode and cut site overhang:300981907
+Total Reads:318000000 Reads with barcode and cut site overhang:301932654
+Total Reads:319000000 Reads with barcode and cut site overhang:302882450
+Total Reads:320000000 Reads with barcode and cut site overhang:303833491
+Total Reads:321000000 Reads with barcode and cut site overhang:304784624
+Total Reads:322000000 Reads with barcode and cut site overhang:305735720
+Total Reads:323000000 Reads with barcode and cut site overhang:306685947
+Total Reads:324000000 Reads with barcode and cut site overhang:307638516
+Total Reads:325000000 Reads with barcode and cut site overhang:308590719
+Total Reads:326000000 Reads with barcode and cut site overhang:309540576
+Total Reads:327000000 Reads with barcode and cut site overhang:310489525
+Total Reads:328000000 Reads with barcode and cut site overhang:311438592
+Total Reads:329000000 Reads with barcode and cut site overhang:312388638
+Total Reads:330000000 Reads with barcode and cut site overhang:313341170
+Total Reads:331000000 Reads with barcode and cut site overhang:314293950
+Total Reads:332000000 Reads with barcode and cut site overhang:315245110
+Total Reads:333000000 Reads with barcode and cut site overhang:316196980
+Total Reads:334000000 Reads with barcode and cut site overhang:317148010
+Total Reads:335000000 Reads with barcode and cut site overhang:318100380
+Total Reads:336000000 Reads with barcode and cut site overhang:319051961
+Total Reads:337000000 Reads with barcode and cut site overhang:320002691
+Total Reads:338000000 Reads with barcode and cut site overhang:320954177
+Total Reads:339000000 Reads with barcode and cut site overhang:321904712
+Total Reads:340000000 Reads with barcode and cut site overhang:322855991
+Total Reads:341000000 Reads with barcode and cut site overhang:323807991
+Total Reads:342000000 Reads with barcode and cut site overhang:324759518
+Total Reads:343000000 Reads with barcode and cut site overhang:325711039
+Total Reads:344000000 Reads with barcode and cut site overhang:326662212
+Total Reads:345000000 Reads with barcode and cut site overhang:327612037
+Total Reads:346000000 Reads with barcode and cut site overhang:328563988
+Total Reads:347000000 Reads with barcode and cut site overhang:329514247
+Total Reads:348000000 Reads with barcode and cut site overhang:330464981
+Total Reads:349000000 Reads with barcode and cut site overhang:331415304
+Total Reads:350000000 Reads with barcode and cut site overhang:332363880
+Total Reads:351000000 Reads with barcode and cut site overhang:333313209
+Total Reads:352000000 Reads with barcode and cut site overhang:334261400
+Total Reads:353000000 Reads with barcode and cut site overhang:335209696
+Total Reads:354000000 Reads with barcode and cut site overhang:336158566
+Total Reads:355000000 Reads with barcode and cut site overhang:337107650
+Total Reads:356000000 Reads with barcode and cut site overhang:338058971
+Total Reads:357000000 Reads with barcode and cut site overhang:339009074
+Total Reads:358000000 Reads with barcode and cut site overhang:339959835
+Total Reads:359000000 Reads with barcode and cut site overhang:340910197
+Total Reads:360000000 Reads with barcode and cut site overhang:341860287
+Total Reads:361000000 Reads with barcode and cut site overhang:342810252
+Total Reads:362000000 Reads with barcode and cut site overhang:343763064
+Total Reads:363000000 Reads with barcode and cut site overhang:344715432
+Total Reads:364000000 Reads with barcode and cut site overhang:345667363
+Total Reads:365000000 Reads with barcode and cut site overhang:346618002
+Total Reads:366000000 Reads with barcode and cut site overhang:347568638
+Total Reads:367000000 Reads with barcode and cut site overhang:348519695
+Total Reads:368000000 Reads with barcode and cut site overhang:349471146
+Total Reads:369000000 Reads with barcode and cut site overhang:350422165
+Total Reads:370000000 Reads with barcode and cut site overhang:351373354
+Total Reads:371000000 Reads with barcode and cut site overhang:352321888
+Total Reads:372000000 Reads with barcode and cut site overhang:353271227
+Total Reads:373000000 Reads with barcode and cut site overhang:354219335
+Total Reads:374000000 Reads with barcode and cut site overhang:355167729
+Total Reads:375000000 Reads with barcode and cut site overhang:356119055
+Total Reads:376000000 Reads with barcode and cut site overhang:357070902
+Total Reads:377000000 Reads with barcode and cut site overhang:358022340
+Total Reads:378000000 Reads with barcode and cut site overhang:358974988
+Total Reads:379000000 Reads with barcode and cut site overhang:359926251
+Total Reads:380000000 Reads with barcode and cut site overhang:360877072
+Total Reads:381000000 Reads with barcode and cut site overhang:361828203
+Total Reads:382000000 Reads with barcode and cut site overhang:362780464
+Total Reads:383000000 Reads with barcode and cut site overhang:363732473
+Total Reads:384000000 Reads with barcode and cut site overhang:364684344
+Total Reads:385000000 Reads with barcode and cut site overhang:365636073
+Total Reads:386000000 Reads with barcode and cut site overhang:366587943
+Total Reads:387000000 Reads with barcode and cut site overhang:367539220
+Total Reads:388000000 Reads with barcode and cut site overhang:368489067
+Total Reads:389000000 Reads with barcode and cut site overhang:369438654
+Total Reads:390000000 Reads with barcode and cut site overhang:370388331
+Total Reads:391000000 Reads with barcode and cut site overhang:371339083
+Total Reads:392000000 Reads with barcode and cut site overhang:372288400
+Total Reads:393000000 Reads with barcode and cut site overhang:373238501
+Total Reads:394000000 Reads with barcode and cut site overhang:374190132
+Total Reads:395000000 Reads with barcode and cut site overhang:375143197
+Total Reads:396000000 Reads with barcode and cut site overhang:376094673
+Total Reads:397000000 Reads with barcode and cut site overhang:377046398
+Total Reads:398000000 Reads with barcode and cut site overhang:377998278
+Total Reads:399000000 Reads with barcode and cut site overhang:378949385
+Total Reads:400000000 Reads with barcode and cut site overhang:379899333
+Total Reads:401000000 Reads with barcode and cut site overhang:380850507
+Total Reads:402000000 Reads with barcode and cut site overhang:381802492
+Total Reads:403000000 Reads with barcode and cut site overhang:382753921
+Total Reads:404000000 Reads with barcode and cut site overhang:383705305
+Total Reads:405000000 Reads with barcode and cut site overhang:384658455
+Total Reads:406000000 Reads with barcode and cut site overhang:385609174
+Total Reads:407000000 Reads with barcode and cut site overhang:386558693
+Total Reads:408000000 Reads with barcode and cut site overhang:387507448
+Total Reads:409000000 Reads with barcode and cut site overhang:388445457
+Total Reads:410000000 Reads with barcode and cut site overhang:389393957
+Total Reads:411000000 Reads with barcode and cut site overhang:390343133
+Total Reads:412000000 Reads with barcode and cut site overhang:391294261
+Total Reads:413000000 Reads with barcode and cut site overhang:392245613
+Total Reads:414000000 Reads with barcode and cut site overhang:393195320
+Total Reads:415000000 Reads with barcode and cut site overhang:394147978
+Total Reads:416000000 Reads with barcode and cut site overhang:395100266
+Total Reads:417000000 Reads with barcode and cut site overhang:396049982
+Total Reads:418000000 Reads with barcode and cut site overhang:397001097
+Total Reads:419000000 Reads with barcode and cut site overhang:397952306
+Total Reads:420000000 Reads with barcode and cut site overhang:398903635
+Total Reads:421000000 Reads with barcode and cut site overhang:399854386
+Total Reads:422000000 Reads with barcode and cut site overhang:400804486
+Total Reads:423000000 Reads with barcode and cut site overhang:401756371
+Total Reads:424000000 Reads with barcode and cut site overhang:402708364
+Total Reads:425000000 Reads with barcode and cut site overhang:403655858
+Total Reads:426000000 Reads with barcode and cut site overhang:404606648
+Total Reads:427000000 Reads with barcode and cut site overhang:405556765
+Total Reads:428000000 Reads with barcode and cut site overhang:406506388
+Total Reads:429000000 Reads with barcode and cut site overhang:407456152
+Total Reads:430000000 Reads with barcode and cut site overhang:408406760
+Total Reads:431000000 Reads with barcode and cut site overhang:409356696
+Total Reads:432000000 Reads with barcode and cut site overhang:410306431
+Total Reads:433000000 Reads with barcode and cut site overhang:411257260
+Total Reads:434000000 Reads with barcode and cut site overhang:412209440
+Total Reads:435000000 Reads with barcode and cut site overhang:413161754
+Total Reads:436000000 Reads with barcode and cut site overhang:414113315
+Total Reads:437000000 Reads with barcode and cut site overhang:415064967
+Total Reads:438000000 Reads with barcode and cut site overhang:416018197
+Total Reads:439000000 Reads with barcode and cut site overhang:416969104
+Total Reads:440000000 Reads with barcode and cut site overhang:417921057
+Total Reads:441000000 Reads with barcode and cut site overhang:418871629
+Total Reads:442000000 Reads with barcode and cut site overhang:419810911
+Total Reads:443000000 Reads with barcode and cut site overhang:420762977
+Total Reads:444000000 Reads with barcode and cut site overhang:421713939
+Total Reads:445000000 Reads with barcode and cut site overhang:422665793
+Total Reads:446000000 Reads with barcode and cut site overhang:423615740
+Total Reads:447000000 Reads with barcode and cut site overhang:424565480
+Total Reads:448000000 Reads with barcode and cut site overhang:425515312
+Total Reads:449000000 Reads with barcode and cut site overhang:426464567
+Total Reads:450000000 Reads with barcode and cut site overhang:427414978
+Total Reads:451000000 Reads with barcode and cut site overhang:428364939
+Total Reads:452000000 Reads with barcode and cut site overhang:429314435
+Total Reads:453000000 Reads with barcode and cut site overhang:430266839
+Total Reads:454000000 Reads with barcode and cut site overhang:431218758
+Total Reads:455000000 Reads with barcode and cut site overhang:432173008
+Total Reads:456000000 Reads with barcode and cut site overhang:433124706
+Total Reads:457000000 Reads with barcode and cut site overhang:434076548
+Total Reads:458000000 Reads with barcode and cut site overhang:435026609
+Total Reads:459000000 Reads with barcode and cut site overhang:435977367
+Total Reads:460000000 Reads with barcode and cut site overhang:436918799
+Total Reads:461000000 Reads with barcode and cut site overhang:437869824
+Total Reads:462000000 Reads with barcode and cut site overhang:438820815
+Total Reads:463000000 Reads with barcode and cut site overhang:439771520
+Total Reads:464000000 Reads with barcode and cut site overhang:440721748
+Total number of reads in lane=464941336
+Total number of good barcoded reads=441616809
+Timing process (sorting, collapsing, and writing TagCount to file).
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2503939
+Unique tags retained:735108
+735108 tags will be output to ../UNEAK/tagCounts/DI-23_HFM2LBGXN_0_DNA230105P02_H06_X5.cnt
+These 735108 tags were covered by 3239047 matching reads
+Tags written to:../UNEAK/tagCounts/DI-23_HFM2LBGXN_0_DNA230105P02_H06_X5.cnt
+Number of Tags in file:735108
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1409804
+Unique tags retained:581946
+581946 tags will be output to ../UNEAK/tagCounts/E68X-07_HFM2LBGXN_0_DNA230105P01_C07_X5.cnt
+These 581946 tags were covered by 1991750 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-07_HFM2LBGXN_0_DNA230105P01_C07_X5.cnt
+Number of Tags in file:581946
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2667276
+Unique tags retained:829404
+829404 tags will be output to ../UNEAK/tagCounts/E72-08_HFM2LBGXN_0_DNA230105P01_C08_X5.cnt
+These 829404 tags were covered by 3496680 matching reads
+Tags written to:../UNEAK/tagCounts/E72-08_HFM2LBGXN_0_DNA230105P01_C08_X5.cnt
+Number of Tags in file:829404
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2379688
+Unique tags retained:702982
+702982 tags will be output to ../UNEAK/tagCounts/SR-04_HFM2LBGXN_0_DNA230105P01_E03_X5.cnt
+These 702982 tags were covered by 3082670 matching reads
+Tags written to:../UNEAK/tagCounts/SR-04_HFM2LBGXN_0_DNA230105P01_E03_X5.cnt
+Number of Tags in file:702982
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1659339
+Unique tags retained:713002
+713002 tags will be output to ../UNEAK/tagCounts/SR78-03_HFM2LBGXN_0_DNA230105P01_C02_X5.cnt
+These 713002 tags were covered by 2372341 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-03_HFM2LBGXN_0_DNA230105P01_C02_X5.cnt
+Number of Tags in file:713002
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2259861
+Unique tags retained:860309
+860309 tags will be output to ../UNEAK/tagCounts/SR-13_HFM2LBGXN_0_DNA230105P01_C12_X5.cnt
+These 860309 tags were covered by 3120170 matching reads
+Tags written to:../UNEAK/tagCounts/SR-13_HFM2LBGXN_0_DNA230105P01_C12_X5.cnt
+Number of Tags in file:860309
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3305689
+Unique tags retained:920917
+920917 tags will be output to ../UNEAK/tagCounts/DI-19_HFM2LBGXN_0_DNA230105P02_D06_X5.cnt
+These 920917 tags were covered by 4226606 matching reads
+Tags written to:../UNEAK/tagCounts/DI-19_HFM2LBGXN_0_DNA230105P02_D06_X5.cnt
+Number of Tags in file:920917
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2701785
+Unique tags retained:986374
+986374 tags will be output to ../UNEAK/tagCounts/SR78-09_HFM2LBGXN_0_DNA230105P01_A08_X5.cnt
+These 986374 tags were covered by 3688159 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-09_HFM2LBGXN_0_DNA230105P01_A08_X5.cnt
+Number of Tags in file:986374
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1255307
+Unique tags retained:519168
+519168 tags will be output to ../UNEAK/tagCounts/DI-10_HFM2LBGXN_0_DNA230105P01_H11_X5.cnt
+These 519168 tags were covered by 1774475 matching reads
+Tags written to:../UNEAK/tagCounts/DI-10_HFM2LBGXN_0_DNA230105P01_H11_X5.cnt
+Number of Tags in file:519168
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2543239
+Unique tags retained:776590
+776590 tags will be output to ../UNEAK/tagCounts/DI-08_HFM2LBGXN_0_DNA230105P01_B06_X5.cnt
+These 776590 tags were covered by 3319829 matching reads
+Tags written to:../UNEAK/tagCounts/DI-08_HFM2LBGXN_0_DNA230105P01_B06_X5.cnt
+Number of Tags in file:776590
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2921956
+Unique tags retained:779196
+779196 tags will be output to ../UNEAK/tagCounts/SR78-19_HFM2LBGXN_0_DNA230105P02_B04_X5.cnt
+These 779196 tags were covered by 3701152 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-19_HFM2LBGXN_0_DNA230105P02_B04_X5.cnt
+Number of Tags in file:779196
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3065548
+Unique tags retained:797649
+797649 tags will be output to ../UNEAK/tagCounts/SR78-18_HFM2LBGXN_0_DNA230105P02_A04_X5.cnt
+These 797649 tags were covered by 3863197 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-18_HFM2LBGXN_0_DNA230105P02_A04_X5.cnt
+Number of Tags in file:797649
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2577727
+Unique tags retained:702934
+702934 tags will be output to ../UNEAK/tagCounts/SR-23_HFM2LBGXN_0_DNA230105P02_B02_X5.cnt
+These 702934 tags were covered by 3280661 matching reads
+Tags written to:../UNEAK/tagCounts/SR-23_HFM2LBGXN_0_DNA230105P02_B02_X5.cnt
+Number of Tags in file:702934
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1612487
+Unique tags retained:624895
+624895 tags will be output to ../UNEAK/tagCounts/DI-04_HFM2LBGXN_0_DNA230105P01_F05_X5.cnt
+These 624895 tags were covered by 2237382 matching reads
+Tags written to:../UNEAK/tagCounts/DI-04_HFM2LBGXN_0_DNA230105P01_F05_X5.cnt
+Number of Tags in file:624895
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1520571
+Unique tags retained:572435
+572435 tags will be output to ../UNEAK/tagCounts/DL-10_HFM2LBGXN_0_DNA230105P01_D05_X5.cnt
+These 572435 tags were covered by 2093006 matching reads
+Tags written to:../UNEAK/tagCounts/DL-10_HFM2LBGXN_0_DNA230105P01_D05_X5.cnt
+Number of Tags in file:572435
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2929688
+Unique tags retained:860112
+860112 tags will be output to ../UNEAK/tagCounts/DI-07_HFM2LBGXN_0_DNA230105P01_A06_X5.cnt
+These 860112 tags were covered by 3789800 matching reads
+Tags written to:../UNEAK/tagCounts/DI-07_HFM2LBGXN_0_DNA230105P01_A06_X5.cnt
+Number of Tags in file:860112
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3367910
+Unique tags retained:897322
+897322 tags will be output to ../UNEAK/tagCounts/E68X-16_HFM2LBGXN_0_DNA230105P02_D02_X5.cnt
+These 897322 tags were covered by 4265232 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-16_HFM2LBGXN_0_DNA230105P02_D02_X5.cnt
+Number of Tags in file:897322
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3835400
+Unique tags retained:958182
+958182 tags will be output to ../UNEAK/tagCounts/DI-20_HFM2LBGXN_0_DNA230105P02_E06_X5.cnt
+These 958182 tags were covered by 4793582 matching reads
+Tags written to:../UNEAK/tagCounts/DI-20_HFM2LBGXN_0_DNA230105P02_E06_X5.cnt
+Number of Tags in file:958182
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2825144
+Unique tags retained:776417
+776417 tags will be output to ../UNEAK/tagCounts/DL-20_HFM2LBGXN_0_DNA230105P02_H04_X5.cnt
+These 776417 tags were covered by 3601561 matching reads
+Tags written to:../UNEAK/tagCounts/DL-20_HFM2LBGXN_0_DNA230105P02_H04_X5.cnt
+Number of Tags in file:776417
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1944889
+Unique tags retained:747481
+747481 tags will be output to ../UNEAK/tagCounts/SR-11_HFM2LBGXN_0_DNA230105P01_G06_X5.cnt
+These 747481 tags were covered by 2692370 matching reads
+Tags written to:../UNEAK/tagCounts/SR-11_HFM2LBGXN_0_DNA230105P01_G06_X5.cnt
+Number of Tags in file:747481
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2219865
+Unique tags retained:854474
+854474 tags will be output to ../UNEAK/tagCounts/E72-02_HFM2LBGXN_0_DNA230105P01_B01_X5.cnt
+These 854474 tags were covered by 3074339 matching reads
+Tags written to:../UNEAK/tagCounts/E72-02_HFM2LBGXN_0_DNA230105P01_B01_X5.cnt
+Number of Tags in file:854474
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2228932
+Unique tags retained:676854
+676854 tags will be output to ../UNEAK/tagCounts/E68X-20_HFM2LBGXN_0_DNA230105P02_H02_X5.cnt
+These 676854 tags were covered by 2905786 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-20_HFM2LBGXN_0_DNA230105P02_H02_X5.cnt
+Number of Tags in file:676854
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1522613
+Unique tags retained:595930
+595930 tags will be output to ../UNEAK/tagCounts/SR-05_HFM2LBGXN_0_DNA230105P01_F03_X5.cnt
+These 595930 tags were covered by 2118543 matching reads
+Tags written to:../UNEAK/tagCounts/SR-05_HFM2LBGXN_0_DNA230105P01_F03_X5.cnt
+Number of Tags in file:595930
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2073335
+Unique tags retained:803570
+803570 tags will be output to ../UNEAK/tagCounts/SR-12_HFM2LBGXN_0_DNA230105P01_H06_X5.cnt
+These 803570 tags were covered by 2876905 matching reads
+Tags written to:../UNEAK/tagCounts/SR-12_HFM2LBGXN_0_DNA230105P01_H06_X5.cnt
+Number of Tags in file:803570
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1758985
+Unique tags retained:733881
+733881 tags will be output to ../UNEAK/tagCounts/DL-02_HFM2LBGXN_0_DNA230105P01_D04_X5.cnt
+These 733881 tags were covered by 2492866 matching reads
+Tags written to:../UNEAK/tagCounts/DL-02_HFM2LBGXN_0_DNA230105P01_D04_X5.cnt
+Number of Tags in file:733881
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2503505
+Unique tags retained:837692
+837692 tags will be output to ../UNEAK/tagCounts/SR-16_HFM2LBGXN_0_DNA230105P01_F12_X5.cnt
+These 837692 tags were covered by 3341197 matching reads
+Tags written to:../UNEAK/tagCounts/SR-16_HFM2LBGXN_0_DNA230105P01_F12_X5.cnt
+Number of Tags in file:837692
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3609842
+Unique tags retained:992863
+992863 tags will be output to ../UNEAK/tagCounts/SR-19_HFM2LBGXN_0_DNA230105P02_A01_X5.cnt
+These 992863 tags were covered by 4602705 matching reads
+Tags written to:../UNEAK/tagCounts/SR-19_HFM2LBGXN_0_DNA230105P02_A01_X5.cnt
+Number of Tags in file:992863
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2185285
+Unique tags retained:851671
+851671 tags will be output to ../UNEAK/tagCounts/SR78-10_HFM2LBGXN_0_DNA230105P01_B08_X5.cnt
+These 851671 tags were covered by 3036956 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-10_HFM2LBGXN_0_DNA230105P01_B08_X5.cnt
+Number of Tags in file:851671
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2452901
+Unique tags retained:695816
+695816 tags will be output to ../UNEAK/tagCounts/SR78-21_HFM2LBGXN_0_DNA230105P02_D04_X5.cnt
+These 695816 tags were covered by 3148717 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-21_HFM2LBGXN_0_DNA230105P02_D04_X5.cnt
+Number of Tags in file:695816
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:480416
+Unique tags retained:394876
+394876 tags will be output to ../UNEAK/tagCounts/SR78-06_HFM2LBGXN_0_DNA230105P01_F07_X5.cnt
+These 394876 tags were covered by 875292 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-06_HFM2LBGXN_0_DNA230105P01_F07_X5.cnt
+Number of Tags in file:394876
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2594303
+Unique tags retained:842906
+842906 tags will be output to ../UNEAK/tagCounts/SR78-15_HFM2LBGXN_0_DNA230105P01_B10_X5.cnt
+These 842906 tags were covered by 3437209 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-15_HFM2LBGXN_0_DNA230105P01_B10_X5.cnt
+Number of Tags in file:842906
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2185786
+Unique tags retained:688314
+688314 tags will be output to ../UNEAK/tagCounts/E68X-23_HFM2LBGXN_0_DNA230105P02_F05_X5.cnt
+These 688314 tags were covered by 2874100 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-23_HFM2LBGXN_0_DNA230105P02_F05_X5.cnt
+Number of Tags in file:688314
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2170917
+Unique tags retained:634872
+634872 tags will be output to ../UNEAK/tagCounts/SR78-16_HFM2LBGXN_0_DNA230105P02_G03_X5.cnt
+These 634872 tags were covered by 2805789 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-16_HFM2LBGXN_0_DNA230105P02_G03_X5.cnt
+Number of Tags in file:634872
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2368344
+Unique tags retained:794984
+794984 tags will be output to ../UNEAK/tagCounts/DI-05_HFM2LBGXN_0_DNA230105P01_G05_X5.cnt
+These 794984 tags were covered by 3163328 matching reads
+Tags written to:../UNEAK/tagCounts/DI-05_HFM2LBGXN_0_DNA230105P01_G05_X5.cnt
+Number of Tags in file:794984
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2906
+Unique tags retained:4694
+4694 tags will be output to ../UNEAK/tagCounts/Blank_HFM2LBGXN_0_DNA230105P02_B07_X5.cnt
+These 4694 tags were covered by 7600 matching reads
+Tags written to:../UNEAK/tagCounts/Blank_HFM2LBGXN_0_DNA230105P02_B07_X5.cnt
+Number of Tags in file:4694
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2567347
+Unique tags retained:932549
+932549 tags will be output to ../UNEAK/tagCounts/E72-19_HFM2LBGXN_0_DNA230105P01_A11_X5.cnt
+These 932549 tags were covered by 3499896 matching reads
+Tags written to:../UNEAK/tagCounts/E72-19_HFM2LBGXN_0_DNA230105P01_A11_X5.cnt
+Number of Tags in file:932549
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2432703
+Unique tags retained:869819
+869819 tags will be output to ../UNEAK/tagCounts/E68X-14_HFM2LBGXN_0_DNA230105P01_D09_X5.cnt
+These 869819 tags were covered by 3302522 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-14_HFM2LBGXN_0_DNA230105P01_D09_X5.cnt
+Number of Tags in file:869819
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:798684
+Unique tags retained:411360
+411360 tags will be output to ../UNEAK/tagCounts/E72-11_HFM2LBGXN_0_DNA230105P01_F08_X5.cnt
+These 411360 tags were covered by 1210044 matching reads
+Tags written to:../UNEAK/tagCounts/E72-11_HFM2LBGXN_0_DNA230105P01_F08_X5.cnt
+Number of Tags in file:411360
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2447655
+Unique tags retained:944662
+944662 tags will be output to ../UNEAK/tagCounts/SR-07_HFM2LBGXN_0_DNA230105P01_C06_X5.cnt
+These 944662 tags were covered by 3392317 matching reads
+Tags written to:../UNEAK/tagCounts/SR-07_HFM2LBGXN_0_DNA230105P01_C06_X5.cnt
+Number of Tags in file:944662
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1991471
+Unique tags retained:698222
+698222 tags will be output to ../UNEAK/tagCounts/DI-06_HFM2LBGXN_0_DNA230105P01_H05_X5.cnt
+These 698222 tags were covered by 2689693 matching reads
+Tags written to:../UNEAK/tagCounts/DI-06_HFM2LBGXN_0_DNA230105P01_H05_X5.cnt
+Number of Tags in file:698222
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3000751
+Unique tags retained:807226
+807226 tags will be output to ../UNEAK/tagCounts/E72-22_HFM2LBGXN_0_DNA230105P02_D01_X5.cnt
+These 807226 tags were covered by 3807977 matching reads
+Tags written to:../UNEAK/tagCounts/E72-22_HFM2LBGXN_0_DNA230105P02_D01_X5.cnt
+Number of Tags in file:807226
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1691518
+Unique tags retained:693497
+693497 tags will be output to ../UNEAK/tagCounts/DL-05_HFM2LBGXN_0_DNA230105P01_G04_X5.cnt
+These 693497 tags were covered by 2385015 matching reads
+Tags written to:../UNEAK/tagCounts/DL-05_HFM2LBGXN_0_DNA230105P01_G04_X5.cnt
+Number of Tags in file:693497
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2407407
+Unique tags retained:939313
+939313 tags will be output to ../UNEAK/tagCounts/E68X-12_HFM2LBGXN_0_DNA230105P01_B09_X5.cnt
+These 939313 tags were covered by 3346720 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-12_HFM2LBGXN_0_DNA230105P01_B09_X5.cnt
+Number of Tags in file:939313
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2151157
+Unique tags retained:781884
+781884 tags will be output to ../UNEAK/tagCounts/SR78-11_HFM2LBGXN_0_DNA230105P01_F09_X5.cnt
+These 781884 tags were covered by 2933041 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-11_HFM2LBGXN_0_DNA230105P01_F09_X5.cnt
+Number of Tags in file:781884
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2130448
+Unique tags retained:645001
+645001 tags will be output to ../UNEAK/tagCounts/SR78-14_HFM2LBGXN_0_DNA230105P01_A10_X5.cnt
+These 645001 tags were covered by 2775449 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-14_HFM2LBGXN_0_DNA230105P01_A10_X5.cnt
+Number of Tags in file:645001
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1978904
+Unique tags retained:724114
+724114 tags will be output to ../UNEAK/tagCounts/DI-09_HFM2LBGXN_0_DNA230105P01_G11_X5.cnt
+These 724114 tags were covered by 2703018 matching reads
+Tags written to:../UNEAK/tagCounts/DI-09_HFM2LBGXN_0_DNA230105P01_G11_X5.cnt
+Number of Tags in file:724114
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1329313
+Unique tags retained:542861
+542861 tags will be output to ../UNEAK/tagCounts/E72-14_HFM2LBGXN_0_DNA230105P01_D10_X5.cnt
+These 542861 tags were covered by 1872174 matching reads
+Tags written to:../UNEAK/tagCounts/E72-14_HFM2LBGXN_0_DNA230105P01_D10_X5.cnt
+Number of Tags in file:542861
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3298099
+Unique tags retained:930868
+930868 tags will be output to ../UNEAK/tagCounts/E72-23_HFM2LBGXN_0_DNA230105P02_E01_X5.cnt
+These 930868 tags were covered by 4228967 matching reads
+Tags written to:../UNEAK/tagCounts/E72-23_HFM2LBGXN_0_DNA230105P02_E01_X5.cnt
+Number of Tags in file:930868
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2163409
+Unique tags retained:718014
+718014 tags will be output to ../UNEAK/tagCounts/DI-02_HFM2LBGXN_0_DNA230105P01_A04_X5.cnt
+These 718014 tags were covered by 2881423 matching reads
+Tags written to:../UNEAK/tagCounts/DI-02_HFM2LBGXN_0_DNA230105P01_A04_X5.cnt
+Number of Tags in file:718014
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2951035
+Unique tags retained:854776
+854776 tags will be output to ../UNEAK/tagCounts/E68X-19_HFM2LBGXN_0_DNA230105P02_G02_X5.cnt
+These 854776 tags were covered by 3805811 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-19_HFM2LBGXN_0_DNA230105P02_G02_X5.cnt
+Number of Tags in file:854776
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2224175
+Unique tags retained:829402
+829402 tags will be output to ../UNEAK/tagCounts/DI-03_HFM2LBGXN_0_DNA230105P01_B04_X5.cnt
+These 829402 tags were covered by 3053577 matching reads
+Tags written to:../UNEAK/tagCounts/DI-03_HFM2LBGXN_0_DNA230105P01_B04_X5.cnt
+Number of Tags in file:829402
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3804423
+Unique tags retained:986388
+986388 tags will be output to ../UNEAK/tagCounts/SR-20_HFM2LBGXN_0_DNA230105P02_G01_X5.cnt
+These 986388 tags were covered by 4790811 matching reads
+Tags written to:../UNEAK/tagCounts/SR-20_HFM2LBGXN_0_DNA230105P02_G01_X5.cnt
+Number of Tags in file:986388
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1514485
+Unique tags retained:681731
+681731 tags will be output to ../UNEAK/tagCounts/E72-16_HFM2LBGXN_0_DNA230105P01_F10_X5.cnt
+These 681731 tags were covered by 2196216 matching reads
+Tags written to:../UNEAK/tagCounts/E72-16_HFM2LBGXN_0_DNA230105P01_F10_X5.cnt
+Number of Tags in file:681731
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2967197
+Unique tags retained:820615
+820615 tags will be output to ../UNEAK/tagCounts/DL-08_HFM2LBGXN_0_DNA230105P01_B05_X5.cnt
+These 820615 tags were covered by 3787812 matching reads
+Tags written to:../UNEAK/tagCounts/DL-08_HFM2LBGXN_0_DNA230105P01_B05_X5.cnt
+Number of Tags in file:820615
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2304350
+Unique tags retained:741752
+741752 tags will be output to ../UNEAK/tagCounts/DI-14_HFM2LBGXN_0_DNA230105P02_C03_X5.cnt
+These 741752 tags were covered by 3046102 matching reads
+Tags written to:../UNEAK/tagCounts/DI-14_HFM2LBGXN_0_DNA230105P02_C03_X5.cnt
+Number of Tags in file:741752
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2573648
+Unique tags retained:883005
+883005 tags will be output to ../UNEAK/tagCounts/E68X-04_HFM2LBGXN_0_DNA230105P01_A03_X5.cnt
+These 883005 tags were covered by 3456653 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-04_HFM2LBGXN_0_DNA230105P01_A03_X5.cnt
+Number of Tags in file:883005
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2516416
+Unique tags retained:950376
+950376 tags will be output to ../UNEAK/tagCounts/E68X-06_HFM2LBGXN_0_DNA230105P01_B07_X5.cnt
+These 950376 tags were covered by 3466792 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-06_HFM2LBGXN_0_DNA230105P01_B07_X5.cnt
+Number of Tags in file:950376
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2746960
+Unique tags retained:843952
+843952 tags will be output to ../UNEAK/tagCounts/E72-18_HFM2LBGXN_0_DNA230105P01_H10_X5.cnt
+These 843952 tags were covered by 3590912 matching reads
+Tags written to:../UNEAK/tagCounts/E72-18_HFM2LBGXN_0_DNA230105P01_H10_X5.cnt
+Number of Tags in file:843952
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2565171
+Unique tags retained:805417
+805417 tags will be output to ../UNEAK/tagCounts/DI-21_HFM2LBGXN_0_DNA230105P02_F06_X5.cnt
+These 805417 tags were covered by 3370588 matching reads
+Tags written to:../UNEAK/tagCounts/DI-21_HFM2LBGXN_0_DNA230105P02_F06_X5.cnt
+Number of Tags in file:805417
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2210036
+Unique tags retained:836844
+836844 tags will be output to ../UNEAK/tagCounts/SR-01_HFM2LBGXN_0_DNA230105P01_B03_X5.cnt
+These 836844 tags were covered by 3046880 matching reads
+Tags written to:../UNEAK/tagCounts/SR-01_HFM2LBGXN_0_DNA230105P01_B03_X5.cnt
+Number of Tags in file:836844
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2378612
+Unique tags retained:916258
+916258 tags will be output to ../UNEAK/tagCounts/SR-06_HFM2LBGXN_0_DNA230105P01_G03_X5.cnt
+These 916258 tags were covered by 3294870 matching reads
+Tags written to:../UNEAK/tagCounts/SR-06_HFM2LBGXN_0_DNA230105P01_G03_X5.cnt
+Number of Tags in file:916258
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2444674
+Unique tags retained:829436
+829436 tags will be output to ../UNEAK/tagCounts/DL-16_HFM2LBGXN_0_DNA230105P01_F11_X5.cnt
+These 829436 tags were covered by 3274110 matching reads
+Tags written to:../UNEAK/tagCounts/DL-16_HFM2LBGXN_0_DNA230105P01_F11_X5.cnt
+Number of Tags in file:829436
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2837382
+Unique tags retained:778377
+778377 tags will be output to ../UNEAK/tagCounts/DL-22_HFM2LBGXN_0_DNA230105P02_B05_X5.cnt
+These 778377 tags were covered by 3615759 matching reads
+Tags written to:../UNEAK/tagCounts/DL-22_HFM2LBGXN_0_DNA230105P02_B05_X5.cnt
+Number of Tags in file:778377
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2077889
+Unique tags retained:810506
+810506 tags will be output to ../UNEAK/tagCounts/E68X-05_HFM2LBGXN_0_DNA230105P01_A07_X5.cnt
+These 810506 tags were covered by 2888395 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-05_HFM2LBGXN_0_DNA230105P01_A07_X5.cnt
+Number of Tags in file:810506
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2647402
+Unique tags retained:914358
+914358 tags will be output to ../UNEAK/tagCounts/SR-17_HFM2LBGXN_0_DNA230105P01_G12_X5.cnt
+These 914358 tags were covered by 3561760 matching reads
+Tags written to:../UNEAK/tagCounts/SR-17_HFM2LBGXN_0_DNA230105P01_G12_X5.cnt
+Number of Tags in file:914358
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1889794
+Unique tags retained:645090
+645090 tags will be output to ../UNEAK/tagCounts/DL-23_HFM2LBGXN_0_DNA230105P02_C05_X5.cnt
+These 645090 tags were covered by 2534884 matching reads
+Tags written to:../UNEAK/tagCounts/DL-23_HFM2LBGXN_0_DNA230105P02_C05_X5.cnt
+Number of Tags in file:645090
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2715606
+Unique tags retained:901115
+901115 tags will be output to ../UNEAK/tagCounts/SR-22_HFM2LBGXN_0_DNA230105P02_A02_X5.cnt
+These 901115 tags were covered by 3616721 matching reads
+Tags written to:../UNEAK/tagCounts/SR-22_HFM2LBGXN_0_DNA230105P02_A02_X5.cnt
+Number of Tags in file:901115
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2393960
+Unique tags retained:884168
+884168 tags will be output to ../UNEAK/tagCounts/E72-17_HFM2LBGXN_0_DNA230105P01_G10_X5.cnt
+These 884168 tags were covered by 3278128 matching reads
+Tags written to:../UNEAK/tagCounts/E72-17_HFM2LBGXN_0_DNA230105P01_G10_X5.cnt
+Number of Tags in file:884168
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3291100
+Unique tags retained:983790
+983790 tags will be output to ../UNEAK/tagCounts/E68X-11_HFM2LBGXN_0_DNA230105P01_A09_X5.cnt
+These 983790 tags were covered by 4274890 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-11_HFM2LBGXN_0_DNA230105P01_A09_X5.cnt
+Number of Tags in file:983790
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3496851
+Unique tags retained:1067790
+1067790 tags will be output to ../UNEAK/tagCounts/SR78-12_HFM2LBGXN_0_DNA230105P01_G09_X5.cnt
+These 1067790 tags were covered by 4564641 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-12_HFM2LBGXN_0_DNA230105P01_G09_X5.cnt
+Number of Tags in file:1067790
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2340859
+Unique tags retained:724012
+724012 tags will be output to ../UNEAK/tagCounts/DL-04_HFM2LBGXN_0_DNA230105P01_F04_X5.cnt
+These 724012 tags were covered by 3064871 matching reads
+Tags written to:../UNEAK/tagCounts/DL-04_HFM2LBGXN_0_DNA230105P01_F04_X5.cnt
+Number of Tags in file:724012
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2068203
+Unique tags retained:806122
+806122 tags will be output to ../UNEAK/tagCounts/E72-04_HFM2LBGXN_0_DNA230105P01_D01_X5.cnt
+These 806122 tags were covered by 2874325 matching reads
+Tags written to:../UNEAK/tagCounts/E72-04_HFM2LBGXN_0_DNA230105P01_D01_X5.cnt
+Number of Tags in file:806122
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2384979
+Unique tags retained:768860
+768860 tags will be output to ../UNEAK/tagCounts/DL-19_HFM2LBGXN_0_DNA230105P02_G04_X5.cnt
+These 768860 tags were covered by 3153839 matching reads
+Tags written to:../UNEAK/tagCounts/DL-19_HFM2LBGXN_0_DNA230105P02_G04_X5.cnt
+Number of Tags in file:768860
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3501837
+Unique tags retained:876048
+876048 tags will be output to ../UNEAK/tagCounts/E72-21_HFM2LBGXN_0_DNA230105P02_C01_X5.cnt
+These 876048 tags were covered by 4377885 matching reads
+Tags written to:../UNEAK/tagCounts/E72-21_HFM2LBGXN_0_DNA230105P02_C01_X5.cnt
+Number of Tags in file:876048
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1237738
+Unique tags retained:522373
+522373 tags will be output to ../UNEAK/tagCounts/DL-15_HFM2LBGXN_0_DNA230105P01_E11_X5.cnt
+These 522373 tags were covered by 1760111 matching reads
+Tags written to:../UNEAK/tagCounts/DL-15_HFM2LBGXN_0_DNA230105P01_E11_X5.cnt
+Number of Tags in file:522373
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3096961
+Unique tags retained:929372
+929372 tags will be output to ../UNEAK/tagCounts/E68X-18_HFM2LBGXN_0_DNA230105P02_F02_X5.cnt
+These 929372 tags were covered by 4026333 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-18_HFM2LBGXN_0_DNA230105P02_F02_X5.cnt
+Number of Tags in file:929372
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1764648
+Unique tags retained:739544
+739544 tags will be output to ../UNEAK/tagCounts/E72-06_HFM2LBGXN_0_DNA230105P01_F01_X5.cnt
+These 739544 tags were covered by 2504192 matching reads
+Tags written to:../UNEAK/tagCounts/E72-06_HFM2LBGXN_0_DNA230105P01_F01_X5.cnt
+Number of Tags in file:739544
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3010263
+Unique tags retained:810164
+810164 tags will be output to ../UNEAK/tagCounts/E72-24_HFM2LBGXN_0_DNA230105P02_F01_X5.cnt
+These 810164 tags were covered by 3820427 matching reads
+Tags written to:../UNEAK/tagCounts/E72-24_HFM2LBGXN_0_DNA230105P02_F01_X5.cnt
+Number of Tags in file:810164
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3026437
+Unique tags retained:791942
+791942 tags will be output to ../UNEAK/tagCounts/SR78-20_HFM2LBGXN_0_DNA230105P02_C04_X5.cnt
+These 791942 tags were covered by 3818379 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-20_HFM2LBGXN_0_DNA230105P02_C04_X5.cnt
+Number of Tags in file:791942
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2955209
+Unique tags retained:787075
+787075 tags will be output to ../UNEAK/tagCounts/SR-21_HFM2LBGXN_0_DNA230105P02_H01_X5.cnt
+These 787075 tags were covered by 3742284 matching reads
+Tags written to:../UNEAK/tagCounts/SR-21_HFM2LBGXN_0_DNA230105P02_H01_X5.cnt
+Number of Tags in file:787075
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2067652
+Unique tags retained:840335
+840335 tags will be output to ../UNEAK/tagCounts/E68X-08_HFM2LBGXN_0_DNA230105P01_D07_X5.cnt
+These 840335 tags were covered by 2907987 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-08_HFM2LBGXN_0_DNA230105P01_D07_X5.cnt
+Number of Tags in file:840335
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2386953
+Unique tags retained:705963
+705963 tags will be output to ../UNEAK/tagCounts/DL-06_HFM2LBGXN_0_DNA230105P01_H04_X5.cnt
+These 705963 tags were covered by 3092916 matching reads
+Tags written to:../UNEAK/tagCounts/DL-06_HFM2LBGXN_0_DNA230105P01_H04_X5.cnt
+Number of Tags in file:705963
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2653315
+Unique tags retained:807041
+807041 tags will be output to ../UNEAK/tagCounts/DI-13_HFM2LBGXN_0_DNA230105P02_B03_X5.cnt
+These 807041 tags were covered by 3460356 matching reads
+Tags written to:../UNEAK/tagCounts/DI-13_HFM2LBGXN_0_DNA230105P02_B03_X5.cnt
+Number of Tags in file:807041
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3029318
+Unique tags retained:833175
+833175 tags will be output to ../UNEAK/tagCounts/DI-18_HFM2LBGXN_0_DNA230105P02_C06_X5.cnt
+These 833175 tags were covered by 3862493 matching reads
+Tags written to:../UNEAK/tagCounts/DI-18_HFM2LBGXN_0_DNA230105P02_C06_X5.cnt
+Number of Tags in file:833175
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2366773
+Unique tags retained:904051
+904051 tags will be output to ../UNEAK/tagCounts/E72-07_HFM2LBGXN_0_DNA230105P01_G01_X5.cnt
+These 904051 tags were covered by 3270824 matching reads
+Tags written to:../UNEAK/tagCounts/E72-07_HFM2LBGXN_0_DNA230105P01_G01_X5.cnt
+Number of Tags in file:904051
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1365816
+Unique tags retained:632867
+632867 tags will be output to ../UNEAK/tagCounts/SR78-04_HFM2LBGXN_0_DNA230105P01_D02_X5.cnt
+These 632867 tags were covered by 1998683 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-04_HFM2LBGXN_0_DNA230105P01_D02_X5.cnt
+Number of Tags in file:632867
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3434352
+Unique tags retained:875485
+875485 tags will be output to ../UNEAK/tagCounts/SR78-23_HFM2LBGXN_0_DNA230105P02_A06_X5.cnt
+These 875485 tags were covered by 4309837 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-23_HFM2LBGXN_0_DNA230105P02_A06_X5.cnt
+Number of Tags in file:875485
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3119756
+Unique tags retained:913768
+913768 tags will be output to ../UNEAK/tagCounts/DL-21_HFM2LBGXN_0_DNA230105P02_A05_X5.cnt
+These 913768 tags were covered by 4033524 matching reads
+Tags written to:../UNEAK/tagCounts/DL-21_HFM2LBGXN_0_DNA230105P02_A05_X5.cnt
+Number of Tags in file:913768
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2412005
+Unique tags retained:756018
+756018 tags will be output to ../UNEAK/tagCounts/DI-15_HFM2LBGXN_0_DNA230105P02_D03_X5.cnt
+These 756018 tags were covered by 3168023 matching reads
+Tags written to:../UNEAK/tagCounts/DI-15_HFM2LBGXN_0_DNA230105P02_D03_X5.cnt
+Number of Tags in file:756018
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:556744
+Unique tags retained:445227
+445227 tags will be output to ../UNEAK/tagCounts/Blank_HFM2LBGXN_0_DNA230105P01_H01_X5.cnt
+These 445227 tags were covered by 1001971 matching reads
+Tags written to:../UNEAK/tagCounts/Blank_HFM2LBGXN_0_DNA230105P01_H01_X5.cnt
+Number of Tags in file:445227
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1808754
+Unique tags retained:744424
+744424 tags will be output to ../UNEAK/tagCounts/DL-11_HFM2LBGXN_0_DNA230105P01_E05_X5.cnt
+These 744424 tags were covered by 2553178 matching reads
+Tags written to:../UNEAK/tagCounts/DL-11_HFM2LBGXN_0_DNA230105P01_E05_X5.cnt
+Number of Tags in file:744424
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1722128
+Unique tags retained:656978
+656978 tags will be output to ../UNEAK/tagCounts/DL-01_HFM2LBGXN_0_DNA230105P01_C04_X5.cnt
+These 656978 tags were covered by 2379106 matching reads
+Tags written to:../UNEAK/tagCounts/DL-01_HFM2LBGXN_0_DNA230105P01_C04_X5.cnt
+Number of Tags in file:656978
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:908876
+Unique tags retained:431906
+431906 tags will be output to ../UNEAK/tagCounts/SR-14_HFM2LBGXN_0_DNA230105P01_D12_X5.cnt
+These 431906 tags were covered by 1340782 matching reads
+Tags written to:../UNEAK/tagCounts/SR-14_HFM2LBGXN_0_DNA230105P01_D12_X5.cnt
+Number of Tags in file:431906
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1202708
+Unique tags retained:612633
+612633 tags will be output to ../UNEAK/tagCounts/SR-09_HFM2LBGXN_0_DNA230105P01_E06_X5.cnt
+These 612633 tags were covered by 1815341 matching reads
+Tags written to:../UNEAK/tagCounts/SR-09_HFM2LBGXN_0_DNA230105P01_E06_X5.cnt
+Number of Tags in file:612633
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1710870
+Unique tags retained:651736
+651736 tags will be output to ../UNEAK/tagCounts/SR-15_HFM2LBGXN_0_DNA230105P01_E12_X5.cnt
+These 651736 tags were covered by 2362606 matching reads
+Tags written to:../UNEAK/tagCounts/SR-15_HFM2LBGXN_0_DNA230105P01_E12_X5.cnt
+Number of Tags in file:651736
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1351456
+Unique tags retained:644287
+644287 tags will be output to ../UNEAK/tagCounts/E72-05_HFM2LBGXN_0_DNA230105P01_E01_X5.cnt
+These 644287 tags were covered by 1995743 matching reads
+Tags written to:../UNEAK/tagCounts/E72-05_HFM2LBGXN_0_DNA230105P01_E01_X5.cnt
+Number of Tags in file:644287
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1258205
+Unique tags retained:645700
+645700 tags will be output to ../UNEAK/tagCounts/SR78-08_HFM2LBGXN_0_DNA230105P01_H07_X5.cnt
+These 645700 tags were covered by 1903905 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-08_HFM2LBGXN_0_DNA230105P01_H07_X5.cnt
+Number of Tags in file:645700
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2152350
+Unique tags retained:649428
+649428 tags will be output to ../UNEAK/tagCounts/DL-17_HFM2LBGXN_0_DNA230105P02_E04_X5.cnt
+These 649428 tags were covered by 2801778 matching reads
+Tags written to:../UNEAK/tagCounts/DL-17_HFM2LBGXN_0_DNA230105P02_E04_X5.cnt
+Number of Tags in file:649428
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2307238
+Unique tags retained:740449
+740449 tags will be output to ../UNEAK/tagCounts/E68X-09_HFM2LBGXN_0_DNA230105P01_E07_X5.cnt
+These 740449 tags were covered by 3047687 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-09_HFM2LBGXN_0_DNA230105P01_E07_X5.cnt
+Number of Tags in file:740449
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1642196
+Unique tags retained:504629
+504629 tags will be output to ../UNEAK/tagCounts/E68X-01_HFM2LBGXN_0_DNA230105P01_F02_X5.cnt
+These 504629 tags were covered by 2146825 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-01_HFM2LBGXN_0_DNA230105P01_F02_X5.cnt
+Number of Tags in file:504629
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2019508
+Unique tags retained:698793
+698793 tags will be output to ../UNEAK/tagCounts/DL-09_HFM2LBGXN_0_DNA230105P01_C05_X5.cnt
+These 698793 tags were covered by 2718301 matching reads
+Tags written to:../UNEAK/tagCounts/DL-09_HFM2LBGXN_0_DNA230105P01_C05_X5.cnt
+Number of Tags in file:698793
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3560895
+Unique tags retained:892665
+892665 tags will be output to ../UNEAK/tagCounts/E72-20_HFM2LBGXN_0_DNA230105P02_B01_X5.cnt
+These 892665 tags were covered by 4453560 matching reads
+Tags written to:../UNEAK/tagCounts/E72-20_HFM2LBGXN_0_DNA230105P02_B01_X5.cnt
+Number of Tags in file:892665
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2566685
+Unique tags retained:870581
+870581 tags will be output to ../UNEAK/tagCounts/DL-18_HFM2LBGXN_0_DNA230105P02_F04_X5.cnt
+These 870581 tags were covered by 3437266 matching reads
+Tags written to:../UNEAK/tagCounts/DL-18_HFM2LBGXN_0_DNA230105P02_F04_X5.cnt
+Number of Tags in file:870581
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1812521
+Unique tags retained:625230
+625230 tags will be output to ../UNEAK/tagCounts/E68X-22_HFM2LBGXN_0_DNA230105P02_E05_X5.cnt
+These 625230 tags were covered by 2437751 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-22_HFM2LBGXN_0_DNA230105P02_E05_X5.cnt
+Number of Tags in file:625230
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2909476
+Unique tags retained:678821
+678821 tags will be output to ../UNEAK/tagCounts/DL-07_HFM2LBGXN_0_DNA230105P01_A05_X5.cnt
+These 678821 tags were covered by 3588297 matching reads
+Tags written to:../UNEAK/tagCounts/DL-07_HFM2LBGXN_0_DNA230105P01_A05_X5.cnt
+Number of Tags in file:678821
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2314381
+Unique tags retained:757041
+757041 tags will be output to ../UNEAK/tagCounts/SR-03_HFM2LBGXN_0_DNA230105P01_D03_X5.cnt
+These 757041 tags were covered by 3071422 matching reads
+Tags written to:../UNEAK/tagCounts/SR-03_HFM2LBGXN_0_DNA230105P01_D03_X5.cnt
+Number of Tags in file:757041
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1953831
+Unique tags retained:695091
+695091 tags will be output to ../UNEAK/tagCounts/SR-02_HFM2LBGXN_0_DNA230105P01_C03_X5.cnt
+These 695091 tags were covered by 2648922 matching reads
+Tags written to:../UNEAK/tagCounts/SR-02_HFM2LBGXN_0_DNA230105P01_C03_X5.cnt
+Number of Tags in file:695091
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1891136
+Unique tags retained:768624
+768624 tags will be output to ../UNEAK/tagCounts/E68X-15_HFM2LBGXN_0_DNA230105P01_E09_X5.cnt
+These 768624 tags were covered by 2659760 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-15_HFM2LBGXN_0_DNA230105P01_E09_X5.cnt
+Number of Tags in file:768624
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2355053
+Unique tags retained:781218
+781218 tags will be output to ../UNEAK/tagCounts/E68X-02_HFM2LBGXN_0_DNA230105P01_G02_X5.cnt
+These 781218 tags were covered by 3136271 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-02_HFM2LBGXN_0_DNA230105P01_G02_X5.cnt
+Number of Tags in file:781218
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1176040
+Unique tags retained:616989
+616989 tags will be output to ../UNEAK/tagCounts/SR78-07_HFM2LBGXN_0_DNA230105P01_G07_X5.cnt
+These 616989 tags were covered by 1793029 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-07_HFM2LBGXN_0_DNA230105P01_G07_X5.cnt
+Number of Tags in file:616989
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3720268
+Unique tags retained:1117992
+1117992 tags will be output to ../UNEAK/tagCounts/DI-24_HFM2LBGXN_0_DNA230105P02_A07_X5.cnt
+These 1117992 tags were covered by 4838260 matching reads
+Tags written to:../UNEAK/tagCounts/DI-24_HFM2LBGXN_0_DNA230105P02_A07_X5.cnt
+Number of Tags in file:1117992
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2376055
+Unique tags retained:905943
+905943 tags will be output to ../UNEAK/tagCounts/E68X-03_HFM2LBGXN_0_DNA230105P01_H02_X5.cnt
+These 905943 tags were covered by 3281998 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-03_HFM2LBGXN_0_DNA230105P01_H02_X5.cnt
+Number of Tags in file:905943
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1907687
+Unique tags retained:732905
+732905 tags will be output to ../UNEAK/tagCounts/DL-03_HFM2LBGXN_0_DNA230105P01_E04_X5.cnt
+These 732905 tags were covered by 2640592 matching reads
+Tags written to:../UNEAK/tagCounts/DL-03_HFM2LBGXN_0_DNA230105P01_E04_X5.cnt
+Number of Tags in file:732905
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2376393
+Unique tags retained:786649
+786649 tags will be output to ../UNEAK/tagCounts/SR78-13_HFM2LBGXN_0_DNA230105P01_H09_X5.cnt
+These 786649 tags were covered by 3163042 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-13_HFM2LBGXN_0_DNA230105P01_H09_X5.cnt
+Number of Tags in file:786649
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2913967
+Unique tags retained:762714
+762714 tags will be output to ../UNEAK/tagCounts/SR78-22_HFM2LBGXN_0_DNA230105P02_H05_X5.cnt
+These 762714 tags were covered by 3676681 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-22_HFM2LBGXN_0_DNA230105P02_H05_X5.cnt
+Number of Tags in file:762714
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1224240
+Unique tags retained:606205
+606205 tags will be output to ../UNEAK/tagCounts/SR-10_HFM2LBGXN_0_DNA230105P01_F06_X5.cnt
+These 606205 tags were covered by 1830445 matching reads
+Tags written to:../UNEAK/tagCounts/SR-10_HFM2LBGXN_0_DNA230105P01_F06_X5.cnt
+Number of Tags in file:606205
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1967853
+Unique tags retained:608549
+608549 tags will be output to ../UNEAK/tagCounts/SR-24_HFM2LBGXN_0_DNA230105P02_C02_X5.cnt
+These 608549 tags were covered by 2576402 matching reads
+Tags written to:../UNEAK/tagCounts/SR-24_HFM2LBGXN_0_DNA230105P02_C02_X5.cnt
+Number of Tags in file:608549
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2644148
+Unique tags retained:829282
+829282 tags will be output to ../UNEAK/tagCounts/SR78-17_HFM2LBGXN_0_DNA230105P02_H03_X5.cnt
+These 829282 tags were covered by 3473430 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-17_HFM2LBGXN_0_DNA230105P02_H03_X5.cnt
+Number of Tags in file:829282
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1587751
+Unique tags retained:706116
+706116 tags will be output to ../UNEAK/tagCounts/E72-12_HFM2LBGXN_0_DNA230105P01_G08_X5.cnt
+These 706116 tags were covered by 2293867 matching reads
+Tags written to:../UNEAK/tagCounts/E72-12_HFM2LBGXN_0_DNA230105P01_G08_X5.cnt
+Number of Tags in file:706116
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2955966
+Unique tags retained:866298
+866298 tags will be output to ../UNEAK/tagCounts/DI-22_HFM2LBGXN_0_DNA230105P02_G06_X5.cnt
+These 866298 tags were covered by 3822264 matching reads
+Tags written to:../UNEAK/tagCounts/DI-22_HFM2LBGXN_0_DNA230105P02_G06_X5.cnt
+Number of Tags in file:866298
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1509373
+Unique tags retained:573108
+573108 tags will be output to ../UNEAK/tagCounts/SR78-01_HFM2LBGXN_0_DNA230105P01_A02_X5.cnt
+These 573108 tags were covered by 2082481 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-01_HFM2LBGXN_0_DNA230105P01_A02_X5.cnt
+Number of Tags in file:573108
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2762024
+Unique tags retained:985384
+985384 tags will be output to ../UNEAK/tagCounts/SR78-02_HFM2LBGXN_0_DNA230105P01_B02_X5.cnt
+These 985384 tags were covered by 3747408 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-02_HFM2LBGXN_0_DNA230105P01_B02_X5.cnt
+Number of Tags in file:985384
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1354923
+Unique tags retained:546889
+546889 tags will be output to ../UNEAK/tagCounts/E72-10_HFM2LBGXN_0_DNA230105P01_E08_X5.cnt
+These 546889 tags were covered by 1901812 matching reads
+Tags written to:../UNEAK/tagCounts/E72-10_HFM2LBGXN_0_DNA230105P01_E08_X5.cnt
+Number of Tags in file:546889
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1756810
+Unique tags retained:763987
+763987 tags will be output to ../UNEAK/tagCounts/E72-15_HFM2LBGXN_0_DNA230105P01_E10_X5.cnt
+These 763987 tags were covered by 2520797 matching reads
+Tags written to:../UNEAK/tagCounts/E72-15_HFM2LBGXN_0_DNA230105P01_E10_X5.cnt
+Number of Tags in file:763987
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2780918
+Unique tags retained:1047674
+1047674 tags will be output to ../UNEAK/tagCounts/DI-12_HFM2LBGXN_0_DNA230105P01_B12_X5.cnt
+These 1047674 tags were covered by 3828592 matching reads
+Tags written to:../UNEAK/tagCounts/DI-12_HFM2LBGXN_0_DNA230105P01_B12_X5.cnt
+Number of Tags in file:1047674
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1224925
+Unique tags retained:616183
+616183 tags will be output to ../UNEAK/tagCounts/DI-01_HFM2LBGXN_0_DNA230105P01_H03_X5.cnt
+These 616183 tags were covered by 1841108 matching reads
+Tags written to:../UNEAK/tagCounts/DI-01_HFM2LBGXN_0_DNA230105P01_H03_X5.cnt
+Number of Tags in file:616183
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3511269
+Unique tags retained:970766
+970766 tags will be output to ../UNEAK/tagCounts/E68X-17_HFM2LBGXN_0_DNA230105P02_E02_X5.cnt
+These 970766 tags were covered by 4482035 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-17_HFM2LBGXN_0_DNA230105P02_E02_X5.cnt
+Number of Tags in file:970766
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3971169
+Unique tags retained:975630
+975630 tags will be output to ../UNEAK/tagCounts/SR78-24_HFM2LBGXN_0_DNA230105P02_B06_X5.cnt
+These 975630 tags were covered by 4946799 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-24_HFM2LBGXN_0_DNA230105P02_B06_X5.cnt
+Number of Tags in file:975630
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2810283
+Unique tags retained:738556
+738556 tags will be output to ../UNEAK/tagCounts/DL-24_HFM2LBGXN_0_DNA230105P02_D05_X5.cnt
+These 738556 tags were covered by 3548839 matching reads
+Tags written to:../UNEAK/tagCounts/DL-24_HFM2LBGXN_0_DNA230105P02_D05_X5.cnt
+Number of Tags in file:738556
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2239152
+Unique tags retained:879058
+879058 tags will be output to ../UNEAK/tagCounts/E72-01_HFM2LBGXN_0_DNA230105P01_A01_X5.cnt
+These 879058 tags were covered by 3118210 matching reads
+Tags written to:../UNEAK/tagCounts/E72-01_HFM2LBGXN_0_DNA230105P01_A01_X5.cnt
+Number of Tags in file:879058
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1974587
+Unique tags retained:822060
+822060 tags will be output to ../UNEAK/tagCounts/DL-12_HFM2LBGXN_0_DNA230105P01_B11_X5.cnt
+These 822060 tags were covered by 2796647 matching reads
+Tags written to:../UNEAK/tagCounts/DL-12_HFM2LBGXN_0_DNA230105P01_B11_X5.cnt
+Number of Tags in file:822060
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1183437
+Unique tags retained:593602
+593602 tags will be output to ../UNEAK/tagCounts/DL-14_HFM2LBGXN_0_DNA230105P01_D11_X5.cnt
+These 593602 tags were covered by 1777039 matching reads
+Tags written to:../UNEAK/tagCounts/DL-14_HFM2LBGXN_0_DNA230105P01_D11_X5.cnt
+Number of Tags in file:593602
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1197464
+Unique tags retained:533845
+533845 tags will be output to ../UNEAK/tagCounts/SR78-05_HFM2LBGXN_0_DNA230105P01_E02_X5.cnt
+These 533845 tags were covered by 1731309 matching reads
+Tags written to:../UNEAK/tagCounts/SR78-05_HFM2LBGXN_0_DNA230105P01_E02_X5.cnt
+Number of Tags in file:533845
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2236869
+Unique tags retained:818400
+818400 tags will be output to ../UNEAK/tagCounts/E68X-10_HFM2LBGXN_0_DNA230105P01_H08_X5.cnt
+These 818400 tags were covered by 3055269 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-10_HFM2LBGXN_0_DNA230105P01_H08_X5.cnt
+Number of Tags in file:818400
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1328805
+Unique tags retained:663467
+663467 tags will be output to ../UNEAK/tagCounts/E72-03_HFM2LBGXN_0_DNA230105P01_C01_X5.cnt
+These 663467 tags were covered by 1992272 matching reads
+Tags written to:../UNEAK/tagCounts/E72-03_HFM2LBGXN_0_DNA230105P01_C01_X5.cnt
+Number of Tags in file:663467
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1456171
+Unique tags retained:696687
+696687 tags will be output to ../UNEAK/tagCounts/SR-18_HFM2LBGXN_0_DNA230105P01_H12_X5.cnt
+These 696687 tags were covered by 2152858 matching reads
+Tags written to:../UNEAK/tagCounts/SR-18_HFM2LBGXN_0_DNA230105P01_H12_X5.cnt
+Number of Tags in file:696687
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1643789
+Unique tags retained:589089
+589089 tags will be output to ../UNEAK/tagCounts/DI-11_HFM2LBGXN_0_DNA230105P01_A12_X5.cnt
+These 589089 tags were covered by 2232878 matching reads
+Tags written to:../UNEAK/tagCounts/DI-11_HFM2LBGXN_0_DNA230105P01_A12_X5.cnt
+Number of Tags in file:589089
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2427783
+Unique tags retained:779104
+779104 tags will be output to ../UNEAK/tagCounts/E68X-13_HFM2LBGXN_0_DNA230105P01_C09_X5.cnt
+These 779104 tags were covered by 3206887 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-13_HFM2LBGXN_0_DNA230105P01_C09_X5.cnt
+Number of Tags in file:779104
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3195991
+Unique tags retained:922022
+922022 tags will be output to ../UNEAK/tagCounts/E68X-21_HFM2LBGXN_0_DNA230105P02_A03_X5.cnt
+These 922022 tags were covered by 4118013 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-21_HFM2LBGXN_0_DNA230105P02_A03_X5.cnt
+Number of Tags in file:922022
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2203285
+Unique tags retained:882399
+882399 tags will be output to ../UNEAK/tagCounts/DL-13_HFM2LBGXN_0_DNA230105P01_C11_X5.cnt
+These 882399 tags were covered by 3085684 matching reads
+Tags written to:../UNEAK/tagCounts/DL-13_HFM2LBGXN_0_DNA230105P01_C11_X5.cnt
+Number of Tags in file:882399
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2473139
+Unique tags retained:710490
+710490 tags will be output to ../UNEAK/tagCounts/DI-16_HFM2LBGXN_0_DNA230105P02_E03_X5.cnt
+These 710490 tags were covered by 3183629 matching reads
+Tags written to:../UNEAK/tagCounts/DI-16_HFM2LBGXN_0_DNA230105P02_E03_X5.cnt
+Number of Tags in file:710490
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2078161
+Unique tags retained:662818
+662818 tags will be output to ../UNEAK/tagCounts/DI-17_HFM2LBGXN_0_DNA230105P02_F03_X5.cnt
+These 662818 tags were covered by 2740979 matching reads
+Tags written to:../UNEAK/tagCounts/DI-17_HFM2LBGXN_0_DNA230105P02_F03_X5.cnt
+Number of Tags in file:662818
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2873485
+Unique tags retained:841070
+841070 tags will be output to ../UNEAK/tagCounts/E68X-24_HFM2LBGXN_0_DNA230105P02_G05_X5.cnt
+These 841070 tags were covered by 3714555 matching reads
+Tags written to:../UNEAK/tagCounts/E68X-24_HFM2LBGXN_0_DNA230105P02_G05_X5.cnt
+Number of Tags in file:841070
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1592853
+Unique tags retained:623603
+623603 tags will be output to ../UNEAK/tagCounts/E72-13_HFM2LBGXN_0_DNA230105P01_C10_X5.cnt
+These 623603 tags were covered by 2216456 matching reads
+Tags written to:../UNEAK/tagCounts/E72-13_HFM2LBGXN_0_DNA230105P01_C10_X5.cnt
+Number of Tags in file:623603
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1233856
+Unique tags retained:512036
+512036 tags will be output to ../UNEAK/tagCounts/E72-09_HFM2LBGXN_0_DNA230105P01_D08_X5.cnt
+These 512036 tags were covered by 1745892 matching reads
+Tags written to:../UNEAK/tagCounts/E72-09_HFM2LBGXN_0_DNA230105P01_D08_X5.cnt
+Number of Tags in file:512036
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2013886
+Unique tags retained:761134
+761134 tags will be output to ../UNEAK/tagCounts/SR-08_HFM2LBGXN_0_DNA230105P01_D06_X5.cnt
+These 761134 tags were covered by 2775020 matching reads
+Tags written to:../UNEAK/tagCounts/SR-08_HFM2LBGXN_0_DNA230105P01_D06_X5.cnt
+Number of Tags in file:761134
+Process took 187148 milliseconds.
+Finished reading 1 of 1 sequence files.
+/usr/local/tassel3-standalone/lib/batik-ext.jar:/usr/local/tassel3-standalone/lib/commons-math-2.2.jar:/usr/local/tassel3-standalone/lib/batik-gvt.jar:/usr/local/tassel3-standalone/lib/junit-4.1.jar:/usr/local/tassel3-standalone/lib/commons-dbcp-1.2.1.jar:/usr/local/tassel3-standalone/lib/biojava3-core-3.0.jar:/usr/local/tassel3-standalone/lib/commons-lang-2.1.jar:/usr/local/tassel3-standalone/lib/xml.jar:/usr/local/tassel3-standalone/lib/mail-1.4.jar:/usr/local/tassel3-standalone/lib/axiom-api-1.2.4.jar:/usr/local/tassel3-standalone/lib/forester.jar:/usr/local/tassel3-standalone/lib/wsdl4j-1.6.2.jar:/usr/local/tassel3-standalone/lib/xercesImpl.jar:/usr/local/tassel3-standalone/lib/XmlSchema-1.3.1.jar:/usr/local/tassel3-standalone/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/usr/local/tassel3-standalone/lib/commons-httpclient-3.0.1.jar:/usr/local/tassel3-standalone/lib/batik-awt-util.jar:/usr/local/tassel3-standalone/lib/biojava3-alignment-3.0.jar:/usr/local/tassel3-standalone/lib/poi-3.0.1-FINAL-20070705.jar:/usr/local/tassel3-standalone/lib/jung-1.7.5.jar:/usr/local/tassel3-standalone/lib/batik-svg-dom.jar:/usr/local/tassel3-standalone/lib/biojava3-phylo-3.0.jar:/usr/local/tassel3-standalone/lib/commons-configuration-1.2.jar:/usr/local/tassel3-standalone/lib/batik-util.jar:/usr/local/tassel3-standalone/lib/batik-css.jar:/usr/local/tassel3-standalone/lib/batik-gui-util.jar:/usr/local/tassel3-standalone/lib/xmlParserAPIs.jar:/usr/local/tassel3-standalone/lib/ejml-0.13.jar:/usr/local/tassel3-standalone/lib/log4j-1.2.13.jar:/usr/local/tassel3-standalone/lib/ssj.jar:/usr/local/tassel3-standalone/lib/mysql-connector-java-3.1.13-bin.jar:/usr/local/tassel3-standalone/lib/commons-logging-1.1.jar:/usr/local/tassel3-standalone/lib/jgrapht-0.5.3.jar:/usr/local/tassel3-standalone/lib/LiuExt.jar:/usr/local/tassel3-standalone/lib/commons-collections-3.1.jar:/usr/local/tassel3-standalone/lib/jfreechart-1.0.3.jar:/usr/local/tassel3-standalone/lib/axis2-kernel-1.2.jar:/usr/local/tassel3-standalone/lib/batik-svggen.jar:/usr/local/tassel3-standalone/lib/axiom-impl-1.2.4.jar:/usr/local/tassel3-standalone/lib/gdpc.jar:/usr/local/tassel3-standalone/lib/colt.jar:/usr/local/tassel3-standalone/lib/batik-parser.jar:/usr/local/tassel3-standalone/lib/batik-xml.jar:/usr/local/tassel3-standalone/lib/geronimo-spec-activation-1.0.2-rc4.jar:/usr/local/tassel3-standalone/lib/crimson-parser.jar:/usr/local/tassel3-standalone/lib/batik-dom.jar:/usr/local/tassel3-standalone/lib/commons-pool-1.3.jar:/usr/local/tassel3-standalone/lib/commons-codec-1.3.jar:/usr/local/tassel3-standalone/lib/lzma-4.63-jio-0.93.jar:/usr/local/tassel3-standalone/lib/jcommon-1.0.6.jar:/usr/local/tassel3-standalone/lib/commons-discovery.jar:/usr/local/tassel3-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx100g
+Tassel Pipeline Arguments: -fork1 -UMergeTaxaTagCountPlugin -w ../UNEAK -c 5 -m 1000000000 -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+net.maizegenetics.gbs.pipeline.UMergeTaxaTagCountPlugin
+Blank
+Blank
+DI-01
+DI-02
+DI-03
+DI-04
+DI-05
+DI-06
+DI-07
+DI-08
+DI-09
+DI-10
+DI-11
+DI-12
+DI-13
+DI-14
+DI-15
+DI-16
+DI-17
+DI-18
+DI-19
+DI-20
+DI-21
+DI-22
+DI-23
+DI-24
+DL-01
+DL-02
+DL-03
+DL-04
+DL-05
+DL-06
+DL-07
+DL-08
+DL-09
+DL-10
+DL-11
+DL-12
+DL-13
+DL-14
+DL-15
+DL-16
+DL-17
+DL-18
+DL-19
+DL-20
+DL-21
+DL-22
+DL-23
+DL-24
+E68X-01
+E68X-02
+E68X-03
+E68X-04
+E68X-05
+E68X-06
+E68X-07
+E68X-08
+E68X-09
+E68X-10
+E68X-11
+E68X-12
+E68X-13
+E68X-14
+E68X-15
+E68X-16
+E68X-17
+E68X-18
+E68X-19
+E68X-20
+E68X-21
+E68X-22
+E68X-23
+E68X-24
+E72-01
+E72-02
+E72-03
+E72-04
+E72-05
+E72-06
+E72-07
+E72-08
+E72-09
+E72-10
+E72-11
+E72-12
+E72-13
+E72-14
+E72-15
+E72-16
+E72-17
+E72-18
+E72-19
+E72-20
+E72-21
+E72-22
+E72-23
+E72-24
+SR-01
+SR-02
+SR-03
+SR-04
+SR-05
+SR-06
+SR-07
+SR-08
+SR-09
+SR-10
+SR-11
+SR-12
+SR-13
+SR-14
+SR-15
+SR-16
+SR-17
+SR-18
+SR-19
+SR-20
+SR-21
+SR-22
+SR-23
+SR-24
+SR78-01
+SR78-02
+SR78-03
+SR78-04
+SR78-05
+SR78-06
+SR78-07
+SR78-08
+SR78-09
+SR78-10
+SR78-11
+SR78-12
+SR78-13
+SR78-14
+SR78-15
+SR78-16
+SR78-17
+SR78-18
+SR78-19
+SR78-20
+SR78-21
+SR78-22
+SR78-23
+SR78-24
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_HFM2LBGXN_0_DNA230105P02_B07_X5.cnt
+Number of Tags in file:4694
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_HFM2LBGXN_0_DNA230105P01_H01_X5.cnt
+Number of Tags in file:445227
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:1607
+Unique tags retained:448314
+Blank finally contains 448314 tags.
+448314 tags will be output to /media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_merged_X3.cnt
+These 448314 tags were covered by 1009571 matching reads
+Tags written to:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_merged_X3.cnt
+Number of Tags in file:448314
+2 tagCount files of Blank are merged in /media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_merged_X3.cnt
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-10_HFM2LBGXN_0_DNA230105P01_H11_X5.cnt
+Number of Tags in file:519168
+maxMemory: 102400Mb; freeMemory: 471Mb
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-18_HFM2LBGXN_0_DNA230105P01_H10_X5.cnt
+Number of Tags in file:843952
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-15_HFM2LBGXN_0_DNA230105P01_E09_X5.cnt
+Number of Tags in file:768624
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-23_HFM2LBGXN_0_DNA230105P02_A06_X5.cnt
+Number of Tags in file:875485
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-01_HFM2LBGXN_0_DNA230105P01_H03_X5.cnt
+Number of Tags in file:616183
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-02_HFM2LBGXN_0_DNA230105P01_B02_X5.cnt
+Number of Tags in file:985384
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-08_HFM2LBGXN_0_DNA230105P01_B06_X5.cnt
+Number of Tags in file:776590
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-19_HFM2LBGXN_0_DNA230105P01_A11_X5.cnt
+Number of Tags in file:932549
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-10_HFM2LBGXN_0_DNA230105P01_B08_X5.cnt
+Number of Tags in file:851671
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-22_HFM2LBGXN_0_DNA230105P02_D01_X5.cnt
+Number of Tags in file:807226
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-02_HFM2LBGXN_0_DNA230105P01_B01_X5.cnt
+Number of Tags in file:854474
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:3785932
+Unique tags retained:5045374
+Merged tagCount file of all taxa currently contains 5045374 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-14_HFM2LBGXN_0_DNA230105P01_D10_X5.cnt
+Number of Tags in file:542861
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-06_HFM2LBGXN_0_DNA230105P01_H05_X5.cnt
+Number of Tags in file:698222
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-14_HFM2LBGXN_0_DNA230105P01_D12_X5.cnt
+Number of Tags in file:431906
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-13_HFM2LBGXN_0_DNA230105P01_C12_X5.cnt
+Number of Tags in file:860309
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-20_HFM2LBGXN_0_DNA230105P02_H02_X5.cnt
+Number of Tags in file:676854
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-17_HFM2LBGXN_0_DNA230105P02_E02_X5.cnt
+Number of Tags in file:970766
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-04_HFM2LBGXN_0_DNA230105P01_F05_X5.cnt
+Number of Tags in file:624895
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-18_HFM2LBGXN_0_DNA230105P02_F04_X5.cnt
+Number of Tags in file:870581
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-03_HFM2LBGXN_0_DNA230105P01_C01_X5.cnt
+Number of Tags in file:663467
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-13_HFM2LBGXN_0_DNA230105P02_B03_X5.cnt
+Number of Tags in file:807041
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4365470
+Unique tags retained:7826806
+Merged tagCount file of all taxa currently contains 7826806 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-17_HFM2LBGXN_0_DNA230105P02_F03_X5.cnt
+Number of Tags in file:662818
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-16_HFM2LBGXN_0_DNA230105P02_E03_X5.cnt
+Number of Tags in file:710490
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-05_HFM2LBGXN_0_DNA230105P01_F03_X5.cnt
+Number of Tags in file:595930
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-15_HFM2LBGXN_0_DNA230105P01_E10_X5.cnt
+Number of Tags in file:763987
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-10_HFM2LBGXN_0_DNA230105P01_H08_X5.cnt
+Number of Tags in file:818400
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-05_HFM2LBGXN_0_DNA230105P01_E01_X5.cnt
+Number of Tags in file:644287
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-08_HFM2LBGXN_0_DNA230105P01_D06_X5.cnt
+Number of Tags in file:761134
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-05_HFM2LBGXN_0_DNA230105P01_E02_X5.cnt
+Number of Tags in file:533845
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-09_HFM2LBGXN_0_DNA230105P01_D08_X5.cnt
+Number of Tags in file:512036
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-20_HFM2LBGXN_0_DNA230105P02_H04_X5.cnt
+Number of Tags in file:776417
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4462192
+Unique tags retained:10143958
+Merged tagCount file of all taxa currently contains 10143958 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-10_HFM2LBGXN_0_DNA230105P01_E08_X5.cnt
+Number of Tags in file:546889
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-02_HFM2LBGXN_0_DNA230105P01_G02_X5.cnt
+Number of Tags in file:781218
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-23_HFM2LBGXN_0_DNA230105P02_E01_X5.cnt
+Number of Tags in file:930868
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-19_HFM2LBGXN_0_DNA230105P02_A01_X5.cnt
+Number of Tags in file:992863
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-03_HFM2LBGXN_0_DNA230105P01_H02_X5.cnt
+Number of Tags in file:905943
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-01_HFM2LBGXN_0_DNA230105P01_F02_X5.cnt
+Number of Tags in file:504629
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-19_HFM2LBGXN_0_DNA230105P02_B04_X5.cnt
+Number of Tags in file:779196
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-11_HFM2LBGXN_0_DNA230105P01_E05_X5.cnt
+Number of Tags in file:744424
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-09_HFM2LBGXN_0_DNA230105P01_E06_X5.cnt
+Number of Tags in file:612633
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-18_HFM2LBGXN_0_DNA230105P02_C06_X5.cnt
+Number of Tags in file:833175
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5040886
+Unique tags retained:12734910
+Merged tagCount file of all taxa currently contains 12734910 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_merged_X3.cnt
+Number of Tags in file:448314
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-03_HFM2LBGXN_0_DNA230105P01_E04_X5.cnt
+Number of Tags in file:732905
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-02_HFM2LBGXN_0_DNA230105P01_C03_X5.cnt
+Number of Tags in file:695091
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-05_HFM2LBGXN_0_DNA230105P01_G04_X5.cnt
+Number of Tags in file:693497
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-15_HFM2LBGXN_0_DNA230105P01_E11_X5.cnt
+Number of Tags in file:522373
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-04_HFM2LBGXN_0_DNA230105P01_F04_X5.cnt
+Number of Tags in file:724012
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-15_HFM2LBGXN_0_DNA230105P01_B10_X5.cnt
+Number of Tags in file:842906
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-14_HFM2LBGXN_0_DNA230105P01_D09_X5.cnt
+Number of Tags in file:869819
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-21_HFM2LBGXN_0_DNA230105P02_A05_X5.cnt
+Number of Tags in file:913768
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-23_HFM2LBGXN_0_DNA230105P02_C05_X5.cnt
+Number of Tags in file:645090
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5046935
+Unique tags retained:14775750
+Merged tagCount file of all taxa currently contains 14775750 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-11_HFM2LBGXN_0_DNA230105P01_F09_X5.cnt
+Number of Tags in file:781884
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-18_HFM2LBGXN_0_DNA230105P02_F02_X5.cnt
+Number of Tags in file:929372
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-12_HFM2LBGXN_0_DNA230105P01_G09_X5.cnt
+Number of Tags in file:1067790
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-12_HFM2LBGXN_0_DNA230105P01_H06_X5.cnt
+Number of Tags in file:803570
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-17_HFM2LBGXN_0_DNA230105P01_G10_X5.cnt
+Number of Tags in file:884168
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-02_HFM2LBGXN_0_DNA230105P01_A04_X5.cnt
+Number of Tags in file:718014
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-22_HFM2LBGXN_0_DNA230105P02_G06_X5.cnt
+Number of Tags in file:866298
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-16_HFM2LBGXN_0_DNA230105P02_D02_X5.cnt
+Number of Tags in file:897322
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-24_HFM2LBGXN_0_DNA230105P02_D05_X5.cnt
+Number of Tags in file:738556
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-16_HFM2LBGXN_0_DNA230105P01_F12_X5.cnt
+Number of Tags in file:837692
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5952830
+Unique tags retained:17347586
+Merged tagCount file of all taxa currently contains 17347586 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-12_HFM2LBGXN_0_DNA230105P01_G08_X5.cnt
+Number of Tags in file:706116
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-03_HFM2LBGXN_0_DNA230105P01_C02_X5.cnt
+Number of Tags in file:713002
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-14_HFM2LBGXN_0_DNA230105P01_D11_X5.cnt
+Number of Tags in file:593602
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-22_HFM2LBGXN_0_DNA230105P02_E05_X5.cnt
+Number of Tags in file:625230
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-17_HFM2LBGXN_0_DNA230105P02_E04_X5.cnt
+Number of Tags in file:649428
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-07_HFM2LBGXN_0_DNA230105P01_C07_X5.cnt
+Number of Tags in file:581946
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-16_HFM2LBGXN_0_DNA230105P02_G03_X5.cnt
+Number of Tags in file:634872
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-14_HFM2LBGXN_0_DNA230105P01_A10_X5.cnt
+Number of Tags in file:645001
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-15_HFM2LBGXN_0_DNA230105P02_D03_X5.cnt
+Number of Tags in file:756018
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-22_HFM2LBGXN_0_DNA230105P02_H05_X5.cnt
+Number of Tags in file:762714
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:4915209
+Unique tags retained:19100306
+Merged tagCount file of all taxa currently contains 19100306 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-06_HFM2LBGXN_0_DNA230105P01_F01_X5.cnt
+Number of Tags in file:739544
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-08_HFM2LBGXN_0_DNA230105P01_B05_X5.cnt
+Number of Tags in file:820615
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-07_HFM2LBGXN_0_DNA230105P01_A05_X5.cnt
+Number of Tags in file:678821
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-06_HFM2LBGXN_0_DNA230105P01_G03_X5.cnt
+Number of Tags in file:916258
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-11_HFM2LBGXN_0_DNA230105P01_A12_X5.cnt
+Number of Tags in file:589089
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-16_HFM2LBGXN_0_DNA230105P01_F11_X5.cnt
+Number of Tags in file:829436
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-19_HFM2LBGXN_0_DNA230105P02_G02_X5.cnt
+Number of Tags in file:854776
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-07_HFM2LBGXN_0_DNA230105P01_G01_X5.cnt
+Number of Tags in file:904051
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-09_HFM2LBGXN_0_DNA230105P01_C05_X5.cnt
+Number of Tags in file:698793
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-13_HFM2LBGXN_0_DNA230105P01_C09_X5.cnt
+Number of Tags in file:779104
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5641632
+Unique tags retained:21269161
+Merged tagCount file of all taxa currently contains 21269161 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-18_HFM2LBGXN_0_DNA230105P02_A04_X5.cnt
+Number of Tags in file:797649
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-09_HFM2LBGXN_0_DNA230105P01_G11_X5.cnt
+Number of Tags in file:724114
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-08_HFM2LBGXN_0_DNA230105P01_D07_X5.cnt
+Number of Tags in file:840335
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-16_HFM2LBGXN_0_DNA230105P01_F10_X5.cnt
+Number of Tags in file:681731
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-04_HFM2LBGXN_0_DNA230105P01_D01_X5.cnt
+Number of Tags in file:806122
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-10_HFM2LBGXN_0_DNA230105P01_D05_X5.cnt
+Number of Tags in file:572435
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-19_HFM2LBGXN_0_DNA230105P02_D06_X5.cnt
+Number of Tags in file:920917
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-22_HFM2LBGXN_0_DNA230105P02_A02_X5.cnt
+Number of Tags in file:901115
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-17_HFM2LBGXN_0_DNA230105P01_G12_X5.cnt
+Number of Tags in file:914358
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-05_HFM2LBGXN_0_DNA230105P01_G05_X5.cnt
+Number of Tags in file:794984
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5995746
+Unique tags retained:23227175
+Merged tagCount file of all taxa currently contains 23227175 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-08_HFM2LBGXN_0_DNA230105P01_H07_X5.cnt
+Number of Tags in file:645700
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-17_HFM2LBGXN_0_DNA230105P02_H03_X5.cnt
+Number of Tags in file:829282
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-21_HFM2LBGXN_0_DNA230105P02_D04_X5.cnt
+Number of Tags in file:695816
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-02_HFM2LBGXN_0_DNA230105P01_D04_X5.cnt
+Number of Tags in file:733881
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-14_HFM2LBGXN_0_DNA230105P02_C03_X5.cnt
+Number of Tags in file:741752
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-04_HFM2LBGXN_0_DNA230105P01_A03_X5.cnt
+Number of Tags in file:883005
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-24_HFM2LBGXN_0_DNA230105P02_C02_X5.cnt
+Number of Tags in file:608549
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-06_HFM2LBGXN_0_DNA230105P01_B07_X5.cnt
+Number of Tags in file:950376
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-24_HFM2LBGXN_0_DNA230105P02_B06_X5.cnt
+Number of Tags in file:975630
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-13_HFM2LBGXN_0_DNA230105P01_H09_X5.cnt
+Number of Tags in file:786649
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5894057
+Unique tags retained:25183758
+Merged tagCount file of all taxa currently contains 25183758 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-01_HFM2LBGXN_0_DNA230105P01_A02_X5.cnt
+Number of Tags in file:573108
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-01_HFM2LBGXN_0_DNA230105P01_B03_X5.cnt
+Number of Tags in file:836844
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-20_HFM2LBGXN_0_DNA230105P02_G01_X5.cnt
+Number of Tags in file:986388
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-21_HFM2LBGXN_0_DNA230105P02_C01_X5.cnt
+Number of Tags in file:876048
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-23_HFM2LBGXN_0_DNA230105P02_B02_X5.cnt
+Number of Tags in file:702934
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-03_HFM2LBGXN_0_DNA230105P01_D03_X5.cnt
+Number of Tags in file:757041
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-08_HFM2LBGXN_0_DNA230105P01_C08_X5.cnt
+Number of Tags in file:829404
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-03_HFM2LBGXN_0_DNA230105P01_B04_X5.cnt
+Number of Tags in file:829402
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-20_HFM2LBGXN_0_DNA230105P02_C04_X5.cnt
+Number of Tags in file:791942
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-01_HFM2LBGXN_0_DNA230105P01_A01_X5.cnt
+Number of Tags in file:879058
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:6036603
+Unique tags retained:27209324
+Merged tagCount file of all taxa currently contains 27209324 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-11_HFM2LBGXN_0_DNA230105P01_G06_X5.cnt
+Number of Tags in file:747481
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-23_HFM2LBGXN_0_DNA230105P02_F05_X5.cnt
+Number of Tags in file:688314
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-12_HFM2LBGXN_0_DNA230105P01_B09_X5.cnt
+Number of Tags in file:939313
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-23_HFM2LBGXN_0_DNA230105P02_H06_X5.cnt
+Number of Tags in file:735108
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-21_HFM2LBGXN_0_DNA230105P02_F06_X5.cnt
+Number of Tags in file:805417
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-21_HFM2LBGXN_0_DNA230105P02_H01_X5.cnt
+Number of Tags in file:787075
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-19_HFM2LBGXN_0_DNA230105P02_G04_X5.cnt
+Number of Tags in file:768860
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-18_HFM2LBGXN_0_DNA230105P01_H12_X5.cnt
+Number of Tags in file:696687
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-09_HFM2LBGXN_0_DNA230105P01_E07_X5.cnt
+Number of Tags in file:740449
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-22_HFM2LBGXN_0_DNA230105P02_B05_X5.cnt
+Number of Tags in file:778377
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5855273
+Unique tags retained:29041132
+Merged tagCount file of all taxa currently contains 29041132 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-13_HFM2LBGXN_0_DNA230105P01_C11_X5.cnt
+Number of Tags in file:882399
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-05_HFM2LBGXN_0_DNA230105P01_A07_X5.cnt
+Number of Tags in file:810506
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-11_HFM2LBGXN_0_DNA230105P01_A09_X5.cnt
+Number of Tags in file:983790
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-11_HFM2LBGXN_0_DNA230105P01_F08_X5.cnt
+Number of Tags in file:411360
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-04_HFM2LBGXN_0_DNA230105P01_D02_X5.cnt
+Number of Tags in file:632867
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-24_HFM2LBGXN_0_DNA230105P02_F01_X5.cnt
+Number of Tags in file:810164
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-09_HFM2LBGXN_0_DNA230105P01_A08_X5.cnt
+Number of Tags in file:986374
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-06_HFM2LBGXN_0_DNA230105P01_H04_X5.cnt
+Number of Tags in file:705963
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-01_HFM2LBGXN_0_DNA230105P01_C04_X5.cnt
+Number of Tags in file:656978
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-04_HFM2LBGXN_0_DNA230105P01_E03_X5.cnt
+Number of Tags in file:702982
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5935104
+Unique tags retained:30689411
+Merged tagCount file of all taxa currently contains 30689411 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-07_HFM2LBGXN_0_DNA230105P01_G07_X5.cnt
+Number of Tags in file:616989
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-06_HFM2LBGXN_0_DNA230105P01_F07_X5.cnt
+Number of Tags in file:394876
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-20_HFM2LBGXN_0_DNA230105P02_E06_X5.cnt
+Number of Tags in file:958182
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-10_HFM2LBGXN_0_DNA230105P01_F06_X5.cnt
+Number of Tags in file:606205
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-12_HFM2LBGXN_0_DNA230105P01_B12_X5.cnt
+Number of Tags in file:1047674
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-24_HFM2LBGXN_0_DNA230105P02_G05_X5.cnt
+Number of Tags in file:841070
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-20_HFM2LBGXN_0_DNA230105P02_B01_X5.cnt
+Number of Tags in file:892665
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-15_HFM2LBGXN_0_DNA230105P01_E12_X5.cnt
+Number of Tags in file:651736
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-13_HFM2LBGXN_0_DNA230105P01_C10_X5.cnt
+Number of Tags in file:623603
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-21_HFM2LBGXN_0_DNA230105P02_A03_X5.cnt
+Number of Tags in file:922022
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:5614286
+Unique tags retained:32630147
+Merged tagCount file of all taxa currently contains 32630147 tags.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-24_HFM2LBGXN_0_DNA230105P02_A07_X5.cnt
+Number of Tags in file:1117992
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-07_HFM2LBGXN_0_DNA230105P01_A06_X5.cnt
+Number of Tags in file:860112
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-07_HFM2LBGXN_0_DNA230105P01_C06_X5.cnt
+Number of Tags in file:944662
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-12_HFM2LBGXN_0_DNA230105P01_B11_X5.cnt
+Number of Tags in file:822060
+Position index sort begin.
+Position index sort end.
+Position index sort begin.
+Position index sort end.
+Rows collapsed:2818232
+Unique tags retained:33556741
+Merged tagCount file of all taxa finally contains 33556741 tags.
+3806632 tags will be output to /media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/mergedTagCounts/mergedAll.cnt
+These 3806632 tags were covered by 403858421 matching reads
+Tags written to:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/mergedTagCounts/mergedAll.cnt
+Number of Tags in file:3806632
+/usr/local/tassel3-standalone/lib/batik-ext.jar:/usr/local/tassel3-standalone/lib/commons-math-2.2.jar:/usr/local/tassel3-standalone/lib/batik-gvt.jar:/usr/local/tassel3-standalone/lib/junit-4.1.jar:/usr/local/tassel3-standalone/lib/commons-dbcp-1.2.1.jar:/usr/local/tassel3-standalone/lib/biojava3-core-3.0.jar:/usr/local/tassel3-standalone/lib/commons-lang-2.1.jar:/usr/local/tassel3-standalone/lib/xml.jar:/usr/local/tassel3-standalone/lib/mail-1.4.jar:/usr/local/tassel3-standalone/lib/axiom-api-1.2.4.jar:/usr/local/tassel3-standalone/lib/forester.jar:/usr/local/tassel3-standalone/lib/wsdl4j-1.6.2.jar:/usr/local/tassel3-standalone/lib/xercesImpl.jar:/usr/local/tassel3-standalone/lib/XmlSchema-1.3.1.jar:/usr/local/tassel3-standalone/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/usr/local/tassel3-standalone/lib/commons-httpclient-3.0.1.jar:/usr/local/tassel3-standalone/lib/batik-awt-util.jar:/usr/local/tassel3-standalone/lib/biojava3-alignment-3.0.jar:/usr/local/tassel3-standalone/lib/poi-3.0.1-FINAL-20070705.jar:/usr/local/tassel3-standalone/lib/jung-1.7.5.jar:/usr/local/tassel3-standalone/lib/batik-svg-dom.jar:/usr/local/tassel3-standalone/lib/biojava3-phylo-3.0.jar:/usr/local/tassel3-standalone/lib/commons-configuration-1.2.jar:/usr/local/tassel3-standalone/lib/batik-util.jar:/usr/local/tassel3-standalone/lib/batik-css.jar:/usr/local/tassel3-standalone/lib/batik-gui-util.jar:/usr/local/tassel3-standalone/lib/xmlParserAPIs.jar:/usr/local/tassel3-standalone/lib/ejml-0.13.jar:/usr/local/tassel3-standalone/lib/log4j-1.2.13.jar:/usr/local/tassel3-standalone/lib/ssj.jar:/usr/local/tassel3-standalone/lib/mysql-connector-java-3.1.13-bin.jar:/usr/local/tassel3-standalone/lib/commons-logging-1.1.jar:/usr/local/tassel3-standalone/lib/jgrapht-0.5.3.jar:/usr/local/tassel3-standalone/lib/LiuExt.jar:/usr/local/tassel3-standalone/lib/commons-collections-3.1.jar:/usr/local/tassel3-standalone/lib/jfreechart-1.0.3.jar:/usr/local/tassel3-standalone/lib/axis2-kernel-1.2.jar:/usr/local/tassel3-standalone/lib/batik-svggen.jar:/usr/local/tassel3-standalone/lib/axiom-impl-1.2.4.jar:/usr/local/tassel3-standalone/lib/gdpc.jar:/usr/local/tassel3-standalone/lib/colt.jar:/usr/local/tassel3-standalone/lib/batik-parser.jar:/usr/local/tassel3-standalone/lib/batik-xml.jar:/usr/local/tassel3-standalone/lib/geronimo-spec-activation-1.0.2-rc4.jar:/usr/local/tassel3-standalone/lib/crimson-parser.jar:/usr/local/tassel3-standalone/lib/batik-dom.jar:/usr/local/tassel3-standalone/lib/commons-pool-1.3.jar:/usr/local/tassel3-standalone/lib/commons-codec-1.3.jar:/usr/local/tassel3-standalone/lib/lzma-4.63-jio-0.93.jar:/usr/local/tassel3-standalone/lib/jcommon-1.0.6.jar:/usr/local/tassel3-standalone/lib/commons-discovery.jar:/usr/local/tassel3-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx100g
+Tassel Pipeline Arguments: -fork1 -UTagCountToTagPairPlugin -w ../UNEAK -e 0.05 -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+net.maizegenetics.gbs.pipeline.UTagCountToTagPairPlugin
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/mergedTagCounts/mergedAll.cnt
+Number of Tags in file:3806632
+Old Lookup Size:7613264  new size:7292149
+Initialization is done
+Sequencing error tolerance rate is 0.05
+1412986 TagAlignments found. 1324989 are size = 1, 87997 are error curated from size > 1
+247886 reciprocal TagPairs found
+TagPair file is written to /media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagPair/tagPair.tps
+/usr/local/tassel3-standalone/lib/batik-ext.jar:/usr/local/tassel3-standalone/lib/commons-math-2.2.jar:/usr/local/tassel3-standalone/lib/batik-gvt.jar:/usr/local/tassel3-standalone/lib/junit-4.1.jar:/usr/local/tassel3-standalone/lib/commons-dbcp-1.2.1.jar:/usr/local/tassel3-standalone/lib/biojava3-core-3.0.jar:/usr/local/tassel3-standalone/lib/commons-lang-2.1.jar:/usr/local/tassel3-standalone/lib/xml.jar:/usr/local/tassel3-standalone/lib/mail-1.4.jar:/usr/local/tassel3-standalone/lib/axiom-api-1.2.4.jar:/usr/local/tassel3-standalone/lib/forester.jar:/usr/local/tassel3-standalone/lib/wsdl4j-1.6.2.jar:/usr/local/tassel3-standalone/lib/xercesImpl.jar:/usr/local/tassel3-standalone/lib/XmlSchema-1.3.1.jar:/usr/local/tassel3-standalone/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/usr/local/tassel3-standalone/lib/commons-httpclient-3.0.1.jar:/usr/local/tassel3-standalone/lib/batik-awt-util.jar:/usr/local/tassel3-standalone/lib/biojava3-alignment-3.0.jar:/usr/local/tassel3-standalone/lib/poi-3.0.1-FINAL-20070705.jar:/usr/local/tassel3-standalone/lib/jung-1.7.5.jar:/usr/local/tassel3-standalone/lib/batik-svg-dom.jar:/usr/local/tassel3-standalone/lib/biojava3-phylo-3.0.jar:/usr/local/tassel3-standalone/lib/commons-configuration-1.2.jar:/usr/local/tassel3-standalone/lib/batik-util.jar:/usr/local/tassel3-standalone/lib/batik-css.jar:/usr/local/tassel3-standalone/lib/batik-gui-util.jar:/usr/local/tassel3-standalone/lib/xmlParserAPIs.jar:/usr/local/tassel3-standalone/lib/ejml-0.13.jar:/usr/local/tassel3-standalone/lib/log4j-1.2.13.jar:/usr/local/tassel3-standalone/lib/ssj.jar:/usr/local/tassel3-standalone/lib/mysql-connector-java-3.1.13-bin.jar:/usr/local/tassel3-standalone/lib/commons-logging-1.1.jar:/usr/local/tassel3-standalone/lib/jgrapht-0.5.3.jar:/usr/local/tassel3-standalone/lib/LiuExt.jar:/usr/local/tassel3-standalone/lib/commons-collections-3.1.jar:/usr/local/tassel3-standalone/lib/jfreechart-1.0.3.jar:/usr/local/tassel3-standalone/lib/axis2-kernel-1.2.jar:/usr/local/tassel3-standalone/lib/batik-svggen.jar:/usr/local/tassel3-standalone/lib/axiom-impl-1.2.4.jar:/usr/local/tassel3-standalone/lib/gdpc.jar:/usr/local/tassel3-standalone/lib/colt.jar:/usr/local/tassel3-standalone/lib/batik-parser.jar:/usr/local/tassel3-standalone/lib/batik-xml.jar:/usr/local/tassel3-standalone/lib/geronimo-spec-activation-1.0.2-rc4.jar:/usr/local/tassel3-standalone/lib/crimson-parser.jar:/usr/local/tassel3-standalone/lib/batik-dom.jar:/usr/local/tassel3-standalone/lib/commons-pool-1.3.jar:/usr/local/tassel3-standalone/lib/commons-codec-1.3.jar:/usr/local/tassel3-standalone/lib/lzma-4.63-jio-0.93.jar:/usr/local/tassel3-standalone/lib/jcommon-1.0.6.jar:/usr/local/tassel3-standalone/lib/commons-discovery.jar:/usr/local/tassel3-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx100g
+Tassel Pipeline Arguments: -fork1 -UTagPairToTBTPlugin -w ../UNEAK -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+net.maizegenetics.gbs.pipeline.UTagPairToTBTPlugin
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagPair/tagPair.tps
+Number of Tags in file:495772
+Position index sort begin.
+Position index sort end.
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_merged_X3.cnt
+Number of Tags in file:448314
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-01_HFM2LBGXN_0_DNA230105P01_H03_X5.cnt
+Number of Tags in file:616183
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-02_HFM2LBGXN_0_DNA230105P01_A04_X5.cnt
+Number of Tags in file:718014
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-03_HFM2LBGXN_0_DNA230105P01_B04_X5.cnt
+Number of Tags in file:829402
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-04_HFM2LBGXN_0_DNA230105P01_F05_X5.cnt
+Number of Tags in file:624895
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-05_HFM2LBGXN_0_DNA230105P01_G05_X5.cnt
+Number of Tags in file:794984
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-06_HFM2LBGXN_0_DNA230105P01_H05_X5.cnt
+Number of Tags in file:698222
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-07_HFM2LBGXN_0_DNA230105P01_A06_X5.cnt
+Number of Tags in file:860112
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-08_HFM2LBGXN_0_DNA230105P01_B06_X5.cnt
+Number of Tags in file:776590
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-09_HFM2LBGXN_0_DNA230105P01_G11_X5.cnt
+Number of Tags in file:724114
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-10_HFM2LBGXN_0_DNA230105P01_H11_X5.cnt
+Number of Tags in file:519168
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-11_HFM2LBGXN_0_DNA230105P01_A12_X5.cnt
+Number of Tags in file:589089
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-12_HFM2LBGXN_0_DNA230105P01_B12_X5.cnt
+Number of Tags in file:1047674
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-13_HFM2LBGXN_0_DNA230105P02_B03_X5.cnt
+Number of Tags in file:807041
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-14_HFM2LBGXN_0_DNA230105P02_C03_X5.cnt
+Number of Tags in file:741752
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-15_HFM2LBGXN_0_DNA230105P02_D03_X5.cnt
+Number of Tags in file:756018
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-16_HFM2LBGXN_0_DNA230105P02_E03_X5.cnt
+Number of Tags in file:710490
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-17_HFM2LBGXN_0_DNA230105P02_F03_X5.cnt
+Number of Tags in file:662818
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-18_HFM2LBGXN_0_DNA230105P02_C06_X5.cnt
+Number of Tags in file:833175
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-19_HFM2LBGXN_0_DNA230105P02_D06_X5.cnt
+Number of Tags in file:920917
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-20_HFM2LBGXN_0_DNA230105P02_E06_X5.cnt
+Number of Tags in file:958182
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-21_HFM2LBGXN_0_DNA230105P02_F06_X5.cnt
+Number of Tags in file:805417
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-22_HFM2LBGXN_0_DNA230105P02_G06_X5.cnt
+Number of Tags in file:866298
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-23_HFM2LBGXN_0_DNA230105P02_H06_X5.cnt
+Number of Tags in file:735108
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DI-24_HFM2LBGXN_0_DNA230105P02_A07_X5.cnt
+Number of Tags in file:1117992
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-01_HFM2LBGXN_0_DNA230105P01_C04_X5.cnt
+Number of Tags in file:656978
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-02_HFM2LBGXN_0_DNA230105P01_D04_X5.cnt
+Number of Tags in file:733881
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-03_HFM2LBGXN_0_DNA230105P01_E04_X5.cnt
+Number of Tags in file:732905
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-04_HFM2LBGXN_0_DNA230105P01_F04_X5.cnt
+Number of Tags in file:724012
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-05_HFM2LBGXN_0_DNA230105P01_G04_X5.cnt
+Number of Tags in file:693497
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-06_HFM2LBGXN_0_DNA230105P01_H04_X5.cnt
+Number of Tags in file:705963
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-07_HFM2LBGXN_0_DNA230105P01_A05_X5.cnt
+Number of Tags in file:678821
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-08_HFM2LBGXN_0_DNA230105P01_B05_X5.cnt
+Number of Tags in file:820615
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-09_HFM2LBGXN_0_DNA230105P01_C05_X5.cnt
+Number of Tags in file:698793
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-10_HFM2LBGXN_0_DNA230105P01_D05_X5.cnt
+Number of Tags in file:572435
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-11_HFM2LBGXN_0_DNA230105P01_E05_X5.cnt
+Number of Tags in file:744424
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-12_HFM2LBGXN_0_DNA230105P01_B11_X5.cnt
+Number of Tags in file:822060
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-13_HFM2LBGXN_0_DNA230105P01_C11_X5.cnt
+Number of Tags in file:882399
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-14_HFM2LBGXN_0_DNA230105P01_D11_X5.cnt
+Number of Tags in file:593602
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-15_HFM2LBGXN_0_DNA230105P01_E11_X5.cnt
+Number of Tags in file:522373
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-16_HFM2LBGXN_0_DNA230105P01_F11_X5.cnt
+Number of Tags in file:829436
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-17_HFM2LBGXN_0_DNA230105P02_E04_X5.cnt
+Number of Tags in file:649428
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-18_HFM2LBGXN_0_DNA230105P02_F04_X5.cnt
+Number of Tags in file:870581
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-19_HFM2LBGXN_0_DNA230105P02_G04_X5.cnt
+Number of Tags in file:768860
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-20_HFM2LBGXN_0_DNA230105P02_H04_X5.cnt
+Number of Tags in file:776417
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-21_HFM2LBGXN_0_DNA230105P02_A05_X5.cnt
+Number of Tags in file:913768
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-22_HFM2LBGXN_0_DNA230105P02_B05_X5.cnt
+Number of Tags in file:778377
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-23_HFM2LBGXN_0_DNA230105P02_C05_X5.cnt
+Number of Tags in file:645090
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/DL-24_HFM2LBGXN_0_DNA230105P02_D05_X5.cnt
+Number of Tags in file:738556
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-01_HFM2LBGXN_0_DNA230105P01_F02_X5.cnt
+Number of Tags in file:504629
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-02_HFM2LBGXN_0_DNA230105P01_G02_X5.cnt
+Number of Tags in file:781218
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-03_HFM2LBGXN_0_DNA230105P01_H02_X5.cnt
+Number of Tags in file:905943
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-04_HFM2LBGXN_0_DNA230105P01_A03_X5.cnt
+Number of Tags in file:883005
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-05_HFM2LBGXN_0_DNA230105P01_A07_X5.cnt
+Number of Tags in file:810506
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-06_HFM2LBGXN_0_DNA230105P01_B07_X5.cnt
+Number of Tags in file:950376
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-07_HFM2LBGXN_0_DNA230105P01_C07_X5.cnt
+Number of Tags in file:581946
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-08_HFM2LBGXN_0_DNA230105P01_D07_X5.cnt
+Number of Tags in file:840335
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-09_HFM2LBGXN_0_DNA230105P01_E07_X5.cnt
+Number of Tags in file:740449
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-10_HFM2LBGXN_0_DNA230105P01_H08_X5.cnt
+Number of Tags in file:818400
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-11_HFM2LBGXN_0_DNA230105P01_A09_X5.cnt
+Number of Tags in file:983790
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-12_HFM2LBGXN_0_DNA230105P01_B09_X5.cnt
+Number of Tags in file:939313
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-13_HFM2LBGXN_0_DNA230105P01_C09_X5.cnt
+Number of Tags in file:779104
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-14_HFM2LBGXN_0_DNA230105P01_D09_X5.cnt
+Number of Tags in file:869819
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-15_HFM2LBGXN_0_DNA230105P01_E09_X5.cnt
+Number of Tags in file:768624
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-16_HFM2LBGXN_0_DNA230105P02_D02_X5.cnt
+Number of Tags in file:897322
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-17_HFM2LBGXN_0_DNA230105P02_E02_X5.cnt
+Number of Tags in file:970766
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-18_HFM2LBGXN_0_DNA230105P02_F02_X5.cnt
+Number of Tags in file:929372
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-19_HFM2LBGXN_0_DNA230105P02_G02_X5.cnt
+Number of Tags in file:854776
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-20_HFM2LBGXN_0_DNA230105P02_H02_X5.cnt
+Number of Tags in file:676854
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-21_HFM2LBGXN_0_DNA230105P02_A03_X5.cnt
+Number of Tags in file:922022
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-22_HFM2LBGXN_0_DNA230105P02_E05_X5.cnt
+Number of Tags in file:625230
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-23_HFM2LBGXN_0_DNA230105P02_F05_X5.cnt
+Number of Tags in file:688314
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E68X-24_HFM2LBGXN_0_DNA230105P02_G05_X5.cnt
+Number of Tags in file:841070
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-01_HFM2LBGXN_0_DNA230105P01_A01_X5.cnt
+Number of Tags in file:879058
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-02_HFM2LBGXN_0_DNA230105P01_B01_X5.cnt
+Number of Tags in file:854474
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-03_HFM2LBGXN_0_DNA230105P01_C01_X5.cnt
+Number of Tags in file:663467
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-04_HFM2LBGXN_0_DNA230105P01_D01_X5.cnt
+Number of Tags in file:806122
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-05_HFM2LBGXN_0_DNA230105P01_E01_X5.cnt
+Number of Tags in file:644287
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-06_HFM2LBGXN_0_DNA230105P01_F01_X5.cnt
+Number of Tags in file:739544
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-07_HFM2LBGXN_0_DNA230105P01_G01_X5.cnt
+Number of Tags in file:904051
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-08_HFM2LBGXN_0_DNA230105P01_C08_X5.cnt
+Number of Tags in file:829404
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-09_HFM2LBGXN_0_DNA230105P01_D08_X5.cnt
+Number of Tags in file:512036
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-10_HFM2LBGXN_0_DNA230105P01_E08_X5.cnt
+Number of Tags in file:546889
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-11_HFM2LBGXN_0_DNA230105P01_F08_X5.cnt
+Number of Tags in file:411360
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-12_HFM2LBGXN_0_DNA230105P01_G08_X5.cnt
+Number of Tags in file:706116
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-13_HFM2LBGXN_0_DNA230105P01_C10_X5.cnt
+Number of Tags in file:623603
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-14_HFM2LBGXN_0_DNA230105P01_D10_X5.cnt
+Number of Tags in file:542861
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-15_HFM2LBGXN_0_DNA230105P01_E10_X5.cnt
+Number of Tags in file:763987
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-16_HFM2LBGXN_0_DNA230105P01_F10_X5.cnt
+Number of Tags in file:681731
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-17_HFM2LBGXN_0_DNA230105P01_G10_X5.cnt
+Number of Tags in file:884168
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-18_HFM2LBGXN_0_DNA230105P01_H10_X5.cnt
+Number of Tags in file:843952
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-19_HFM2LBGXN_0_DNA230105P01_A11_X5.cnt
+Number of Tags in file:932549
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-20_HFM2LBGXN_0_DNA230105P02_B01_X5.cnt
+Number of Tags in file:892665
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-21_HFM2LBGXN_0_DNA230105P02_C01_X5.cnt
+Number of Tags in file:876048
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-22_HFM2LBGXN_0_DNA230105P02_D01_X5.cnt
+Number of Tags in file:807226
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-23_HFM2LBGXN_0_DNA230105P02_E01_X5.cnt
+Number of Tags in file:930868
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/E72-24_HFM2LBGXN_0_DNA230105P02_F01_X5.cnt
+Number of Tags in file:810164
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-01_HFM2LBGXN_0_DNA230105P01_B03_X5.cnt
+Number of Tags in file:836844
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-02_HFM2LBGXN_0_DNA230105P01_C03_X5.cnt
+Number of Tags in file:695091
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-03_HFM2LBGXN_0_DNA230105P01_D03_X5.cnt
+Number of Tags in file:757041
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-04_HFM2LBGXN_0_DNA230105P01_E03_X5.cnt
+Number of Tags in file:702982
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-05_HFM2LBGXN_0_DNA230105P01_F03_X5.cnt
+Number of Tags in file:595930
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-06_HFM2LBGXN_0_DNA230105P01_G03_X5.cnt
+Number of Tags in file:916258
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-07_HFM2LBGXN_0_DNA230105P01_C06_X5.cnt
+Number of Tags in file:944662
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-08_HFM2LBGXN_0_DNA230105P01_D06_X5.cnt
+Number of Tags in file:761134
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-09_HFM2LBGXN_0_DNA230105P01_E06_X5.cnt
+Number of Tags in file:612633
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-10_HFM2LBGXN_0_DNA230105P01_F06_X5.cnt
+Number of Tags in file:606205
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-11_HFM2LBGXN_0_DNA230105P01_G06_X5.cnt
+Number of Tags in file:747481
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-12_HFM2LBGXN_0_DNA230105P01_H06_X5.cnt
+Number of Tags in file:803570
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-13_HFM2LBGXN_0_DNA230105P01_C12_X5.cnt
+Number of Tags in file:860309
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-14_HFM2LBGXN_0_DNA230105P01_D12_X5.cnt
+Number of Tags in file:431906
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-15_HFM2LBGXN_0_DNA230105P01_E12_X5.cnt
+Number of Tags in file:651736
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-16_HFM2LBGXN_0_DNA230105P01_F12_X5.cnt
+Number of Tags in file:837692
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-17_HFM2LBGXN_0_DNA230105P01_G12_X5.cnt
+Number of Tags in file:914358
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-18_HFM2LBGXN_0_DNA230105P01_H12_X5.cnt
+Number of Tags in file:696687
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-19_HFM2LBGXN_0_DNA230105P02_A01_X5.cnt
+Number of Tags in file:992863
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-20_HFM2LBGXN_0_DNA230105P02_G01_X5.cnt
+Number of Tags in file:986388
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-21_HFM2LBGXN_0_DNA230105P02_H01_X5.cnt
+Number of Tags in file:787075
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-22_HFM2LBGXN_0_DNA230105P02_A02_X5.cnt
+Number of Tags in file:901115
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-23_HFM2LBGXN_0_DNA230105P02_B02_X5.cnt
+Number of Tags in file:702934
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR-24_HFM2LBGXN_0_DNA230105P02_C02_X5.cnt
+Number of Tags in file:608549
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-01_HFM2LBGXN_0_DNA230105P01_A02_X5.cnt
+Number of Tags in file:573108
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-02_HFM2LBGXN_0_DNA230105P01_B02_X5.cnt
+Number of Tags in file:985384
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-03_HFM2LBGXN_0_DNA230105P01_C02_X5.cnt
+Number of Tags in file:713002
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-04_HFM2LBGXN_0_DNA230105P01_D02_X5.cnt
+Number of Tags in file:632867
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-05_HFM2LBGXN_0_DNA230105P01_E02_X5.cnt
+Number of Tags in file:533845
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-06_HFM2LBGXN_0_DNA230105P01_F07_X5.cnt
+Number of Tags in file:394876
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-07_HFM2LBGXN_0_DNA230105P01_G07_X5.cnt
+Number of Tags in file:616989
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-08_HFM2LBGXN_0_DNA230105P01_H07_X5.cnt
+Number of Tags in file:645700
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-09_HFM2LBGXN_0_DNA230105P01_A08_X5.cnt
+Number of Tags in file:986374
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-10_HFM2LBGXN_0_DNA230105P01_B08_X5.cnt
+Number of Tags in file:851671
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-11_HFM2LBGXN_0_DNA230105P01_F09_X5.cnt
+Number of Tags in file:781884
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-12_HFM2LBGXN_0_DNA230105P01_G09_X5.cnt
+Number of Tags in file:1067790
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-13_HFM2LBGXN_0_DNA230105P01_H09_X5.cnt
+Number of Tags in file:786649
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-14_HFM2LBGXN_0_DNA230105P01_A10_X5.cnt
+Number of Tags in file:645001
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-15_HFM2LBGXN_0_DNA230105P01_B10_X5.cnt
+Number of Tags in file:842906
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-16_HFM2LBGXN_0_DNA230105P02_G03_X5.cnt
+Number of Tags in file:634872
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-17_HFM2LBGXN_0_DNA230105P02_H03_X5.cnt
+Number of Tags in file:829282
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-18_HFM2LBGXN_0_DNA230105P02_A04_X5.cnt
+Number of Tags in file:797649
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-19_HFM2LBGXN_0_DNA230105P02_B04_X5.cnt
+Number of Tags in file:779196
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-20_HFM2LBGXN_0_DNA230105P02_C04_X5.cnt
+Number of Tags in file:791942
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-21_HFM2LBGXN_0_DNA230105P02_D04_X5.cnt
+Number of Tags in file:695816
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-22_HFM2LBGXN_0_DNA230105P02_H05_X5.cnt
+Number of Tags in file:762714
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-23_HFM2LBGXN_0_DNA230105P02_A06_X5.cnt
+Number of Tags in file:875485
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/SR78-24_HFM2LBGXN_0_DNA230105P02_B06_X5.cnt
+Number of Tags in file:975630
+495772 tags will be output to tbt.bin
+Tags written to:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagsByTaxa/tbt.bin
+Number of tags in file:495772
+/usr/local/tassel3-standalone/lib/batik-ext.jar:/usr/local/tassel3-standalone/lib/commons-math-2.2.jar:/usr/local/tassel3-standalone/lib/batik-gvt.jar:/usr/local/tassel3-standalone/lib/junit-4.1.jar:/usr/local/tassel3-standalone/lib/commons-dbcp-1.2.1.jar:/usr/local/tassel3-standalone/lib/biojava3-core-3.0.jar:/usr/local/tassel3-standalone/lib/commons-lang-2.1.jar:/usr/local/tassel3-standalone/lib/xml.jar:/usr/local/tassel3-standalone/lib/mail-1.4.jar:/usr/local/tassel3-standalone/lib/axiom-api-1.2.4.jar:/usr/local/tassel3-standalone/lib/forester.jar:/usr/local/tassel3-standalone/lib/wsdl4j-1.6.2.jar:/usr/local/tassel3-standalone/lib/xercesImpl.jar:/usr/local/tassel3-standalone/lib/XmlSchema-1.3.1.jar:/usr/local/tassel3-standalone/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/usr/local/tassel3-standalone/lib/commons-httpclient-3.0.1.jar:/usr/local/tassel3-standalone/lib/batik-awt-util.jar:/usr/local/tassel3-standalone/lib/biojava3-alignment-3.0.jar:/usr/local/tassel3-standalone/lib/poi-3.0.1-FINAL-20070705.jar:/usr/local/tassel3-standalone/lib/jung-1.7.5.jar:/usr/local/tassel3-standalone/lib/batik-svg-dom.jar:/usr/local/tassel3-standalone/lib/biojava3-phylo-3.0.jar:/usr/local/tassel3-standalone/lib/commons-configuration-1.2.jar:/usr/local/tassel3-standalone/lib/batik-util.jar:/usr/local/tassel3-standalone/lib/batik-css.jar:/usr/local/tassel3-standalone/lib/batik-gui-util.jar:/usr/local/tassel3-standalone/lib/xmlParserAPIs.jar:/usr/local/tassel3-standalone/lib/ejml-0.13.jar:/usr/local/tassel3-standalone/lib/log4j-1.2.13.jar:/usr/local/tassel3-standalone/lib/ssj.jar:/usr/local/tassel3-standalone/lib/mysql-connector-java-3.1.13-bin.jar:/usr/local/tassel3-standalone/lib/commons-logging-1.1.jar:/usr/local/tassel3-standalone/lib/jgrapht-0.5.3.jar:/usr/local/tassel3-standalone/lib/LiuExt.jar:/usr/local/tassel3-standalone/lib/commons-collections-3.1.jar:/usr/local/tassel3-standalone/lib/jfreechart-1.0.3.jar:/usr/local/tassel3-standalone/lib/axis2-kernel-1.2.jar:/usr/local/tassel3-standalone/lib/batik-svggen.jar:/usr/local/tassel3-standalone/lib/axiom-impl-1.2.4.jar:/usr/local/tassel3-standalone/lib/gdpc.jar:/usr/local/tassel3-standalone/lib/colt.jar:/usr/local/tassel3-standalone/lib/batik-parser.jar:/usr/local/tassel3-standalone/lib/batik-xml.jar:/usr/local/tassel3-standalone/lib/geronimo-spec-activation-1.0.2-rc4.jar:/usr/local/tassel3-standalone/lib/crimson-parser.jar:/usr/local/tassel3-standalone/lib/batik-dom.jar:/usr/local/tassel3-standalone/lib/commons-pool-1.3.jar:/usr/local/tassel3-standalone/lib/commons-codec-1.3.jar:/usr/local/tassel3-standalone/lib/lzma-4.63-jio-0.93.jar:/usr/local/tassel3-standalone/lib/jcommon-1.0.6.jar:/usr/local/tassel3-standalone/lib/commons-discovery.jar:/usr/local/tassel3-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx100g
+Tassel Pipeline Arguments: -fork1 -UTBTToMapInfoPlugin -w ../UNEAK -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+net.maizegenetics.gbs.pipeline.UTBTToMapInfoPlugin
+Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagsByTaxa/tbt.bin
+Number of Taxa in file:145
+Number of Haplotypes in file:495772
+247886 TagPairs are read
+TBT file and TagPair file match
+247886 HapMap records written to MapInfo file /media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/mapInfo/mapInfo.bin
+/usr/local/tassel3-standalone/lib/batik-ext.jar:/usr/local/tassel3-standalone/lib/commons-math-2.2.jar:/usr/local/tassel3-standalone/lib/batik-gvt.jar:/usr/local/tassel3-standalone/lib/junit-4.1.jar:/usr/local/tassel3-standalone/lib/commons-dbcp-1.2.1.jar:/usr/local/tassel3-standalone/lib/biojava3-core-3.0.jar:/usr/local/tassel3-standalone/lib/commons-lang-2.1.jar:/usr/local/tassel3-standalone/lib/xml.jar:/usr/local/tassel3-standalone/lib/mail-1.4.jar:/usr/local/tassel3-standalone/lib/axiom-api-1.2.4.jar:/usr/local/tassel3-standalone/lib/forester.jar:/usr/local/tassel3-standalone/lib/wsdl4j-1.6.2.jar:/usr/local/tassel3-standalone/lib/xercesImpl.jar:/usr/local/tassel3-standalone/lib/XmlSchema-1.3.1.jar:/usr/local/tassel3-standalone/lib/cisd-jhdf5-batteries_included_lin_win_mac.jar:/usr/local/tassel3-standalone/lib/commons-httpclient-3.0.1.jar:/usr/local/tassel3-standalone/lib/batik-awt-util.jar:/usr/local/tassel3-standalone/lib/biojava3-alignment-3.0.jar:/usr/local/tassel3-standalone/lib/poi-3.0.1-FINAL-20070705.jar:/usr/local/tassel3-standalone/lib/jung-1.7.5.jar:/usr/local/tassel3-standalone/lib/batik-svg-dom.jar:/usr/local/tassel3-standalone/lib/biojava3-phylo-3.0.jar:/usr/local/tassel3-standalone/lib/commons-configuration-1.2.jar:/usr/local/tassel3-standalone/lib/batik-util.jar:/usr/local/tassel3-standalone/lib/batik-css.jar:/usr/local/tassel3-standalone/lib/batik-gui-util.jar:/usr/local/tassel3-standalone/lib/xmlParserAPIs.jar:/usr/local/tassel3-standalone/lib/ejml-0.13.jar:/usr/local/tassel3-standalone/lib/log4j-1.2.13.jar:/usr/local/tassel3-standalone/lib/ssj.jar:/usr/local/tassel3-standalone/lib/mysql-connector-java-3.1.13-bin.jar:/usr/local/tassel3-standalone/lib/commons-logging-1.1.jar:/usr/local/tassel3-standalone/lib/jgrapht-0.5.3.jar:/usr/local/tassel3-standalone/lib/LiuExt.jar:/usr/local/tassel3-standalone/lib/commons-collections-3.1.jar:/usr/local/tassel3-standalone/lib/jfreechart-1.0.3.jar:/usr/local/tassel3-standalone/lib/axis2-kernel-1.2.jar:/usr/local/tassel3-standalone/lib/batik-svggen.jar:/usr/local/tassel3-standalone/lib/axiom-impl-1.2.4.jar:/usr/local/tassel3-standalone/lib/gdpc.jar:/usr/local/tassel3-standalone/lib/colt.jar:/usr/local/tassel3-standalone/lib/batik-parser.jar:/usr/local/tassel3-standalone/lib/batik-xml.jar:/usr/local/tassel3-standalone/lib/geronimo-spec-activation-1.0.2-rc4.jar:/usr/local/tassel3-standalone/lib/crimson-parser.jar:/usr/local/tassel3-standalone/lib/batik-dom.jar:/usr/local/tassel3-standalone/lib/commons-pool-1.3.jar:/usr/local/tassel3-standalone/lib/commons-codec-1.3.jar:/usr/local/tassel3-standalone/lib/lzma-4.63-jio-0.93.jar:/usr/local/tassel3-standalone/lib/jcommon-1.0.6.jar:/usr/local/tassel3-standalone/lib/commons-discovery.jar:/usr/local/tassel3-standalone/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx100g
+Tassel Pipeline Arguments: -fork1 -UMapInfoToHapMapPlugin -w ../UNEAK -mnMAF 0.05 -mxMAF 0.5 -mnC 0 -mxC 1 -endPlugin -runfork1
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Version: 3.0.174  Date: March 3, 2016
+net.maizegenetics.gbs.pipeline.UMapInfoToHapMapPlugin
+247886 HapMap records read from the MapInfo file /media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/mapInfo/mapInfo.bin
+HapMap file is written. There are 196944 SNPs in total
+HapMapCount file is written
+HapMapSeq file is written
+
+Universal Network Enabled Analysis Kit(UNEAK) is published.
+Please check in our website http://www.maizegenetics.net/ and cite the paper 
+Switchgrass genomic diversity, ploidy and evolution: novel insights from a network-based SNP discovery protocol(2013). 
+by Fei Lu, Alexander E. Lipka, Rob Elshire, Jeff Glaubitz, Jerome H. Cherney, Michael D. Casler, Edward Buckler, Denise E. Costich. 
+PLoS Genetics 9(1):e1003215.

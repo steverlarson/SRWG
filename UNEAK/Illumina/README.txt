@@ -1,0 +1,1 @@
+This directory should contain a file named HFM2LBGXN_0_fastq.txt.gz, also known as GBS068, which was the original name of the sequence file as it came of the Illumina NextSeq500. This file is available from the NCBI Short Read Archive (SRA) BioProject accession number PRJNA1000582 as SRR25464476.

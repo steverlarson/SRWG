@@ -1,0 +1,6 @@
+Parameter	Value
+Min No. of reads per allele to call heterozygote	2
+Min No. of reads of major allele to call homozygote (0|X)	6
+Ratio of minor:total to call hets	0.1
+Max proportion missing data across the population to keep the SNP as a marker	0.3
+Utilize binary distribution to determine hets/hom	Yes
