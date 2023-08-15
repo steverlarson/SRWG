@@ -1,0 +1,6 @@
+Pop_1	pop_DI
+Pop_2	pop_DL
+Pop_3	pop_E68X
+Pop_4	pop_E72
+Pop_5	pop_SR
+Pop_6	pop_SR78

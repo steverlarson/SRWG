@@ -1,0 +1,28 @@
+SELECT
+gbs.flowcell as 'Flowcell',
+gbs.lane as 'Lane',
+barcodes.barcode as 'Barcode',
+dna.sample_name as 'Sample',
+dna.plate_id as 'PlateName',
+substring(dna.well_A01,1,1) as 'Row',
+substring(dna.well_A01,2,2) as 'Column',
+concat(gbs.gbs_id,barcodes.barcode) as 'LibraryPrepID',
+barcodes.well_A01 as 'BarcodeWell',
+gbs.enzyme as 'Enzyme',
+gbs.gbs_id as 'LibraryPlateID',
+dna.plate_id as 'DNA_Plate',
+dna.well_A01 as 'SampleDNA_Well',
+substring(gbs.species,12) as 'Species',
+'NA' as 'Pedigree',
+'NA' as 'Population',
+'NA' as 'SeedLot',
+dna.sample_name as 'SampleName',
+gbs.plexing,
+gbs.project,
+dna.sample_id,
+dna.tissue_id
+FROM dna LEFT JOIN gbs ON gbs.dna_id = dna.plate_id
+INNER JOIN barcodes ON dna.well_A01 = barcodes.well_A01 AND gbs.plexing LIKE barcodes.`set`
+WHERE gbs.gbs_name LIKE 'TJ-SnakeRiverWhtGrass'
+
+ORDER BY gbs.gbs_id, dna.well_01A 

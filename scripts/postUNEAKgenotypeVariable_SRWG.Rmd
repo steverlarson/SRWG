@@ -1,0 +1,342 @@
+---
+title: "POST UNEAK"
+author: "Working in R with the .hmc.txt file from the UNEAK output"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document 
+editor_options: 
+  chunk_output_type: console
+---
+   
+# The script written to filter SNPs, call 0,1,2 (Homo for Allele 1, Het, Homo for Allele 2, respectively)
+  
+
+# Set working Directory to appropriate location.
+```{r setup, eval=TRUE}
+#required packages
+setwd("~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/")
+
+# Parameters to define
+
+# Min # of reads per allele to call heterozygote
+minHet=2 #was 2
+# Min # of reads of major allele to call homozygote (0|X)
+minHom=6
+# Ratio of minor/total to call hets
+hetRatio=0.1
+# Max propotion missing data across the population to keep the SNP as a marker
+maxMiss=0.30
+
+
+
+```
+
+###### Functions  ###########
+```{r functions, eval=TRUE}
+
+# This function classifies the string x (e.g., "0|1") as a 0,1,2 (homo1,het,homo2).
+# It returns a new vector of equal dimensions with said classification. It does NOT
+# filter/remove any values (though it may output some NAs instead of 0, 1, or 2).
+
+call.hets <- function(x, Thresh, numSamples)  {
+  # Reformats data to be counts of number of times each allele was sequenced.
+  Counts <- as.numeric(strsplit(as.character(x),"\\|")[[1]])
+  
+  #Finds total reads for this marker & individual
+  Total <- sum(Counts)
+  
+  #If there are no reads, call it NA
+  if (Total < (numSamples * 2))           {
+    Out <- NA
+  }
+  
+  #Minor allele count
+  Minor <- min(Counts)
+  
+  #Major allele ID
+  Major <- which(Counts==max(Counts))[1]
+  
+  # Set het as default
+  Out <- 1
+  
+  #Obvious homozygote
+  if (Minor == 0 && Total <= minHom) {
+    Out <- NA
+  }
+  
+  if (Minor == 0 && Total > minHom)         {
+    Out <- c(0,2)[Major]        #Where 0 means first allele, and 2 means second
+  }
+  
+  #Ratios!
+  R1 <- Minor/Total #Reads of one over all reads
+  
+  #Is there just one read? Or are there just enough reads in general?
+  if (Minor > 0 &&  R1 < hetRatio)        {
+    Prob <- pbinom(Minor, Total, 0.25)
+    if (Prob <= Thresh)         {
+      Out <- c(0,2)[Major]      #Homozygote for allele 1= 0, for 2 = 2
+    }
+    # If prob IS NOT less than Thresh, then Out remains a heterozygote (default from above)
+    if (Prob > Thresh)           {
+      Out <- 1
+    }
+  }
+
+  #Set a minimum of 2 reads for each allele
+  minTot=minHet*2
+  if (Minor < minHet && Total < minTot) {
+    Out <- NA
+  }
+  return (Out)
+}
+
+# This function effectively returns a matrix (out.Mat) with the same dimensions as Matrix.
+# It uses each cell/value of Matrix and calls call.hets on it and writes that value to the
+# same position in the new matrix
+
+count.hets <- function(Matrix, def.Thresh, def.numSamples) {
+  Mat <- as.matrix(Matrix)
+  Vec <- as.vector(Mat)
+  
+#            sapply(object, func to apply, func arg1, func arg2) # no need to specify 1 (by-row) or 2 (by-col) because sapply works on only vectors/lists (1-dimensional), it returns a vector
+  out.Vec <- sapply(Vec, call.hets, Thresh=def.Thresh, numSamples=def.numSamples)
+
+# turn the vector into a matrix, splitting the vector every len/nrow items to produce nrow rows
+  out.Mat <- matrix(out.Vec, nrow=nrow(Mat))
+  return(out.Mat)
+}
+
+
+
+# This function gets rid of rows with >= Limit # of NAs
+remove.SNPs <- function(Output, Limit)  {
+#             apply(object, by-rows, func to apply)
+  Parser <- 1-apply(Output, 1, function(x) sum(as.numeric(is.na(x)))/length(x))
+  Parser2 <- which(Parser >= Limit)
+  out.Output <- Output[Parser2,]
+  rownames(out.Output) <- rownames(Output)[Parser2]
+  return(out.Output)
+}
+
+# end of functions
+
+```
+
+ 
+######### read in file
+
+```{r munge_one, eval=TRUE}
+
+Input <- read.delim(file = '~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/HapMap.hmc.txt', header = TRUE, stringsAsFactors = FALSE, check.names = FALSE)
+
+#Input_sub <- Input[,-c(51:74)] #this removes E68X
+#could comment out args and hardcode path and files names for inFileName and outFileName
+#args <- commandArgs(trailingOnly = TRUE)
+#inFileName <- ""
+#outFileName <- ""
+
+
+#Input <- read.table(inFileName, header=TRUE, row.names=1, sep="\t")
+
+#subhmc = Input[, grep("merged", colnames(Input), value=FALSE, fixed=FALSE)]
+#Old way to count samples
+#numSamples <- tail(grep("merged", colnames(Input), value=FALSE, fixed=FALSE), n=1)
+#New way to count samples knowing there are 5 extra columns in the UNEAK HapMap.hmc.txt output file
+numSamples <- ncol(Input)-5
+subhmc = Input[, 2:numSamples] 
+
+#convert dataframe to matrix
+
+Matrix <- subhmc
+
+#run count.hets (and call.hets within count.hets) function on Matrix
+Output <- count.hets(Matrix, def.Thresh=0.05, def.numSamples=numSamples)
+
+rownames(Output) <- Input$rs
+colnames(Output) <- colnames(Matrix)
+
+#if maxMiss 0.3, the minGood = 0.7, which is a limit of 30% missing data
+minGood=1-maxMiss
+parsed.Output.Lim <- remove.SNPs(Output, Limit=minGood)
+
+write.table(parsed.Output.Lim, file="~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/TJ_SRWG_2_6_30pctmiss.geno", sep="\t", row.names=TRUE, col.names=NA, quote=F)
+
+TJ_SRWG_2_6_30pctmiss.geno <- read.table(file="~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/TJ_SRWG_2_6_30pctmiss.geno")
+
+#Make and write a table of the parameters used for this analysis
+params_used <- data.frame("Parameter" = c("Min No. of reads per allele to call heterozygote", "Min No. of reads of major allele to call homozygote (0|X)", "Ratio of minor:total to call hets", "Max proportion missing data across the population to keep the SNP as a marker", "Utilize binary distribution to determine hets/hom"), "Value" = c(minHet, minHom, hetRatio,maxMiss,"Yes"))
+write.table(params_used, file="~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/postUNEAKgenotypeParams.txt", sep="\t", quote=F, row.names=F)
+```
+
+#polyrad
+```{r munge_two, eval=TRUE}
+#library(polyRAD)
+require(polyRAD)
+mydata <- readHMC("~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/HapMap.hmc.txt", fastafile = "~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/HapMap.fas.txt")
+GetTaxa(mydata)
+#mydata <- SubsetByTaxon(mydata,c(1:49,74:144)) #this was to avoid E68X
+mydata <- SetBlankTaxa(mydata,c("Blank"))
+GetBlankTaxa(mydata)
+EstimateContaminationRate(mydata) # the second blank well 
+
+## Tag counts for blank wells 
+# Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_HFM2LBGXN_0_DNA230105P02_B07_X5.cnt
+# Number of Tags in file:4694
+# Reading Haplotypes distribution from:/media/bigdata/shared/Steve/Analysis_tools/1-TJ_SRWG/scripts/../UNEAK/tagCounts/Blank_HFM2LBGXN_0_DNA230105P01_H01_X5.cnt
+# Number of Tags in file:44522
+## Note that blank well for plate DNA230105P01 has way too many reads. 
+
+print(mydata$locDepth[1:100,1:10])
+
+plant_depth <- as.data.frame(rowSums(mydata$locDepth)) #depth by plant
+mean(rowSums(mydata$locDepth))
+min(rowSums(mydata$locDepth))
+max(rowSums(mydata$locDepth))
+
+loc_depth <- as.data.frame(colSums(mydata$locDepth)) #depth by locus
+mean(colSums(mydata$locDepth))
+min(colSums(mydata$locDepth))
+max(colSums(mydata$locDepth))
+
+# filter markers based on locDepth
+mydata_sub1 <- mydata
+mydata_sub1 <- RemoveHighDepthLoci(mydata)
+loc_depth <- as.data.frame(colSums(mydata_sub1$locDepth)) #depth by locus
+mean(colSums(mydata_sub1$locDepth))
+min(colSums(mydata_sub1$locDepth))
+max(colSums(mydata_sub1$locDepth))
+loc_depth$marker <- rownames(loc_depth)
+keeploc <- as.numeric(loc_depth[loc_depth$`colSums(mydata_sub1$locDepth)`> 1500 & loc_depth$`colSums(mydata_sub1$locDepth)`< 2000,c(2)] )  #manually filter loci for minimum depth
+mydata_sub1 <- SubsetByLocus(mydata_sub1, keeploc)  #set minimum d
+mean(colSums(mydata_sub1$locDepth))
+min(colSums(mydata_sub1$locDepth))
+max(colSums(mydata_sub1$locDepth))
+loc_depth <- as.data.frame(colSums(mydata_sub1$locDepth))
+hist(loc_depth$`colSums(mydata_sub1$locDepth)`)
+
+plant_depth <- as.data.frame(rowSums(mydata_sub1$locDepth)) #depth by plant
+mean(rowSums(mydata_sub1$locDepth))
+min(rowSums(mydata_sub1$locDepth))
+max(rowSums(mydata_sub1$locDepth))
+
+overdispersionP <- TestOverdispersion(mydata_sub1, to_test = seq(8, 20, by =2))
+sapply(overdispersionP[names(overdispersionP) != "optimal"],
+       quantile, probs = c(0.01, 0.25, 0.5, 0.75, 0.99))
+
+SetContamRate(mydata_sub1, .001) 
+
+
+GetBlankTaxa(mydata_sub1)
+
+mydata_sub1 <- AddGenotypeLikelihood(mydata_sub1, overdispersion = 20)
+mydata_sub1$alleleDepth[1:10,1:10]
+mydata_sub1$genotypeLikelihood[[1]][,1:12,1:6]
+
+mydata_sub1 <- AddPCA(mydata_sub1)
+
+mypca <- as.data.frame(mydata_sub1$PCA)
+mypca$id <- rownames(mypca)
+head(mypca)
+mypca$source <- substr(mypca$id, 1 ,nchar(mypca$id)-3)
+head(mypca)
+mypca$source <- as.factor(mypca$source) #make factor
+plot(mypca$PC1, mypca$PC2, col = mypca$source, cex = 1,  pch = 18, xlab = 'PCA 1 (%)', ylab = 'PCA 2 (%)')
+legend('bottomleft', legend = unique(mypca$source), col = 1:length(mypca$source), pch = 18, cex = 1)
+#Note that the blank looks like E72, which was present in wells A01:G01 above the blank well (H01) in plate DNA230105P01.  
+
+mypca <- mypca[rownames(mypca)!="Blank",] #remove blank 
+mypca$source <- substr(mypca$id, 1 ,nchar(mypca$id)-3)
+head(mypca)
+mypca$source <- as.factor(mypca$source) #make factor
+plot(mypca$PC1, mypca$PC2, col = mypca$source, cex = 1,  pch = 18, xlab = 'PCA 1 (%)', ylab = 'PCA 2 (%)')
+legend('bottomleft', legend = unique(mypca$source), col = 1:length(mypca$source), pch = 18, cex = 1)
+
+# remove DI-05 well G05, DI-08 well B06, and SR-07 is C06 look like off types. These offtypes were on plate DNA230105P01, which has contaminated blank
+goodtaxa <- mypca[!(mypca$id %in% c("Blank","DI-05","DI-08","SR-07")),c("id")]
+mydata_sub1 <- SubsetByTaxon(mydata_sub1,goodtaxa)
+mydata_sub1 <- AddPCA(mydata_sub1)
+mypca <- as.data.frame(mydata_sub1$PCA)
+mypca$id <- rownames(mypca)
+mypca$source <- substr(mypca$id, 1 ,nchar(mypca$id)-3)
+head(mypca)
+mypca$source <- as.factor(mypca$source) #make factor
+plot(mypca$PC1, mypca$PC2, col = mypca$source, cex = 1,  pch = 18, xlab = 'PCA 1 (%)', ylab = 'PCA 2 (%)')
+legend('bottomright', legend = unique(mypca$source), col = 1:length(mypca$source), pch = 18, cex = 1)
+
+
+myhindhe <- HindHe(mydata_sub1)
+myhindheByLoc <- colMeans(myhindhe, na.rm = TRUE)
+hist(myhindheByLoc, col = "lightgrey",
+     xlab = "Hind/He", main = "Histogram of Hind/He by locus")
+abline(v = 0.5, col = "blue", lwd = 2)
+
+
+mydata_sub1 <- AddAlleleFreqHWE(mydata_sub1)
+mydata_sub1$alleleFreq
+mydata_sub1$alleles2loc
+
+theseloci <- GetLoci(mydata_sub1)[mydata_sub1$alleles2loc[mydata_sub1$alleleFreq >= 0.05 & mydata_sub1$alleleFreq < 0.5]]
+theseloci <- unique(theseloci)
+myhindheByLoc2 <- colMeans(myhindhe[, theseloci], na.rm = TRUE)
+hist(myhindheByLoc2, col = "lightgrey",
+     xlab = "Hind/He", breaks = 20, main = "Histogram of Hind/He by locus, MAF >= 0.05")
+abline(v = 0.5, col = "blue", lwd = 2)
+
+#compare with charts https://cran.r-project.org/web/packages/polyRAD/vignettes/polyRADtutorial.html
+#chart shows very low inbreeding < 0.1 for Hind/He of 0.45 diploid overdispershion of 20
+
+mydataHWE <- IterateHWE(mydata_sub1, tol = 1e-3, overdispersion = 20)
+hist(mydataHWE$alleleFreq, breaks = 20, col = "lightgrey")
+
+mydataPopStruct <- IteratePopStruct(mydata_sub1, selfing.rate = 0, minfreq = 0.05, nPcsInit = 8, tol = 5e-03, overdispersion = 20)
+hist(mydataPopStruct$alleleFreq, breaks = 20, col = "lightgrey")
+myallele <- 1
+freqcol <- heat.colors(101)[round(mydataPopStruct$alleleFreqByTaxa[,myallele] * 100) + 1]
+
+mydata_sub1 <- AddGenotypeLikelihood(mydata_sub1, overdispersion = 20)
+mydata_sub1 <- AddAlleleFreqByTaxa(mydata_sub1)
+mydata_sub1 <- AddGenotypePriorProb_ByTaxa(mydata_sub1)
+mydata_sub1 <- AddGenotypePosteriorProb(mydata_sub1) 
+mydata_geno <- GetProbableGenotypes(mydata_sub1)
+mydata_geno$genotypes[1:141,1:1000]
+ 
+mydata_sub1 <- AddPCA(mydata_sub1)
+
+mypca <- as.data.frame(mydata_sub1$PCA)
+mypca$id <- rownames(mypca)
+head(mypca)
+mypca <- mypca[rownames(mypca)!="Blank",]
+mypca$source <- substr(mypca$id, 1 ,nchar(mypca$id)-3)
+head(mypca)
+mypca$source <- as.factor(mypca$source) #make factor
+plot(mypca$PC1, mypca$PC2, col = mypca$source, cex = 1,  pch = 18, xlab = 'PCA 1 (%)', ylab = 'PCA 2 (%)')
+legend('bottomleft', legend = unique(mypca$source), col = 1:length(mypca$source), pch = 18, cex = 1)
+
+Export_Structure(mydata_sub1, '~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/poprad_structure_out.txt' , missingIfZeroReads = FALSE) #use missingIfZeroReads = FALSE to use prior probs for missing data
+
+structure <- read.delim(file = '~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/poprad_structure_out.txt', header = TRUE, stringsAsFactors = FALSE, check.names = FALSE)
+structure$pop <- substr(structure[,c(1)], 1 , nchar(structure[,c(1)])-3) #add population identifiers
+structure <- structure[,c(1, ncol(structure), 2:ncol(structure)-1)]
+structure <- structure[,-c(3)]
+write.table(structure, file="~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/poprad_structure_out_pops.txt", sep="\t", row.names=FALSE, quote=F) #this can be converted to ARLEQUIN.arp file by PGDSpider
+#need to remove pop from header row using text editor, it will go into PGDspider
+#use PGD spider to convert structure to AMOVA.arp
+#use ARLEQUIN (C:\Users\Steve.Larson\Documents\WinArl35\WinArl35)
+
+mydata_wtgeno <- GetWeightedMeanGenotypes(mydata_sub1)
+mydata_wtgeno[1:100,1:100]
+Export_TASSEL_Numeric(mydata_sub1, '~/bigshare/Steve/Analysis_tools/1-TJ_SRWG/UNEAK/hapMap/poprad_tassel_numeric_out.txt' ,)
+
+
+
+
+```
+
+
+
+# Session Information
+
+```{r sessionInformation}
+sessionInfo()
+```
+
