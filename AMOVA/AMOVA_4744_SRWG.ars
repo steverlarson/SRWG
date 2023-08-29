@@ -28,7 +28,7 @@
 #GENOTYPE ASSIGNMENT TEST: +32768
 #MANTEL TEST: +65536
 
-TaskNumber=9219
+TaskNumber=1024
 #----------------------------------------------------------------------------
 
 #----------------
@@ -39,7 +39,7 @@ TaskNumber=9219
 
 #XMLOutput controls if the results are output into an XML or an HTML file format
 
-XMLOutput=1
+XMLOutput=0
 #arlecore64 controls if the computations are performed in 64 bit by arlecore64.exe external windows
 
 arlecore64=1
@@ -182,11 +182,11 @@ ComputeDvalues=0
 
 #ComputeStandardDiversityIndices controls if standard diversity indices are to be computed
 
-ComputeStandardDiversityIndices=1
+ComputeStandardDiversityIndices=0
 
 #ComputeAllAlleleFreqs controls if allele frequencies are computed at all loci
 
-ComputeAllAlleleFreqs=1
+ComputeAllAlleleFreqs=0
 
 #ComputeMissDataFreq controls if missing data allele frequencies are computed or ignored
 

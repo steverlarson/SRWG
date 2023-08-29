@@ -1,12 +1,12 @@
-Log file path: Z:/Steve/Analysis_tools/1-TJ_SRWG/AMOVA/AMOVA_4744_SRWG.res/Arlequin_log.txt
+Log file path: Z:/Steve/Analysis_tools/SRWG/AMOVA/AMOVA_4744_SRWG.res/Arlequin_log.txt
 Core Program Directory: C:/Users/Steve.Larson/Documents/WinArl35/WinArl35/
-Random number generator initialized with lidum=-1345970
+Random number generator initialized with lidum=-1213162
 Reading project profile section...
 done !
 Opening next project...
-Z:/Steve/Analysis_tools/1-TJ_SRWG/AMOVA/AMOVA_4744_SRWG.arp
+Z:/Steve/Analysis_tools/SRWG/AMOVA/AMOVA_4744_SRWG.arp
 ////////////////////////////////////////////////////////////////////
-RUN NUMBER 1 (26/07/23 at 16:39:35)
+RUN NUMBER 1 (29/08/23 at 14:31:43)
 ////////////////////////////////////////////////////////////////////
 
 
@@ -14,107 +14,67 @@ Reading Project:
 Reading input file ...
 	Reading Samples section ...
 	Reading pop_DI ... 
-	done ! (95 ms)
+	done ! (90 ms)
 
 	Reading pop_DL ... 
-	done ! (73 ms)
+	done ! (75 ms)
 
 	Reading pop_E68X ... 
 	done ! (76 ms)
 
 	Reading pop_E72 ... 
-	done ! (71 ms)
+	done ! (72 ms)
 
 	Reading pop_SR ... 
-	done ! (66 ms)
+	done ! (69 ms)
 
 	Reading pop_SR78 ... 
-	done ! (65 ms)
+	done ! (66 ms)
 
-	done reading Samples section! (449 ms)
-done ! (449 ms)
+	done reading Samples section! (458 ms)
+done ! (458 ms)
 
 ------------------------------------------------------------------------
   Checking all selected options...
 		Building vectors of alleles...
-		done in 58 ms
-		Processing phenotypes into pseudo-haplotypes...
-		done in 8 ms
-		Building vectors of alleles...
-		done in 50 ms
+		done in 62 ms
   done!
   check selected settings...
   done!
 
 Population 'pop_DI' : 
-	Computing standard diversity indices ...
-	done ! (226 ms)
-	Computing molecular diversity...
-		Beginning distance computations ...
-		done ! (12 ms)
-	done ! (12 ms)
-done in 244 ms
+done in 0 ms
 
 Population 'pop_DL' : 
-	Computing standard diversity indices ...
-	done ! (243 ms)
-	Computing molecular diversity...
-		Beginning distance computations ...
-		done ! (15 ms)
-	done ! (15 ms)
-done in 263 ms
+done in 1 ms
 
 Population 'pop_E68X' : 
-	Computing standard diversity indices ...
-	done ! (199 ms)
-	Computing molecular diversity...
-		Beginning distance computations ...
-		done ! (16 ms)
-	done ! (16 ms)
-done in 220 ms
+done in 0 ms
 
 Population 'pop_E72' : 
-	Computing standard diversity indices ...
-	done ! (209 ms)
-	Computing molecular diversity...
-		Beginning distance computations ...
-		done ! (14 ms)
-	done ! (14 ms)
-done in 228 ms
+done in 1 ms
 
 Population 'pop_SR' : 
-	Computing standard diversity indices ...
-	done ! (225 ms)
-	Computing molecular diversity...
-		Beginning distance computations ...
-		done ! (15 ms)
-	done ! (15 ms)
-done in 246 ms
+done in 0 ms
 
 Population 'pop_SR78' : 
-	Computing standard diversity indices ...
-	done ! (224 ms)
-	Computing molecular diversity...
-		Beginning distance computations ...
-		done ! (13 ms)
-	done ! (13 ms)
-done in 242 ms
+done in 1 ms
 	Converting phenotypic to haplotypic data ...
-	done ! (53 ms)
+	done ! (66 ms)
 		Beginning distance computations ...
-		done ! (595 ms)
+		done ! (593 ms)
 	Computing pairwise Fst's ... 
 
-271 ms to compute pairwise differences and test significance
+284 ms to compute pairwise differences and test significance
 
 All FST distances have been computed and written to file
 
-	done ! (284 ms)
-		done ! (287 ms)
+	done ! (289 ms)
+		done ! (291 ms)
 
 ////////////////////////////////////////////////////////////////////
-END OF RUN NUMBER 1 (26/07/23 at 16:40:14))
-Total computing time for this run : 0h 0m 39s 698 ms
+END OF RUN NUMBER 1 (29/08/23 at 14:31:45))
+Total computing time for this run : 0h 0m 1s 725 ms
 ////////////////////////////////////////////////////////////////////
 
-Successful run of Z:/Steve/Analysis_tools/1-TJ_SRWG/AMOVA/AMOVA_4744_SRWG.arp
+Successful run of Z:/Steve/Analysis_tools/SRWG/AMOVA/AMOVA_4744_SRWG.arp
