@@ -322,3 +322,19 @@
 
 
 
+
+	[[Structure]]
+
+		StructureName="New Edited Structure"
+		NbGroups=1
+
+		Group={
+			"pop_DI"
+			"pop_DL"
+			"pop_E68X"
+			"pop_E72"
+			"pop_SR"
+			"pop_SR78"
+		}
+
+

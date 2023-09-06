@@ -28,7 +28,7 @@
 #GENOTYPE ASSIGNMENT TEST: +32768
 #MANTEL TEST: +65536
 
-TaskNumber=1024
+TaskNumber=1538
 #----------------------------------------------------------------------------
 
 #----------------
@@ -190,7 +190,7 @@ ComputeAllAlleleFreqs=0
 
 #ComputeMissDataFreq controls if missing data allele frequencies are computed or ignored
 
-ComputeMissDataFreq=1
+ComputeMissDataFreq=0
 
 #DistanceMethod controls the choice of the distance to be computed between haplotypes
 #DNA:      DIFF=0, JUKES_CANTOR=1, KIMURA_2P=2, P_DIST=3, TAJIMA_NEI=4, TAMURA=5, TAMURA_NEI=6
@@ -421,7 +421,7 @@ GibbsOutputGamPhase=0
 #HaplAMOVA controls if the AMOVA computations need to be performed globally,
  for all loci at the same time, as for haplotypes
 
-HaplAMOVA=0
+HaplAMOVA=1
 
 #LocByLocAMOVA controls if the AMOVA computations need to be performed separately for each locus.
 
@@ -430,7 +430,7 @@ LocByLocAMOVA=0
 #PopSpecificFST controls if population specific FST indices need to be computed.
 
 PopSpecificFST=0
-PopSpecificFIS=0
+PopSpecificFIS=1
 
 #TestSignificanceAMOVA should be set to 1 to perfrom significance testing of the variance components
 #OBSOLETE settings (could probably be removed), because significance testing is 
@@ -451,7 +451,7 @@ ComputeConventionalFST=0
 #IncludeIndividualLevel controls if FIS statistics and associated variance components
 #should be computed
 
-IncludeIndividualLevel=0
+IncludeIndividualLevel=1
 
 #ComputeDistanceMatrixAMOVA controls if a matrix of pairwise Euclidian distances needs to be computed
 #and used for AMOVA computations
@@ -473,7 +473,7 @@ GammaAValueAMOVA=0.000000
 #PrintDistanceMatrix controls if the matrix of pairwise distance between haplotypes should
 #be output in the result file
 
-PrintDistanceMatrix=0
+PrintDistanceMatrix=1
 
 #PrintMinSpannNetworkGlob controls if a Minimum Spanning Network need sto be computed from a matrix
 #or pairwise distances between all pairs of haplotypes found in the population samples included in the
@@ -552,7 +552,7 @@ PrecProbPopDiff=0.000000
 #PrintHistoPopDiff controls if a summary table of siginificant differences beteen populations
 #nshould be printed in the result file
 
-PrintHistoPopDiff=0
+PrintHistoPopDiff=1
 
 #SignLevelPopDiffis the p-value under which population differences are assumed to be significant
 #and reported as such in the result file

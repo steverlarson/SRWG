@@ -299,6 +299,7 @@ mydata_sub1 <- AddAlleleFreqByTaxa(mydata_sub1)
 mydata_sub1 <- AddGenotypePriorProb_ByTaxa(mydata_sub1)
 mydata_sub1 <- AddGenotypePosteriorProb(mydata_sub1) 
 mydata_geno <- GetProbableGenotypes(mydata_sub1)
+mydata_sub1 <- GetProbableGenotypes(mydata_sub1)
 dim(mydata_geno$genotypes)
 mydata_geno$genotypes[1:10,1:10]
  
@@ -335,7 +336,7 @@ structure <- structure[,c(1, ncol(structure), 2:ncol(structure)-1)]
 structure <- structure[,-c(3)]
 write.table(structure, file="~/bigshare/Steve/Analysis_tools/SRWG/UNEAK/hapMap/poprad_structure_out_pops.txt", sep="\t", row.names=FALSE, quote=F) #this can be converted to ARLEQUIN.arp file by PGDSpider
 #need to remove pop from header row using text editor, it will go into PGDspider
-#use PGD spider to convert structure to AMOVA.arp
+#use PGD spider and the ./scripts/poprad_structure_to_amova_July2023.spid file to convert structure to AMOVA.arp
 #use ARLEQUIN (C:\Users\Steve.Larson\Documents\WinArl35\WinArl35) to 1) open project and 2 ) open settings file
 
 
@@ -343,6 +344,8 @@ mydata_wtgeno <- GetWeightedMeanGenotypes(mydata_sub1)
 mydata_wtgeno[1:10,1:10]
 Export_TASSEL_Numeric(mydata_sub1, '~/bigshare/Steve/Analysis_tools/SRWG/UNEAK/hapMap/poprad_tassel_numeric_out.txt' ,)
 
+require(VariantAnnotation)
+# myvcf <- RADdata2VCF(mydata_sub1, '~/bigshare/Steve/Analysis_tools/SRWG/UNEAK/hapMap/polyrad_141x4775.vcf',) #this is not possible without variant positions, unfortunately 
 
 
 
