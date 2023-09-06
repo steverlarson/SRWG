@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Steve"
-  given-names: "Larson"
+- family-names: "Larson"
+  given-names: "Steve"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "Comparisons of six Snake River Wheatgrass (SRWG) populations."
-version: 2.0.4
+#version: 1.0.0
 #doi: 10.5281/zenodo.1234
 date-released: 2023-09-06
 url: "https://github.com/steverlarson/SRWG"
